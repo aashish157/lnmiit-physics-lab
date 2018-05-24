@@ -1,15 +1,25 @@
-body {
+/*body {
     background-color: #D3D3D3; 
-}
+}*/
 
 body {margin: 0;}
 
+/*----LAB LOGO---*/
+.lab_logo{
+    max-width: 65px;
+    max-height: 65px;
+    margin-top:14%;
+  }
+
+.below_nav{background-image: url("../physics_bg.jpg");}
+
+/*---HEADER--*/
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #333;
-    position: fixed;
+    /*position: fixed;*/
     /*top: 0;*/
     width: 100%;
 }
@@ -53,3 +63,9 @@ ul.topnav .dropdown-content a {
 ul.topnav .dropdown:hover > .dropdown-content {
   display: block;
 }
+
+
+
+
+
+
