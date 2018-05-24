@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+      img.lnmiit_logo 
+      {
+          -webkit-transform: translate(50%, 0);
+          -moz-transform: translate(50%, 0);
+          -ms-transform: translate(50%, 0);
+          -o-transform: translate(50%, 0);
+          transform: translate(50%, 0);
+      }
+      img.lab_logo 
+      {
+          -webkit-transform: translate(22%, 13%);
+          -moz-transform: translate(22%, 13%);
+          -ms-transform: translate(22%, 13%);
+          -o-transform: translate(22%, 13%);
+          transform: translate(22%, 13%);
+          max-height: 60px;
+          max-width: 60px;
+      }
+}

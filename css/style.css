@@ -1,0 +1,71 @@
+/*body {
+    background-color: #D3D3D3; 
+}*/
+
+body {margin: 0;}
+
+/*----LAB LOGO---*/
+.lab_logo{
+    max-width: 65px;
+    max-height: 65px;
+    margin-top:14%;
+  }
+
+.below_nav{background-image: url("../physics_bg.jpg");}
+
+/*---HEADER--*/
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    /*position: fixed;*/
+    /*top: 0;*/
+    width: 100%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li:hover a:not(.active) {
+    background-color: #D3D3D3;
+    color: #000;
+}
+
+ul.topnav li a.active {
+    background-color: #D2691E;
+    color: white;
+}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav,
+    ul.topnav {position: unset}
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+ul.topnav .dropdown-content {
+  display: none;
+  position: absolute;
+}
+ul.topnav .dropdown-content a {
+  color: black;
+}
+ul.topnav .dropdown:hover > .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+

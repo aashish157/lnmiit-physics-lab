@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="resources/images/lab_logo_reduced.png">
+        <title>UG Physics Lab</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-------TOP-BAR--------->
+        <div id="top_bar" class="container-fluid" style="background-color:#f9f9f9">
+            <div class="col-md-12 col-xs-12 row">
+                <div class="col-md-1 col-xs-3">
+                    <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo_reduced.png" alt="Lab Logo"></a>
+                </div>
+                <div class="col-md-3 col-xs-9 lab_heading">
+                    <h4 style="padding-top: 11px">UG Physics Laboratory</h4>
+                    <p style="font-size: 13px">Department of Physics, LNMIIT </p>
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-2 col-xs-12">
+                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo_reduced.png" alt="LNMIIT Logo"></a>
+                </div>
+            </div>
+        </div> 
+
+        <!--------HEADER---------->
+
+            <ul class="topnav col-md-12" style="padding-bottom: 1px">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Experiments
+                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Videos
+                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+                <li><a href="#">Contact</a></li>
+
+                <li class="dropdown right">
+                    <a href="javascript:void(0)" class="dropbtn">Dropdown
+                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </li>
+            </ul><!--topnav-end-->
+
+
+        <div class="container-fluid">
+            <div class="col-md-12 row">
+                <div class="container">
+                    <h2>Accelaration due to Gravity by Bar Pendulum</h2>
+                    <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
+
+                    <!----NAV TABS ---->
+
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">
+                            <img src="resources/images/book.png">
+                            <b>Theory</b></a></li>
+                        <li><a data-toggle="tab" href="#menu1">
+                            <img src="resources/images/refresh.png">
+                            <b>Procedure</b></a></li>
+                        <li><a data-toggle="tab" href="#menu2">
+                            <img src="resources/images/videocam.png">
+                            <b>Video</b></a></li>
+                        <li><a data-toggle="tab" href="#menu3">
+                            <img src="resources/images/resources.png">
+                            <b>Resources</b></a></li>
+                        <li><a data-toggle="tab" href="#menu4">
+                            <img src="resources/images/viva.png">
+                            <b>Viva Voce</b></a></li>
+                    </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <h4>AIM</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                              <h3>PROCEDURE</h3>
+                              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                            <div id="menu2" class="tab-pane fade">
+                              <h3>VIDEO</h3>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                              <h3>RESOURCES</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                            <div id="menu4" class="tab-pane fade">
+                              <h3>VIVA VOCE</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                        </div><!--end of tab content-->
+                </div><!--end container-->
+            </div><!--end of row-->
+        </div><!--end of container-fluid-->
+
+    </body>
+</html>
