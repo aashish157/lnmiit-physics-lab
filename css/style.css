@@ -1,6 +1,6 @@
-/*body {
-    background-color: #D3D3D3; 
-}*/
+body {
+    background-color: #f9f9f9; 
+}
 
 body {margin: 0;}
 
@@ -10,6 +10,9 @@ body {margin: 0;}
     max-height: 65px;
     margin-top:14%;
   }
+
+/*---TOP BAR---*/
+#top_bar{background-color : #fbf7f5;}
 
 /*---HEADER--*/
 .navbar ul {
@@ -42,9 +45,13 @@ body {margin: 0;}
     text-decoration: none;
 }
 
+/*---NAV TABS ---*/
+.nav-tabs{padding-top: 10px;}
 
 
-
-
+h3{font-family: courier;}
+h4{font-family: courier;}
+.lab_heading h4{padding-top: 11px;}
+.lab_heading p{font-size: 12px;font-family: courier;}
 
 
