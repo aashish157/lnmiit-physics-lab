@@ -11,58 +11,37 @@ body {margin: 0;}
     margin-top:14%;
   }
 
-.below_nav{background-image: url("../physics_bg.jpg");}
-
 /*---HEADER--*/
-ul.topnav {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333;
-    /*position: fixed;*/
-    /*top: 0;*/
     width: 100%;
+    background-color: #333;
+    font-size: 15px;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
+.navbar li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 14px 35px;
+    text-decoration: none;
+    
+}
+
+.navbar li.active {
+    background-color: #D2691E;/*--orange--*/
+    color: white;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #D6DBDF;/*light grey*/
+    color: #2D2E40;
     text-decoration: none;
 }
 
-ul.topnav li:hover a:not(.active) {
-    background-color: #D3D3D3;
-    color: #000;
-}
-
-ul.topnav li a.active {
-    background-color: #D2691E;
-    color: white;
-}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px){
-    ul.topnav,
-    ul.topnav {position: unset}
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-}
-
-ul.topnav .dropdown-content {
-  display: none;
-  position: absolute;
-}
-ul.topnav .dropdown-content a {
-  color: black;
-}
-ul.topnav .dropdown:hover > .dropdown-content {
-  display: block;
-}
 
 
 
