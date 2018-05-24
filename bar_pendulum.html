@@ -14,14 +14,14 @@
 
     <body>
         <!-------TOP-BAR--------->
-        <div id="top_bar" class="container-fluid" style="background-color:#f9f9f9">
+        <div id="top_bar" class="container-fluid">
             <div class="col-md-12 col-xs-12 row">
-                <div class="col-md-1 col-xs-3">
+                <div class="col-md-1 col-xs-4">
                     <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo_reduced.png" alt="Lab Logo"></a>
                 </div>
-                <div class="col-md-3 col-xs-9 lab_heading">
-                    <h4 style="padding-top: 11px">UG Physics Laboratory</h4>
-                    <p style="font-size: 13px">Department of Physics, LNMIIT </p>
+                <div class="col-md-3 col-xs-8 lab_heading">
+                    <h4><b>UG Physics Laboratory</b></h4>
+                    <p>Department of Physics, LNMIIT </p>
                 </div>
                 <div class="col-md-6"></div>
                 <div class="col-md-2 col-xs-12">
@@ -32,50 +32,39 @@
 
         <!--------HEADER---------->
 
-            <ul class="topnav col-md-12" style="padding-bottom: 1px">
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Experiments
-                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Videos
-                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </li>
-                <li><a href="#">Contact</a></li>
-
-                <li class="dropdown right">
-                    <a href="javascript:void(0)" class="dropbtn">Dropdown
-                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </li>
-            </ul><!--topnav-end-->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row">                   
+                    <ul class="nav navbar-nav">
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Experiments <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html">1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Videos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html">Accelaration due to gravity</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--end of nav bar-->
 
 
         <div class="container-fluid">
             <div class="col-md-12 row">
                 <div class="container">
-                    <h2>Accelaration due to Gravity by Bar Pendulum</h2>
-                    <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p>
-
+                    <h3>1. Accelaration due to Gravity by Bar Pendulum</h3>
+                    
                     <!----NAV TABS ---->
 
                     <ul class="nav nav-tabs">
@@ -98,12 +87,133 @@
 
                         <div class="tab-content">
                             <div id="home" class="tab-pane fade in active">
-                                <h4>AIM</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <br><h4><b>Aim :</b></h4>
+                                <p>To determine the value of acceleration due to gravity using angular oscillations of a long bar.</p>
+                                <h4><b>Theory :</b></h4>
+                                <p>The purpose of this experiment is to use angular oscillations of rigid body in the form of a
+long bar for determining the acceleration due to gravity. The particular form of the body
+is chosen for the sake of simplicity in performing the experiment. The bar is hung from a
+knife-edge through one of the many holes along the length. It is free to oscillate about the
+knife-edge as axis. Any displacement θ, from the vertical position of equilibrium would
+give rise to an oscillatory motion just as in the case of a simple pendulum. The difference
+is that since this is rotating rigid body here we consider the torque of the gravitational
+force giving rise to the angular acceleration.</p>
+<p>The restoring torque τ for an angular displacement θ is</p>
+<p>τ = −M gd sin θ  
+(2.1)</p>
+<p>where M is the mass of the compound pendulum and d the distance between the point of
+suspension O and the centre of mass of the bar C.</p>
+<p>Since τ is proportional to sin θ, rather than θ, the condition for simple angular harmonic
+motion does not, in general, hold here. For small angular displacements, however, the
+relation sin θ ≈ θ is a good approximation, so that for small amplitudes in turn for small
+values of θ.</p>
+<p>τ = −M gdθ = I
+d 2 θ
+dt 2
+(2.2)</p>
+<p>where I is the moment of inertia of the bar about the point of suspension O. The solution
+of the above equation is given by</p>
+<p>θ(t) = A sin(ωt + φ) (2.3)</p>
+<p>where,
+ω =
+2π
+=
+T
+s
+M gd</p>
+<p>is the angular velocity of the compound pendulum. Thus, the period of oscillation is given
+by</p>
+<p>T =</p>
+<p>Due to the parallel axis theorem we have</p>
+<p>I = I 0 + M d 2 , (2.6)</p>
+<p>where, I 0 is the moment of inertia of the pendulum about it’s center of gravity (C.G).
+Inserting Eq. (2.6) in Eq. (2.5), we get the complete d dependence of the time period
+T as</p>
+<p>T = 2π
+I 0 + M d 2
+M gd
+(2.7)</p>
+<p>Since I 0 can be expressed as M k 2 , where k is the radius of gyration, Eq. (2.7) can be
+rewritten as</p>
+<p>T = 2π
+M k 2 + M d 2
+= 2π
+M gd
+s
+k 2 + d 2
+.
+gd
+(2.8)</p>
+<p>A simple pendulum consists of a mass m hanging at the end of a string of length L.
+The time period of a simple pendulum is given by</p>
+<p>T = 2π L/g .</p>
+<p>So, the time period of a simple pendulum equals the time period of a compound pendulum
+when</p>
+<p>L =
+(2.10)
+d</p>
+<p>Re-arranging the above equation</p>
+<p>d 2 − Ld + k 2 = 0</p>
+<p>gives us a quadratic equation in d. If d 1 and d 2 are the two solutions of the above equation,
+then we find</p>
+<p>d 1 + d 2 = L (2.12)</p>
+<p>d 1 d 2 = k (2.13)</p>
+<p>Since both d 1 and d 2 are positive, we conclude that there are two point of suspensions
+on one side of the C.G. of the compound pendulum where the time periods are equal.
+Similarly, there are two points of suspension on the other side of the C.G where the time
+periods are same. Thus, for a compound pendulum, there are four points of suspension,
+two on either side of the C.G. where the time periods are equal. The simple equivalent
+length L is sum of two of these point of suspension located asymmetrically on two sides
+of the C.G.</p>
+<p>To facilitate further analysis it is useful to square Eq. (2.7) to get</p>
+<p>T = 4π
+2
+I 0 + M d 2
+M gd</p>
+<p>In order to gain insight in the dependence of T on d let us first look at the dependence
+for (i) small d and (ii) large d. For small d (specifically for M d 2  I 0 ) we have</p>
+<p>T 2 ∼ 4π 2
+I 0
+M gd</p>
+<p>T ∼ √ .
+d</p>
+<p>Thus T decreases as d increases. In the opposite limit i.e. for large d (specifically for
+M d 2  I 0 ) we have</p>
+<p>T 2 ∼ 4π 2
+M gd</p>
+<p>Thus T increases as d increases in this case. Physically the origins of d 2 in the numerator
+is coming from the expression for the moment of inertia I ∼ d 2 .</p>
+<p>It is then just a question of which effect dominates for a given values of d. To under-
+stand this better (or more quantitatively) let us looks at the turning point. The minimum
+of the expression for T 2 as a function of d can be determined by taking the taking deriva-
+tive of T 2 with respect to d and setting it equal to zero (and ensuring the sign of the
+second derivative term corresponds to a minimum). Following this procedure gives</p>
+<p>d =
+I 0
+M</p>
+<p>Eq. (2.19) can be written as I 0 = M d 2 . This relation is satisfied at the minimum or at
+the turning point. Using this in Eq. (2.7) we find that the turning point occurs when
+the magnitude of the two terms of the numerator are equal. For M d 2  I 0 the I 0
+term dominates in the numerator and d dependence is given by the denominator. In the
+region M d 2  I 0 the M d 2 term dominates in the numerator and so the d dependence is
+dominated by the numerator.</p>
+<h5>History of the experiment</h5>
+<p>Galileo was the first person to show that at any given place, all bodies fall freely when
+dropped, with the same (uniform) acceleration, if the resistance due to air is negligible.
+The gravitational attraction of a body towards the center of the earth results in the same
+acceleration for all bodies at a particular location, irrespective of their mass, shape or
+material, and this acceleration is called the acceleration due to gravity, g. The value of
+g varies from place to place, being greatest at the poles and the least at the equator.
+However, direct measurement of the acceleration due to gravity is very difficult.
+Therefore, the acceleration due to gravity is often determined by indirect methods, for
+example, using a simple pendulum or a compound pendulum. If we determine g using
+a simple pendulum, the result is not very accurate because an ideal simple pendulum
+cannot be realized under laboratory conditions. Hence, a compound pendulum is used to
+determine the acceleration due to gravity in the laboratory.</p>
                             </div>
                             <div id="menu1" class="tab-pane fade">
-                              <h3>PROCEDURE</h3>
-                              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              <br><h4>Apparatus Required :</h4>
+                              <p>Stop watch, long bar, meter scale, knife edge.</p>
                             </div>
                             <div id="menu2" class="tab-pane fade">
                               <h3>VIDEO</h3>

@@ -14,14 +14,14 @@
 
     <body>
         <!-------TOP-BAR--------->
-        <div id="top_bar" class="container-fluid" style="background-color:#f9f9f9">
+        <div id="top_bar" class="container-fluid">
             <div class="col-md-12 col-xs-12 row">
-                <div class="col-md-1 col-xs-3">
+                <div class="col-md-1 col-xs-4">
                     <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo_reduced.png" alt="Lab Logo"></a>
                 </div>
-                <div class="col-md-3 col-xs-9 lab_heading">
-                    <h4 style="padding-top: 11px">UG Physics Laboratory</h4>
-                    <p style="font-size: 13px">Department of Physics, LNMIIT </p>
+                <div class="col-md-3 col-xs-8 lab_heading">
+                    <h4><b>UG Physics Laboratory</b></h4>
+                    <p>Department of Physics, LNMIIT </p>
                 </div>
                 <div class="col-md-6"></div>
                 <div class="col-md-2 col-xs-12">
@@ -32,42 +32,32 @@
 
         <!--------HEADER---------->
 
-            <ul class="topnav col-md-12" style="padding-bottom: 1px">
-                <li><a class="active" href="#home">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Experiments
-                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="bar_pendulum.html">1. Acc. due to gravity by bar pendulum</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Videos
-                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </li>
-                <li><a href="#">Contact</a></li>
-
-                <li class="dropdown right">
-                    <a href="javascript:void(0)" class="dropbtn">Dropdown
-                        <span class="glyphicon glyphicon-chevron-down" style="font-size:10px"></span>
-                    </a>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </li>
-            </ul><!--topnav-end-->
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row">                   
+                    <ul class="nav navbar-nav">
+                       <li class="active"><a href="#">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Experiments <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html">1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Videos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html">Accelaration due to gravity</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
 
         <div class="container-fluid">
