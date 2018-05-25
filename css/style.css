@@ -1,8 +1,6 @@
 body {
-    background-color: #f9f9f9; 
+    background-color: white; margin: 0;
 }
-
-body {margin: 0;}
 
 /*----LAB LOGO---*/
 .lab_logo{
@@ -12,7 +10,7 @@ body {margin: 0;}
   }
 
 /*---TOP BAR---*/
-#top_bar{background-color : #fbf7f5;}
+#top_bar{background-color : #f9f9f9;}
 
 /*---HEADER--*/
 .navbar ul {
@@ -23,22 +21,19 @@ body {margin: 0;}
     background-color: #333;
     font-size: 15px;
 }
-
 .navbar li a {
     display: block;
     color: white;
-    padding: 14px 35px;
+    padding: 14px 30px;
     text-decoration: none;
     
 }
-
 .navbar li.active {
     background-color: #D2691E;/*--orange--*/
     color: white;
     text-decoration: none;
 
 }
-
 .navbar li a:hover:not(.active) {
     background-color: #D6DBDF;/*light grey*/
     color: #2D2E40;
@@ -47,11 +42,24 @@ body {margin: 0;}
 
 /*---NAV TABS ---*/
 .nav-tabs{padding-top: 10px;}
+.nav-tabs li a{color: grey;}
 
+/*---TAB CONTENT---*/
+.tab-content{
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 2px;
+    border: 1px solid lightgrey ;
+    border-radius: 12px;
+  }
 
-h3{font-family: courier;}
+h3{font-family: courier;color: #1E79B6;}
 h4{font-family: courier;}
-.lab_heading h4{padding-top: 11px;}
-.lab_heading p{font-size: 12px;font-family: courier;}
+.lab_heading h4{padding-top: 14px;}
+.lab_heading p{
+    font-size: 12px;
+    font-family: courier;
+    margin-top: -5px;
+  }
 
 
