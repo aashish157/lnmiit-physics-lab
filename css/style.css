@@ -1,5 +1,5 @@
 body {
-    background-color: #b8f4fe; 
+    background-color: white; 
     margin: 0;
 }
 
@@ -36,19 +36,18 @@ body {
     color: white;
     padding: 10px 30px;
     text-decoration: none;
-    
 }
 .navbar li.active {
     background-color: #E56F1B;/*--orange--*/
     color: white;
     text-decoration: none;
-
 }
 .navbar li a:hover:not(.active) {
     background-color: #D6DBDF;/*light grey*/
     color: #2D2E40;
     text-decoration: none;
 }
+ul.dropdown-menu{width:230%;}
 
 /*---NAV TABS ---*/
 .nav-tabs{padding-top: 10px;}
@@ -73,6 +72,7 @@ h4{font-family: courier;}
     color: white;
   }
 
+/*---SLIDER SECTION ----*/
 .myslides{
     width: 750px;
     margin-top: 10px;
