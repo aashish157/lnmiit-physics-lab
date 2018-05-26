@@ -4,32 +4,41 @@ body {
 
 /*----LAB LOGO---*/
 .lab_logo{
-    max-width: 65px;
-    max-height: 65px;
-    margin-top:14%;
+    max-width: 80px;
+    max-height: 80px;
+    margin-top:35%;
+    margin-right: -20px;
   }
+.lnmiit_logo{
+  margin-top: 22%;
+}
 
 /*---TOP BAR---*/
-#top_bar{background-color : #f9f9f9;}
+#top_bar{
+    background-color : #01478C;
+    height: 130px;
+    border-bottom : 3px solid #566573;
+    margin-bottom: -1px;
+  }
 
 /*---HEADER--*/
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0;    
     width: 100%;
-    background-color: #333;
-    font-size: 15px;
+    background-color: #272727;
+    font-size: 13px;
 }
 .navbar li a {
     display: block;
     color: white;
-    padding: 14px 30px;
+    padding: 10px 30px;
     text-decoration: none;
     
 }
 .navbar li.active {
-    background-color: #D2691E;/*--orange--*/
+    background-color: #E56F1B;/*--orange--*/
     color: white;
     text-decoration: none;
 
@@ -53,13 +62,14 @@ body {
     border-radius: 12px;
   }
 
-h3{font-family: courier;color: #1E79B6;}
+h3{font-family: courier;color: #1E79B6;}/* exp heading */
 h4{font-family: courier;}
-.lab_heading h4{padding-top: 14px;}
+.lab_heading h3{padding-top: 18px;color: white;}
 .lab_heading p{
-    font-size: 12px;
+    font-size: 13px;
     font-family: courier;
     margin-top: -5px;
+    color: white;
   }
 
 
