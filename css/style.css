@@ -1,5 +1,6 @@
 body {
-    background-color: white; margin: 0;
+    background-color: #b8f4fe; 
+    margin: 0;
 }
 
 /*----LAB LOGO---*/
@@ -72,4 +73,27 @@ h4{font-family: courier;}
     color: white;
   }
 
+.myslides{
+    width: 750px;
+    margin-top: 10px;
+    margin-left: 0.5px;
+}
 
+#content img {
+  float: left;
+}
+
+.about_content{
+    align-content: middle;
+    color: blue;
+    font-family: monospace;
+    font-size: 30px;
+    top-margin: 30px;
+    font-style: italic;
+}
+.physics_lab_information{
+    color:black;
+    font-size: 20px;
+    font-style: italic;
+    font-family: monospace;
+}

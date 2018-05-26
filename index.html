@@ -62,5 +62,41 @@
 
 
 
+
+            
+<div id = "content">
+            <img class="mySlides" src="resources/images/UGPhysics1.jpg">
+            <img class="mySlides" src="resources/images/UGPhysics2.jpg">
+            <img class="mySlides" src="resources/images/UGPhysics3.jpg">
+            <img class="mySlides" src="resources/images/UGPhysics4.jpg">
+            <img class="mySlides" src="resources/images/UGPhysics5.jpg">
+            <img class="mySlides" src="resources/images/UGPhysics6.jpg">
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+            }
+            myIndex++;
+                 if (myIndex > x.length) {
+                    myIndex = 1;
+                }    
+                     x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+    </script>
+    <div >
+    <p align="middle" class = "about_content" >ABOUT US...<p>
+            <p class = "physics_lab_information" >The undergraduate laboratory for 1st year B. Tech students is equipped with several experiments in different     
+                    branches in Physics. It is designed in such a way that the students can understand the basics of Physics through 
+                    hands on experiments. 
+            </p>
+        </div>
+</div>
     </body>
 </html>
