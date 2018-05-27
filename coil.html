@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="resources/images/lab_logo1.png">
+        <title>UG Physics Lab</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-------TOP-BAR--------->
+        <div id="top_bar" class="container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <div class="col-md-1 col-xs-4">
+                    <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo1.png" alt="Lab Logo"></a>
+                </div>
+                <div class="col-md-4 col-xs-8 lab_heading">
+                    <h3>UG Physics Laboratory</h3>
+                    <p>Department of Physics , LNMIIT Jaipur</p>
+                </div>
+                <div class="col-md-5"></div>
+                <div class="col-md-2 col-xs-12">
+                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
+                </div>
+            </div>
+        </div> 
+
+        <!--------HEADER---------->
+
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row">                   
+                    <ul class="nav navbar-nav">
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Experiments <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html" >1. Accelaration due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Measurement of band gap of semiconductor</a></li>
+                                <li><a href="refractive.html">4. Refractive index of glass with prism</a></li>
+                                <li><a href="">5. Wavelength of Sodium light with Newton's Rings</a></li>
+                                <li><a href="coil.html">6. Helmholtz coil</a></li>
+                                <li><a href="">7. Electromagnetic Induction</a></li>
+                                <li><a href="">8. Mechanical waves</a></li>
+                                <li><a href="">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="">10. Diffraction grating</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Videos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html">Accelaration due to gravity</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--end of nav bar-->
+
+
+        <div class="container-fluid">
+            <div class="col-md-12 row">
+                <div class="container">
+                    <h3><b>Helmholtz coil</b></h3>
+                    
+                    <!----NAV TABS ---->
+                    </br>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">
+                            <img src="resources/images/book.png">
+                            <b>Theory</b></a></li>
+                        <li><a data-toggle="tab" href="#menu1">
+                            <img src="resources/images/refresh.png">
+                            <b>Procedure</b></a></li>
+                        <li><a data-toggle="tab" href="#menu2">
+                            <img src="resources/images/videocam.png">
+                            <b>Video</b></a></li>
+                        <li><a data-toggle="tab" href="#menu3">
+                            <img src="resources/images/resources.png">
+                            <b>Resources</b></a></li>
+                        <li><a data-toggle="tab" href="#menu4">
+                            <img src="resources/images/viva.png">
+                            <b>Viva Voce</b></a></li>
+                    </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <br><h4><b>Aim :</b></h4>
+                                <p>To study the magnetic field produced by current carrying coils.</p>
+                                <br>
+
+                                
+                                <h4><b>Theory :</b></h4>
+                                
+                                <p align="center"><img src="resources/images/e6/e6.1.jpg"></p>
+                                <p>The magnetic induction of a circular coil of radius R, carrying a current I, at a distance
+                                    z from the center of the loop along the axis (see Fig. 7.1) is given by</p>(7.1)
+                                <p align="center"><img src="resources/images/e6/e6.2.jpg"></p>
+                                <p>where μ0 is the permeability of free space. At z = 0, B(0) = μoI/(2R) ~= B10.
+                                    If there are two such parallel coils at a distance S such that the current flows in the
+                                    same direction in both the coils (see Fig. 7.2), then magnetic field adds in the space
+                                    between them. Then we have </p>
+                                <p align="center"><img src="resources/images/e6/e6.3.jpg"></p>
+                                <p>where, st = S/R, zt = z/R and B10 = μoI/(2R).</p>
+                                <p>At the midpoint @~B/@z is zero. Further d2B/dz2 is also equal to zero at z = 0 if
+                                    S = R. Because of these properties, the axial magnetic field is fairly constant over certain
+                                    region in the middle of the pair of coils. This arrangement is very popular in producing
+                                    uniform axial fields in regions easily accessible to experimental situations needing such
+                                    uniformity.</p>
+                                <p>In this experiment we will study the magnetic field variations for such a pair of
+                                        Helmholtz coils. The magnetic field is measured using a Hall probe connected to a gaussmeter.</p>
+                               
+
+                                 <h5><b>Construction of Helmholtz coils</b></h5>
+                                <p>The two coils are made of copper wire windings in 14 layers, each of 11 turns, such that the
+                                    total number of turns (n) = 154. The sockets of the coil winding are cast into the plastic
+                                    foot of the coil and the connecting leads can be used to connect the coils in parallel or
+                                    series as required. The sockets are numbered (1, 2) to make it easier to wire the coils. See
+                                    Fig. 7.3. In the Helmholtz arrangement, the coils are positioned by three spacer rails so</p>
+                                <p align="center"><img src="resources/images/e6/e6.4.jpg"></p>
+                                <p align="center">Figure 7.3: Experimental setup of Helmholtz coil.</p>
+                                <p>that their axial spacing is equal to the average coil radius. The rails can be removed after
+                                    undoing knurled screws, allowing coils to be used individually or with variable spacing.</p>
+                                <p align="center">The coil of the diameter 400 mm</p>
+                                <p align="center">No of turns per coil 154</p>
+                                <p align="center">Coil resistance 2.1</p>
+                            </div>
+                            
+
+                            <div id="menu1" class="tab-pane fade">
+                              <br><h4><b>Apparatus Required :</b></h4>
+                              <p>Helmholtz coils, connecting wires, gaussmeter, regulated power supply, measuring scale,
+                                    etc.</p>
+                              <h4><b>Procedure :</b></h4>
+                              <p>1. Calibrate the Hall probe attached to the gaussmeter.</p>
+                              <p>2. Connect the coils with the power supply in such a way that both the coils have the
+                                    same current in proper direction. In no case the current should exceed 3A.</p>
+                              <p>3. Place the hall probe perpendicular to the magnetic field and measure the readings
+                                    at regular intervals.</p>
+                              
+                              
+
+                              <p><h4><b>Observations :</b></h4></p>
+                              <p>We study the magnetic field in current carrying coil (Helmholtz coil) in three different
+                                scenarios:</p>
+                                <h5><b>(A) Magnetic field along the axis of the coils when current is flowing in
+                                        the same direction in both the coils</b></h5>
+                                <p align="center"><img src="resources/images/e6/e6.6.jpg"></p>
+                                <h5><b>(B) Magnetic field along the axis in a single coil</b></h5>
+                                <p align="center"><img src="resources/images/e6/e6.6.jpg"></p>
+                                <h5><b>(C) Magnetic field along the diameter in a single coil</b></h5>
+                                <p align="center"><img src="resources/images/e6/e6.6.jpg"></p>
+                                <p>Plot the intensity of magnetic field with distance along the coil for different current value
+                                    for above describe three case.</p>
+                              
+                              <p><h4><b>Result :</b></h4></p>
+                              <p>1. </p>
+                              <p>2. </p>
+                            </div>
+
+                            <div id="menu2" class="tab-pane fade">
+                              <h3>VIDEO</h3>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                              <h3>RESOURCES</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                            <div id="menu4" class="tab-pane fade">
+                              <h3>VIVA VOCE</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                        </div><!--end of tab content-->
+                </div><!--end container-->
+            </div><!--end of row-->
+        </div><!--end of container-fluid-->
+
+    </body>
+</html>
