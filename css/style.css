@@ -1,44 +1,53 @@
 body {
-    background-color: white; margin: 0;
+    background-color:rgb(233, 235, 235);  
+    margin: 0;
 }
 
 /*----LAB LOGO---*/
 .lab_logo{
-    max-width: 65px;
-    max-height: 65px;
-    margin-top:14%;
+    max-width: 80px;
+    max-height: 80px;
+    margin-top:35%;
+    margin-right: -20px;
   }
+.lnmiit_logo{
+  margin-top: 22%;
+}
 
 /*---TOP BAR---*/
-#top_bar{background-color : #f9f9f9;}
+#top_bar{
+    background-color : #01478C;
+    height: 130px;
+    border-bottom : 3px solid #566573;
+    margin-bottom: -1px;
+  }
 
 /*---HEADER--*/
 .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0;    
     width: 100%;
-    background-color: #333;
-    font-size: 15px;
+    background-color: #272727;
+    font-size: 13px;
 }
 .navbar li a {
     display: block;
     color: white;
-    padding: 14px 30px;
+    padding: 10px 30px;
     text-decoration: none;
-    
 }
 .navbar li.active {
-    background-color: #D2691E;/*--orange--*/
+    background-color: #E56F1B;/*--orange--*/
     color: white;
     text-decoration: none;
-
 }
 .navbar li a:hover:not(.active) {
     background-color: #D6DBDF;/*light grey*/
     color: #2D2E40;
     text-decoration: none;
 }
+ul.dropdown-menu{width:230%;}
 
 /*---NAV TABS ---*/
 .nav-tabs{padding-top: 10px;}
@@ -53,13 +62,89 @@ body {
     border-radius: 12px;
   }
 
-h3{font-family: courier;color: #1E79B6;}
+h3{font-family: courier;color: #1E79B6;}/* exp heading */
 h4{font-family: courier;}
-.lab_heading h4{padding-top: 14px;}
+.lab_heading h3{padding-top: 18px;color: white;}
 .lab_heading p{
-    font-size: 12px;
+    font-size: 13px;
     font-family: courier;
     margin-top: -5px;
+    color: white;
   }
 
+/*---SLIDER SECTION ----*/
+.myslides{
+    width: 550px;
+    margin-top: 10px;
+    margin-left: 0.5px;
+    margin-right: 220px;
+    margin-bottom: 10px;
+    margin-top: 22px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
 
+#content img {
+  float: right;
+}
+
+.about_content{
+    align-content: middle;
+    color: black;
+    font-family: Times;
+    font-size: 26px;
+    top-margin: 20px;
+    margin-right: 500px;
+    font-style:italic;    
+}
+.physics_lab_information{
+    color:black;
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+    margin-top: 12px;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+        }
+
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    color: blue; 
+}
+
+.research{
+    margin-top: 12px; 
+    margin-left: 300px;
+    font-style: italic;
+    color: black;
+    font-family: Times;
+    font-size: 20px;  
+}
+
+.content2{
+    color:black;
+    font-size: 15px;
+    font-style: italic;
+    font-family: monospace;
+    margin-top: 12px;
+    margin-left: 300px;
+    margin-right: 750px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.line{
+    margin-left: 300px;
+   margin-right: 240px;
+}
+
+.tabspace{
+   margin-left: 15px;
+}
