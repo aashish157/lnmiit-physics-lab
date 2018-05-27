@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(233, 235, 235);  
+    background-color: #f3f1ee;/*#FBFCFC;*/ 
     margin: 0;
 }
 
@@ -11,15 +11,26 @@ body {
     margin-right: -20px;
   }
 .lnmiit_logo{
-  margin-top: 22%;
+    margin-top: 22%;
 }
 
 /*---TOP BAR---*/
 #top_bar{
     background-color : #01478C;
     height: 130px;
-    border-bottom : 3px solid #566573;
+    border-bottom : 1px solid #E56F1B;
     margin-bottom: -1px;
+  }
+#site_title{
+    padding-top: 28px;
+    color: white;
+    font-size: 29px;
+  }
+#title_desc{
+    font-size: 13px;
+    font-family: courier;
+    margin-top: -7px;
+    color: white;
   }
 
 /*---HEADER--*/
@@ -30,11 +41,12 @@ body {
     width: 100%;
     background-color: #272727;
     font-size: 13px;
+    font-family: courier;
 }
 .navbar li a {
     display: block;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 .navbar li.active {
@@ -47,8 +59,50 @@ body {
     color: #2D2E40;
     text-decoration: none;
 }
-ul.dropdown-menu{width:230%;}
+ul.dropdown-menu{font-size: 12px;}
+#videos ul.dropdown-menu{width:330%;}
+#experiments ul.dropdown-menu{width:250%;}
 
+/*
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+*/
 /*---NAV TABS ---*/
 .nav-tabs{padding-top: 10px;}
 .nav-tabs li a{color: grey;}
@@ -61,55 +115,26 @@ ul.dropdown-menu{width:230%;}
     border: 1px solid lightgrey ;
     border-radius: 12px;
   }
+h3{font-family: courier;color: #1E79B6;}/*--exp heading--*/
+h4{font-family: courier;}/*--exp sub-heading--*/
 
-h3{font-family: courier;color: #1E79B6;}/* exp heading */
-h4{font-family: courier;}
-.lab_heading h3{padding-top: 18px;color: white;}
-.lab_heading p{
-    font-size: 13px;
-    font-family: courier;
-    margin-top: -5px;
-    color: white;
-  }
 
-/*---SLIDER SECTION ----*/
-.myslides{
-    width: 550px;
-    margin-top: 10px;
-    margin-left: 0.5px;
-    margin-right: 220px;
-    margin-bottom: 10px;
-    margin-top: 22px;
-    padding-left: 20px;
-    padding-top: 30px;
-    padding-right: 35px;
-    padding-bottom: 35px;
+/*---MID SECTION--*/
+/* Make the image fully responsive */
+
+#myCarousel{width: 100%;max-width: 382px;}
+/*---home sub titles---*/
+#sub_title{
+  font-family: courier;
+  font-size: 24px;
+  color: #69C;
+  transform: scale(.6,.9);
+  transform-origin: 0 50%;
 }
-
-#content img {
-  float: right;
+#sub_title_text{
+  text-align: justify;
+  color: #5c5c5c;
 }
-
-.about_content{
-    align-content: middle;
-    color: black;
-    font-family: Times;
-    font-size: 26px;
-    top-margin: 20px;
-    margin-right: 500px;
-    font-style:italic;    
-}
-.physics_lab_information{
-    color:black;
-    font-size: 15px;
-    font-style: italic;
-    font-family: monospace;
-    margin-top: 12px;
-    margin-left: 300px;
-    margin-right: 50px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-        }
 
 hr{
     display: block;
@@ -120,31 +145,87 @@ hr{
     color: blue; 
 }
 
-.research{
-    margin-top: 12px; 
-    margin-left: 300px;
-    font-style: italic;
-    color: black;
-    font-family: Times;
-    font-size: 20px;  
+
+
+
+/*----FOOTER----*/
+.footer{
+   left: 0;
+   bottom: 0;
+   padding-top: 30px;
+   background-color: #272727;
+   text-align: center;
+   font-family: courier;
+}
+.footer a{text-decoration: none;}
+.fa {
+  padding: 2px;
+  font-size: 40px;
+  color: grey;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 7px;
+  background: grey;
+  color: #272727;
+  border-radius: 12%;
+}
+.fa-facebook:hover{
+  background: #3B5998;
+  color: white;
 }
 
-.content2{
-    color:black;
-    font-size: 15px;
-    font-style: italic;
-    font-family: monospace;
-    margin-top: 12px;
-    margin-left: 300px;
-    margin-right: 750px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.fa-twitter:hover{
+  background: #55ACEE;
+  color: white;
 }
-.line{
-    margin-left: 300px;
-   margin-right: 240px;
+.fa-linkedin:hover{
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube:hover{
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram:hover{
+  background: #125688;
+  color: white;
+}
+#imp_links a{
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 13px;
+  margin: 0 10px;
+}
+#imp_links a:hover{color:grey;}
+#imp_links{color: white;}
+#copyright{
+  font-size: 12px;
+  color: grey;
+}
+#developer{
+  font-size: 10px;
+  color: grey; 
 }
 
-.tabspace{
-   margin-left: 15px;
+/*---SCROLL TO TOP-----*/
+#scroll_btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  opacity:0.7;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  padding-bottom:8px;
+  border-radius: 4px;
+}
+#scroll_btn:hover {
+  background-color: #555;
 }
