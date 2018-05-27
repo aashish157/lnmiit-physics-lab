@@ -10,18 +10,22 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/scroll_to_top.js"></script>
     </head>
 
     <body>
+        <!--SCROLL TO TOP BUTTON--->
+        <button onclick="topFunction()" id="scroll_btn" title="Go to top"><b>^</b></button>
+
         <!-------TOP-BAR--------->
         <div id="top_bar" class="container-fluid">
             <div class="col-md-12 col-xs-12 row">
                 <div class="col-md-1 col-xs-4">
                     <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo1.png" alt="Lab Logo"></a>
                 </div>
-                <div class="col-md-4 col-xs-8 lab_heading">
-                    <h3>UG Physics Laboratory</h3>
-                    <p>Department of Physics , LNMIIT Jaipur</p>
+                <div class="col-md-4 col-xs-8">
+                    <p id="site_title">UG Physics Laboratory</p>
+                    <p id="title_desc">Department of Physics , LNMIIT Jaipur</p>
                 </div>
                 <div class="col-md-5"></div>
                 <div class="col-md-2 col-xs-12">
@@ -36,15 +40,15 @@
             <div class="container-fluid">
                 <div class="row">                   
                     <ul class="nav navbar-nav">
-                       <li class="active"><a href="#">Home</a></li>
-                       <li><a href="#">About</a></li>
-                       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Experiments <span class="caret"></span></a>
+                       <li class="active"><a href="#">HOME</a></li>
+                       <li><a href="#">ABOUT</a></li>
+                       <li id="experiments" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EXPERIMENTS <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="bar_pendulum.html" >1. Accelaration due to gravity by bar pendulum</a></li>
+                                <li><a href="bar_pendulum.html" >1. Acc. due to gravity by bar pendulum</a></li>
                                 <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
-                                <li><a href="semiconductor.html">3. Measurement of band gap of semiconductor</a></li>
+                                <li><a href="semiconductor.html">3. Band gap of semiconductor</a></li>
                                 <li><a href="">4. Refractive index of glass with prism</a></li>
-                                <li><a href="">5. Wavelength of Sodium light with Newton's Rings</a></li>
+                                <li><a href="">5. λ of Sodium light with Newton's Rings</a></li>
                                 <li><a href="">6. Helmholtz coil</a></li>
                                 <li><a href="">7. Electromagnetic Induction</a></li>
                                 <li><a href="">8. Mechanical waves</a></li>
@@ -52,28 +56,37 @@
                                 <li><a href="">10. Diffraction grating</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Videos<span class="caret"></span></a>
+                        <li><a href="#">PEOPLE</a></li>
+                        <li><a href="#">FACILITIES</a></li>
+                        <li id="videos" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">VIDEOS<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="bar_pendulum.html" >Acc. due to gravity by bar pendulum</a></li>
-                                <li><a href="#">e/m of electron by Thomson method</a></li>
-                                <li><a href="#">Band gap of semiconductor</a></li>
-                                <li><a href="">Refractive index of glass with prism</a></li>
-                                <li><a href="">λ of Sodium light with Newton's Rings</a></li>
-                                <li><a href="">Helmholtz coil</a></li>
-                                <li><a href="">Electromagnetic Induction</a></li>
-                                <li><a href="">Mechanical waves</a></li>
-                                <li><a href="">Fraunhoffer Diffraction</a></li>
-                                <li><a href="">Diffraction grating</a></li>
+                                <li><a href="bar_pendulum.html" >1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Band gap of semiconductor</a></li>
+                                <li><a href="">4. Refractive index of glass with prism</a></li>
+                                <li><a href="">5. λ of Sodium light with Newton's Rings</a></li>
+                                <li><a href="">6. Helmholtz coil</a></li>
+                                <li><a href="">7. Electromagnetic Induction</a></li>
+                                <li><a href="">8. Mechanical waves</a></li>
+                                <li><a href="">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="">10. Diffraction grating</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Page 3</a></li>
+                        <li><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <hr class = "line">
+
+        <div class="container-fluid">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 col-xs-12 row">
+                <hr class="line">
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        
 
 
 <!--- AUTOMATIC SLIDER ------>
@@ -130,6 +143,9 @@
                     <a class="fa fa-linkedin" href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/"></a>
                     <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
                     <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
+                </p>
+                <p id="imp_links">
+                    <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="contact.html">CONTACT</a>
                 </p>
                 <p id="copyright">Copyright © 2018 Department of Physics,LNMIIT. All Rights Reserved.</p>
                 <p id="developer">Developed by LUSIP1-2018 Team
