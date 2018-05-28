@@ -127,7 +127,7 @@ h4{font-family: courier;}/*--exp sub-heading--*/
 #sub_title{
   font-family: courier;
   font-size: 24px;
-  color: #69C;
+  color: #005AB3;
   transform: scale(.6,.9);
   transform-origin: 0 50%;
 }
@@ -170,6 +170,7 @@ hr{
 
 /*----FACILITIES PAGE---*/
 #facilities_text{text-align: justify;}
+
 /*----FOOTER----*/
 .footer{
    left: 0;
