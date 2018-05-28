@@ -127,13 +127,14 @@ h4{font-family: courier;}/*--exp sub-heading--*/
 #sub_title{
   font-family: courier;
   font-size: 24px;
-  color: #69C;
+  color: #005AB3;
   transform: scale(.6,.9);
   transform-origin: 0 50%;
 }
 #sub_title_text{
   text-align: justify;
   color: #5c5c5c;
+  font-size: 13.7px;
 }
 
 hr{
@@ -144,15 +145,37 @@ hr{
     margin: 1em 0;
     color: blue; 
 }
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
+}
 
+.vertical-menu a {
+    background-color: #01478C; /* top-bar blue background color */
+    color: white; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    border-bottom: 1px solid white;
+}
 
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+    color: #01478C;
+}
 
+.vertical-menu a.active {
+    background-color: #1E8449; /* Add a blue shade to the "active/current" link */
+    color: white;
+}
+
+/*----FACILITIES PAGE---*/
+#facilities_text{text-align: justify;}
 
 /*----FOOTER----*/
 .footer{
    left: 0;
    bottom: 0;
-   padding-top: 30px;
+   padding-top: 15px;
    background-color: #272727;
    text-align: center;
    font-family: courier;
