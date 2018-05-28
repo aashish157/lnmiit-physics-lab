@@ -1,0 +1,282 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="resources/images/lab_logo1.png">
+        <title>UG Physics Lab</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/scroll_to_top.js"></script>
+    </head>
+
+    <body>
+        <!--SCROLL TO TOP BUTTON--->
+        <button onclick="topFunction()" id="scroll_btn" title="Go to top"><b>^</b></button>
+
+        <!-------TOP-BAR--------->
+        <div id="top_bar" class="container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <div class="col-md-1 col-xs-4">
+                    <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo1.png" alt="Lab Logo"></a>
+                </div>
+                <div class="col-md-4 col-xs-8 lab_heading">
+                    <p id="site_title">UG Physics Laboratory</p>
+                    <p id="title_desc">Department of Physics , LNMIIT Jaipur</p>
+                </div>
+                <div class="col-md-5"></div>
+                <div class="col-md-2 col-xs-12">
+                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
+                </div>
+            </div>
+        </div> 
+
+        <!--------HEADER---------->
+
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row">                   
+                    <ul class="nav navbar-nav">
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="#">ABOUT</a></li>
+                       <li id="experiments" class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EXPERIMENTS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html" >1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Measurement of band gap of semiconductor</a></li>
+                                <li><a href="refractive.html">4. Refractive index of glass with prism</a></li>
+                                <li><a href="rings.html">5. Wavelength of Sodium light with Newton's Rings</a></li>
+                                <li><a href="coil.html">6. Helmholtz coil</a></li>
+                                <li><a href="induction.html">7. Electromagnetic Induction</a></li>
+                                <li><a href="waves.html">8. Mechanical waves</a></li>
+                                <li><a href="diffraction.html">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="grating.html">10. Diffraction grating</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PEOPLE</a></li>
+                        <li><a href="#">FACILITIES</a></li>
+                        <li id="videos" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">VIDEOS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html" >1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Band gap of semiconductor</a></li>
+                                <li><a href="">4. Refractive index of glass with prism</a></li>
+                                <li><a href="">5. λ of Sodium light with Newton's Rings</a></li>
+                                <li><a href="">6. Helmholtz coil</a></li>
+                                <li><a href="">7. Electromagnetic Induction</a></li>
+                                <li><a href="">8. Mechanical waves</a></li>
+                                <li><a href="">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="">10. Diffraction grating</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--end of nav bar-->
+
+
+        <div class="container-fluid">
+            <div class="col-md-12 row">
+                <div class="container">
+                    <h3><b>Diffraction grating</b></h3>
+                    
+                    <!----NAV TABS ---->
+                    </br>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">
+                            <img src="resources/images/book.png">
+                            <b>Theory</b></a></li>
+                        <li><a data-toggle="tab" href="#menu1">
+                            <img src="resources/images/refresh.png">
+                            <b>Procedure</b></a></li>
+                        <li><a data-toggle="tab" href="#menu2">
+                            <img src="resources/images/videocam.png">
+                            <b>Video</b></a></li>
+                        <li><a data-toggle="tab" href="#menu3">
+                            <img src="resources/images/resources.png">
+                            <b>Resources</b></a></li>
+                        <li><a data-toggle="tab" href="#menu4">
+                            <img src="resources/images/viva.png">
+                            <b>Viva Voce</b></a></li>
+                    </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <br><h4><b>Aim :</b></h4>
+                                <p>1. To understand the diffraction, diffraction grating and how diffraction grating works
+                                    with the help of basic diffraction grating equations and experimental studies.</p>
+                                <p>2. To measure the wavelength of the light source with the help of diffraction grating.</p>      
+                                <br>
+                                
+                                <h4><b>Theory :</b></h4>
+                                <h5><b>Preliminary discussion:</b></h5>
+                                <p>Interference refers to the interaction of two or more wave trains of light having the same 
+                                    frequency and having a phase difference which remains constant with time (coherent sources), so that they may combine with the result that the energy is not distributed uniformly in space but is a maximum at certain points and a minimum (perhaps zero) at others.</p>(8.1)
+                                
+                                <p>Diffraction phenomenon is described as the apparent bending of waves around small
+                                    obstacles and the spreading out of waves past small openings. Diffraction patterns are
+                                    marked by a rapid decrease in intensity with increasing distance from the center of the
+                                    pattern.</p>
+                                
+                                <p>A diffraction grating is made by making many parallel scratches on the surface of a
+                                    flat piece of transparent material. It is possible to put a large number of scratches per
+                                    centimeter on the material, e.g., the grating to be used has 6000 lines/cm on it. The
+                                    scratches are opaque but the areas between the scratches can transmit light. Thus, a
+                                    diffraction grating becomes a multitude of parallel slit sources when light falls upon it.</p>
+
+                                <h5><b>Diffraction grating equation</b></h5>
+                               
+                                <p>When parallel bundle of rays falls on the grating, these rays and their associated wave
+                                    fronts form an orthogonal set so the wave fronts are perpendicular to the rays and parallel
+                                    to the grating (as shown in Fig. 11.1). According to Huygens’ Principle, every point on a
+                                    wave front acts like a new source, each transparent slit becomes a new source so cylindrical
+                                    wave fronts spread out from each. These wave fronts interfere either constructively or
+                                    destructively depending on how the peaks and valleys of the waves are related.</p>
+                                <p>Whenever the difference in path length between the light passing through different slits
+                                    is an integral number of wavelengths of the incident light, the light from each of these slits will be in phase, and then it will form an image at the specified location. Mathematically,
+                                    the relation is simple</p>(11.1)
+                                    <p align="center"><img src="resources/images/e10/10.1.jpg"></p>
+                                <p>Eq. (11.1) is known as grating equation. The light that corresponds to direct transmission</p>
+                                <p align="center"><img src="resources/images/e10/10.2.jpg"></p>
+                                <p>(or specular reflection in the case of a reflection grating) is called the zero order, and is
+                                    denoted m = 0. The other maxima occur at angles which are represented by non-zero
+                                    integers m. Note that m can be positive or negative, resulting in diffracted orders on both
+                                    side of the zero order beam.</p>
+                                <p>Diffraction gratings are often used in monochromators, spectrometers, lasers, wavelength
+                                    division multiplexing devices, optical pulse compressing devices, and many other
+                                    optical instruments.</p>
+
+                                  <h5><b>Resolving power of grating</b></h5>
+                                  <p>This equation then leads to the following expression for the resolving power of the diffraction
+                                        grating</p>(11.2)
+                                <p align="center"> R = λ/δλ = mN</p>
+                                <p>Here λ  is the average of wavelength, δλ  is the difference between wavelengths, m is the order  
+                                    and N is the total number of slits on the grating. Thus, the distance between maxima depends on the distance between slits and the resolution,the relative sharpness of the maxima, depends on the total number of slits. (Often a grating is characterized by the number of slits per unit length. From this information one can, of course, deduce the distance between the slits..</p>
+                
+                            </div>
+                            
+
+                            <div id="menu1" class="tab-pane fade">
+                              <br><h4><b>Apparatus Required :</b></h4>
+                              <p>Spectrometer, diffraction grating, mercury light source, high voltage power supply, magnifying
+                                    lens, spirit level, torch light, etc.</p>
+                              <h4><b>Procedure :</b></h4>
+                              <p>As with many optical instruments, the spectroscope requires some initial adjustments
+                                    before the desired measurements can be performed. Focusing and levelling of the spectrometer
+                                    for the parallel rays is to be done as per previous prism experiment.</p>
+                                <p><img src="resources/images/e10/10.3.jpg"></p>
+                                <p align="center"> Figure 11.3: Grating settings</p>
+                                <p><b>To set the telescope axis perpendicular to that of the collimator:</b></p>
+                              <p>Illuminate the slit with the light source. Turn the telescope of the spectrometer to view the
+                                    image of the illuminated slit directly as shown in Fig. 11.3(a). The source should directly
+                                    be in front of the slit such that maximum light falls on the slit. Adjust the cross-wires
+                                    such that the image of the slit falls in the middle of the intersection of the cross-wires.
+                                    Fix the prism table with the fixing screw and read any of the two verniers. Let this angle
+                                    be α. Rotate the telescope by an amount 90 ± α such that it is exactly perpendicular to the collimator. Fix the telescope in this position and unfix the prism table.</p>
+                              <p> Fix the grating (G) in the grating holder such that the grating lines are perpendicular
+                                    to the prism table and the ruled surface extend equally on both sides of the center. The
+                                    grating is set parallel to the line joining the prism table screws B and C as shown in
+                                    Fig. 11.3. Turn the prism table such that light from the collimator is reflected into the
+                                    telescope. The reflection should be by the unruled surface of the grating. To determine
+                                    the unruled surface use the following procedure. Allow light to be reflected by both the
+                                    grating surface one at a time and view the corresponding image via the telescope. The
+                                    surface from which the image of the slit appears sharper is in fact the unruled surface of
+                                    the grating</p>
+                               <p >Once the unruled surface has been determined, view the reflection only via the unruled
+                                    surface while the setup is as shown in Fig. 11.3(b). If the center of the grating displace
+                                    either above or below the intersection of the cross-wires, then the grating surface is not
+                                    vertical. To ensure that the grating surface is vertical, turn the prism table screws B and C
+                                    equally in opposite directions until the center of the image coincides with the intersection
+                                    of the cross-wires</p>
+                                <p>Turn the unruled surface of the grating by an angle 45° such that the light from the
+                                    collimator falls normally on the unruled surface of the grating. Fix the prism table in this
+                                    position and unfix the telescope.</p>
+                                <p>Even though we have made the plane of the grating vertical and the rulings perpendicular
+                                    to the table surface, the rulings of the grating may not be vertical. In order to
+                                    set the rulings vertical, rotate the telescope in its own plane on both side of the central
+                                    image. On both sides on the central image different orders of image are seen as shown in Fig. 11.4. In the first order images on both sides, if the image on the left is higher than</p>
+                                <p align="center"><img src="resources/images/e10/10.4.jpg"></p>
+                                <p align="center"> Figure 11.4: Grating images of higher order</p>
+                                <p>that of the image on the right or vice-versa, then turn the third screw A on the prism
+                                    table until the images on both the sides are on the same level.</p>
+                                <h4><b>Caution</b></h4>
+                                <p>1. The diffraction grating is a photographic reproduction and should NOT be touched.
+                                    Make sure that the glassy base of grating shouldn’t faces towards the source light.</p>
+                                <p>2. Now your setup is ready to report the experimental observations.</p>                      
+                              <p><h4><b>Observations :</b></h4></p>
+                              <p >1. Check to make sure that the grating is not too high or low relative to the collimator.
+                                    Affirm maximum brightness for the straight through beam by adjusting the source
+                                    slit alignment. At this step, the slit should be narrow, perhaps a few times wider
+                                    than the hairline. Search for the spectrum by moving the telescope to one side or
+                                    the other. This spectrum should look much like the visible spectrum observed with
+                                    the prism. This is the first order spectrum. Record for each color diffraction angle
+                                    θR (along right side) and θL (along left side) from the straight trough beam.</p>
+                              <p >2. For each of the seven colors in the mercury spectrum, measure the angles R and L
+                                    to the nearest tenth of a degree by placing the hairline on the stationary side of the
+                                    slit. </p>
+                                <p>3. You are expected to observe the 1st order diffraction pattern.</p>
+                                <p>4. From your observations calculate various wavelengths of visible radiations from the
+                                        mercury source</p>
+
+                                <p><h4><b>Calculation</b></h4></p>
+                                <p>1. Use the grating equation with d = (1/6000) cm to find the wavelength  for each
+                                    colour.</p>
+                                <p>2. Calculate % error for your reported λ measurement.</p>
+                                <p align="center"><img src="resources/images/e10/10.5.jpg"></p>
+                                <p align="center">Table 11.1: For first order (m = 1). CSR - Circular scale reading, VSR - Vernier  
+                                    scale reading.</p>
+
+                              <p><h4><b>Result :</b></h4></p>
+                              <p>1. Percentage measurement error for your analysis. </p>
+                              <p>2. A certain colour emerges at 15o in the first order spectrum. At what angle would
+                                    this same colour emerge in the second order if the same source and grating are used? </p>
+                              <p>3. What could be causing any discrepancy?</p>
+                              <p>4. Why is it necessary that the base side of the grating face toward the light source?
+                                    Draw a ray diagram for the two cases:</p>
+                                <p>a) Base toward the source (correct).</p>
+                                <p> b) Grating toward the source (incorrect).</p>
+                               <p>5. Mention your special comments for each statement in your lab report as a part of
+                                    experimental outputs.</p>
+                            </div>
+
+                            <div id="menu2" class="tab-pane fade">
+                              <h3>VIDEO</h3>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                              <h3>RESOURCES</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                            <div id="menu4" class="tab-pane fade">
+                              <h3>VIVA VOCE</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                        </div><!--end of tab content-->
+                </div><!--end container-->
+            </div><!--end of row-->
+        </div><!--end of container-fluid-->
+
+        <!----FOOTER --->
+        <div class="footer container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <p>
+                    <a class="fa fa-facebook" href="https://www.facebook.com/lnmiit.ac.in/"></a>
+                    <a class="fa fa-twitter" href="https://twitter.com/lnmiit_jaipur?lang=en"></a>
+                    <a class="fa fa-linkedin" href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/"></a>
+                    <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
+                    <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
+                </p>
+                <p id="copyright">Copyright © 2018 Department of Physics,LNMIIT. All Rights Reserved.</p>
+                <p id="developer">Developed by LUSIP1-2018 Team
+            </div>
+        </div>
+
+    </body>
+</html>
+
+    </body>
+</html>

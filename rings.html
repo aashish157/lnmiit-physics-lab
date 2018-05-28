@@ -1,0 +1,301 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="resources/images/lab_logo1.png">
+        <title>UG Physics Lab</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/scroll_to_top.js"></script>
+    </head>
+
+    <body>
+        <!--SCROLL TO TOP BUTTON--->
+        <button onclick="topFunction()" id="scroll_btn" title="Go to top"><b>^</b></button>
+
+        <!-------TOP-BAR--------->
+        <div id="top_bar" class="container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <div class="col-md-1 col-xs-4">
+                    <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo1.png" alt="Lab Logo"></a>
+                </div>
+                <div class="col-md-4 col-xs-8 lab_heading">
+                    <p id="site_title">UG Physics Laboratory</p>
+                    <p id="title_desc">Department of Physics , LNMIIT Jaipur</p>
+                </div>
+                <div class="col-md-5"></div>
+                <div class="col-md-2 col-xs-12">
+                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
+                </div>
+            </div>
+        </div> 
+
+        <!--------HEADER---------->
+
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row">                   
+                    <ul class="nav navbar-nav">
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="#">ABOUT</a></li>
+                       <li id="experiments" class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EXPERIMENTS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html" >1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Measurement of band gap of semiconductor</a></li>
+                                <li><a href="refractive.html">4. Refractive index of glass with prism</a></li>
+                                <li><a href="rings.html">5. Wavelength of Sodium light with Newton's Rings</a></li>
+                                <li><a href="coil.html">6. Helmholtz coil</a></li>
+                                <li><a href="induction.html">7. Electromagnetic Induction</a></li>
+                                <li><a href="waves.html">8. Mechanical waves</a></li>
+                                <li><a href="diffraction.html">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="grating.html">10. Diffraction grating</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PEOPLE</a></li>
+                        <li><a href="#">FACILITIES</a></li>
+                        <li id="videos" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">VIDEOS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html" >1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Band gap of semiconductor</a></li>
+                                <li><a href="">4. Refractive index of glass with prism</a></li>
+                                <li><a href="">5. λ of Sodium light with Newton's Rings</a></li>
+                                <li><a href="">6. Helmholtz coil</a></li>
+                                <li><a href="">7. Electromagnetic Induction</a></li>
+                                <li><a href="">8. Mechanical waves</a></li>
+                                <li><a href="">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="">10. Diffraction grating</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--end of nav bar-->
+
+        <div class="container-fluid">
+            <div class="col-md-12 row">
+                <div class="container">
+                    <h3><b>Wavelength of sodium light by Newton’s rings</b></h3>
+                    
+                    <!----NAV TABS ---->
+                    </br>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">
+                            <img src="resources/images/book.png">
+                            <b>Theory</b></a></li>
+                        <li><a data-toggle="tab" href="#menu1">
+                            <img src="resources/images/refresh.png">
+                            <b>Procedure</b></a></li>
+                        <li><a data-toggle="tab" href="#menu2">
+                            <img src="resources/images/videocam.png">
+                            <b>Video</b></a></li>
+                        <li><a data-toggle="tab" href="#menu3">
+                            <img src="resources/images/resources.png">
+                            <b>Resources</b></a></li>
+                        <li><a data-toggle="tab" href="#menu4">
+                            <img src="resources/images/viva.png">
+                            <b>Viva Voce</b></a></li>
+                    </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <br><h4><b>Aim :</b></h4>
+                                <p>To determine the wavelength of sodium light by measuring the diameters of Newton’s rings</p>
+                                <br>
+
+                                
+                                <h4><b>Theory :</b></h4>
+                                <p>Fig. 6.1 shows the experimental setup of Newton’s ring. The formation of maximum intensities
+                                    at some points and minimum intensities at the other due to the superposition of two
+                                    coherent light waves (of same frequencies and constant phase difference) is called interference
+                                    of light. The interference fringes are observed as an alternate pattern of bright and
+                                    dark fringes. The interference at a point where the intensity of light is maximum, is called
+                                    constructive interference (corresponds to bright fringe). For constructive interference, the
+                                    two waves should have either same phase or a constant phase difference of</p>(6.1)
+                                <p align="center">φ = 2nπ</p>
+                                
+                                <p>where n = 0, 1, 2, .... Phase difference (φ) and path difference (δ) are related by 
+                                        the equation</p>(6.2)
+                                     <p align="center">φ = (2π/λ)δ</p>
+                                <p>where λ is the wavelength of the incident light. So, for constructive interference the path
+                                    difference between the light waves should be</p>(6.3)
+                                    <p align="center">δ = nλ</p>
+                                       
+                                
+                                <p>The interference at other point where the intensity of light is minimum, is called destructive
+                                    interference (corresponds to dark fringe). For destructive interference, the two waves
+                                    should have either same phase or a constant phase difference of</p>(6.4)
+                                    <p align="center">φ = (2n + 1)π</p>
+                                <p>where n = 0, 1, 2, ... or a constant path difference of</p>(6.5)
+                                <p align="center">δ = (2n + 1)λ/2</p>
+                                <p> Interference fringes are obtained by dividing the single coherent source into two sources.
+                                    This can be achieved by one of the following methods</p>
+                                <p>1. by division of wave front, that is by taking (or considering) two secondary wavelets
+                                        on the same wave front and superposing them</p>
+                                <p>2. by division of amplitude, that is by separating the amplitude of single wave and
+                                        reuniting them.</p>
+                                <p>In the case of Newton’s ring interference is due to division of amplitude.</p>
+                                <p align="center"><img src="resources/images/e5/5.1.jpg"></p>
+                                <p align="center">Figure 6.1: Experimental setup of Newton’s ring</p>
+                                <p>When light is incident on a thin film (thickness of the order of wave length of the incident 
+                                    light), it suffers partial reflection and partial transmission at both upper as well as lower surfaces of the thin film. The transmitted light ray again suffers reflection at the lower surface. Interference occurs between the rays in the reflected and transmitted parts.</p>
+                                <p>Similarly, in a wedge-shaped film, partial reflection as well as partial transmission also
+                                    takes place. Moreover, the path difference changes from point to point which results into an interference fringe</p>
+                                <p>Fig. 6.2 shows an wedge-shaped air film formed between the convex and plane glass
+                                    plate inclined at an angle say θ. The refractive index of the film is μ. Ray AB is incident
+                                    from a broad monochromatic source almost normally on the film. It suffers partial
+                                    reflection (ray BE) and partial transmission (ray BC) on the convex surface. Ray BC
+                                    again suffers partial reflection (ray CF) and partial transmission (not shown) on the plane
+                                    surface at C.</p>
+                                <p>The bright rings in the Newton’s ring, as shown in Fig. 6.3, are due to constructive
+                                    interference between the reflected light rays BE and CF. The dark rings are caused by
+                                    destructive interference between the same light rays BE and CF.</p>
+                                <p>For a wedge-shaped thin film, the path difference between the rays BE and CF is
+                                    given by</p>(6.6)
+                                <p align="center">δ = 2μt cosα</p>
+                                <p align="center"><img src="resources/images/e5/5.2.jpg"></p>
+                                <p>Where t is the thickness of the film at B (or at D) and α is the angle of refraction at B.
+                                    Since the angle of incidence is almost normal, we can assume cosα ~ 1. Note that here we ignore the reflections from top of the plano-convex lens and bottom of the plane circular glass plate since these reflections just contribute to the overall glare. The reflections of interest are only those involving the surfaces in contact.</p>
+                                <p>Now by Stoke’s law, there is no phase change at the glass-air interface of the convex
+                                    lens (because the wave is going from a higher to a lower refractive index medium), whereas
+                                    the reflection at the air-glass interface of the plane glass plate undergoes an additional path
+                                    difference of /2. Therefore, the net path difference is</p>(6.7)
+                                    <p align="center"> δ + λ/2 = 2μt +λ/2</p>
+                                    <p>Since for bright fringe, net path difference is nλ we have,</p>(6.8)
+                                    <p align="center">  2μt = (2n + 1)λ/2</p>
+                                    <p>Similarly, for dark fringe, the net path difference is (2n + 1)λ/2 and thus we have,</p>(6.9)
+                                     <p align="center">  2μt = 2nλ</p>
+                                     <p>At the centre, no reflection occurs since the two glass surfaces are in intimate contact 
+                                        i.e. t = 0 or 2μt = 0. This is the condition for dark fringe. Hence the center of the pattern is always dark.</p>
+                                    <p>In the right-angled triangle OAB of Fig. 6.4,</p>
+                                    <p align="center">  OB^2 = OA^2 + AB^2</p>
+                                    <p align="center">Or,    R^2 = (R-t)^2 + rn^2</p>(6.10)
+                                    <p align="center">  rn^2 = 2Rt</p>
+                                    <p>for t^2 << 2Rt</p>
+                                    <p align="center">  t = rn^2/2R</p>(6.11)
+                                    <p align="center">  t = Dn^2/8R</p>
+                                    <p align="center">  where, rn = radius of nth ring,</p>
+                                    <p align="center"> Dn = diameter of the nth ring,</p>
+                                    <p align="center">  R = radius of curvature of the plano-convex lens</p>
+
+                                     <p align="center"><img src="resources/images/e5/5.3.jpg"></p>
+                                     <p>In practice, it is not possible to find the exact centre of the bull’s eye in order to
+                                        obtain rn. Rather, the traveling microscope can measure an approximate diameter Dn for
+                                        the interference ring. Therefore, substituting the value of t from Eq. 6.9, we obtain the
+                                        diameters of the nth dark fringe as</p>(6.12)
+                                     <p align="center">Dn^2 = 4nRλ/μ  </p>
+
+                                    <p>Since the human eye is more sensitive to small changes in low intensity, we will measure
+                                        positions of dark fringes throughout the experiment.</p>
+
+
+                            </div>
+                            
+
+                            <div id="menu1" class="tab-pane fade">
+                              <br><h4><b>Apparatus Required :</b></h4>
+                              <p>Newton’s ring microscope, sodium vapour lamp, circular slit plate, light emitting diode
+                                    source</p>
+                              <h4><b>Procedure</b></h4>
+                              <p>1. The Newton’s ring microscope has two parts, (i) microscope with horizontal measurement
+                                    and (ii) a Newton’s ring assembly. First detach the Newton’s ring assembly
+                                    and clean the adjustable glass plate, plano-convex lens and its adjoining glass plate
+                                    with a clean cloth.</p>
+                             <p>2. Replace the plano-convex lens over the glass plate and tight them carefully with
+                                    the help of three leveling screws (if present). An interference ring pattern can be
+                                    observed with the naked eye.</p>   
+                             <p>3. Arrange the Newton’s ring assembly as shown in Fig. 6.5. Note that the glass plate
+                                    P' should be inclined at 45° with respect to the vertical plain.</p> 
+                                <p>4. First connect the sodium vapour lamp power supply with mains. Then connect it
+                                    with the light source box with the help of mains cord. Then switch ON the power supply.</p>
+                                <p>5. Wait for 30 minutes till the lamp glow bright yellowish.</p>      
+                                 <p>6. Insert circular slit plate into the slit-holder. Adjust to fully illuminate glass plate P'
+                                        inclined at 45°.</p>
+                                <p>7. Calculate the least count of the traveling microscope (M). If p is the pitch of the
+                                        micrometer screw in cm, and m is the number of divisions on the circular scale, then
+                                        least count is p/m in cm.</p>
+                                <p>8. Take a view through the eye piece of the tube as shown in Fig. 6.6.</p>
+                                <p>9. There are two type of movements provided in the microscope, coarse and fine. Align
+                                    the microscope tube, with the help of coarse movement knob nos. 2 and 4 as shown in Fig. 6.6, to bring it over the glass plate P'.</p>
+
+                                 <p align="center"><img src="resources/images/e5/5.4.jpg"></p>
+                                 <p align="center">Figure 6.6: Experimental setup of Newton’s ring showing the screws</p>
+                                 <p>10. Now move the microscope tube with the help of fine movement knob no. 3 close to
+                                        the plate P' to obtain clear image of surface. Slowly move towards upward direction.
+                                        Newton’s rings pattern is observed. Adjust by moving the microscope to and fro, if
+                                        necessary, to view the full pattern. Adjust further for better contrast between bright
+                                        and dark fringes.</p>
+                                <p>11. Bring the cross-wire, using knob no. 1 shown in Fig. 6.6, in the central fringe such
+                                            that their centre should coincide with each other.</p>
+                                <p>12. Slide the cross-wire to the left till the vertical cross-wire line lies tangentially at the
+                                    20th ring. Note the reading on the main and circular scale using the light emitting diode</p>
+                                <p>13. Now slowly slide the microscope to the right and note the reading when the vertical
+                                        cross-wire lies tangentially at the 16th, 12th, 8th and 4th rings respectively.</p>
+                                <p>14. Keep sliding the microscope to the right and again note the readings when the vertical
+                                        cross-wire lies tangentially at the 4th, 8th, 12th, 16th and 20th rings respectively.</p>
+
+                                <p align="center"><img src="resources/images/e5/5.5.jpg"></p>
+                                <p align="center">Table 6.1: Table for measurement of the diameter of the dark rings. MSR - Main 
+                                        scale reading, CSR - Circular scale reading.</p>
+                                <p>15. The radius of curvature (R) of the plano-convex lens is 100 cm which can be calculated
+                                        using the following formula</p>(6.13)
+                                <p align="center"> 1/f = (μg − 1) (1/R−1/Rp) ,</p>
+                                 <p align="center">where, f = focal length of the lens = 200 cm,</p>   
+                                <p align="center">μg = refractive index of the material of the lens (i.e glass) = 1.5,</p>
+                                <p align="center">R = Radius of curvature of one side the convex side of the plano-convex lens,</p>
+                                <p align="center">Rp = Radius of curvature of plane side of the plano-convex lens -> 00.</p>
+                                <p>16. Plot the graph D^2 as a function of n. This should be a straight line passing through the 
+                                    origin (See Eq. 6.12)</p>
+                                <p>17. Find the slope of the line from the graph.</p>
+                                <p>18. Find the wavelength of sodium light from this slope using Eq. 6.12.</p>
+
+                              
+                              <p><h4><b>Result :</b></h4></p>
+                              <p>1. The wavelength of sodium light is ________ nm.</p>
+                                
+                              
+                            </div>
+
+                            <div id="menu2" class="tab-pane fade">
+                              <h3>VIDEO</h3>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                              <h3>RESOURCES</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                            <div id="menu4" class="tab-pane fade">
+                              <h3>VIVA VOCE</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                        </div><!--end of tab content-->
+                </div><!--end container-->
+            </div><!--end of row-->
+        </div><!--end of container-fluid-->
+
+        <!----FOOTER --->
+        <div class="footer container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <p>
+                    <a class="fa fa-facebook" href="https://www.facebook.com/lnmiit.ac.in/"></a>
+                    <a class="fa fa-twitter" href="https://twitter.com/lnmiit_jaipur?lang=en"></a>
+                    <a class="fa fa-linkedin" href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/"></a>
+                    <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
+                    <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
+                </p>
+                <p id="copyright">Copyright © 2018 Department of Physics,LNMIIT. All Rights Reserved.</p>
+                <p id="developer">Developed by LUSIP1-2018 Team
+            </div>
+        </div>
+
+    </body>
+</html>
+
+    </body>
+</html>

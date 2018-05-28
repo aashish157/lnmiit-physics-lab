@@ -1,0 +1,357 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="resources/images/lab_logo1.png">
+        <title>UG Physics Lab</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/scroll_to_top.js"></script>
+    </head>
+
+    <body>
+        <!--SCROLL TO TOP BUTTON--->
+        <button onclick="topFunction()" id="scroll_btn" title="Go to top"><b>^</b></button>
+
+        <!-------TOP-BAR--------->
+        <div id="top_bar" class="container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <div class="col-md-1 col-xs-4">
+                    <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo1.png" alt="Lab Logo"></a>
+                </div>
+                <div class="col-md-4 col-xs-8 lab_heading">
+                    <p id="site_title">UG Physics Laboratory</p>
+                    <p id="title_desc">Department of Physics , LNMIIT Jaipur</p>
+                </div>
+                <div class="col-md-5"></div>
+                <div class="col-md-2 col-xs-12">
+                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
+                </div>
+            </div>
+        </div> 
+
+        <!--------HEADER---------->
+
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row">                   
+                    <ul class="nav navbar-nav">
+                       <li><a href="index.html">HOME</a></li>
+                       <li><a href="#">ABOUT</a></li>
+                       <li id="experiments" class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EXPERIMENTS <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html" >1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Measurement of band gap of semiconductor</a></li>
+                                <li><a href="refractive.html">4. Refractive index of glass with prism</a></li>
+                                <li><a href="rings.html">5. Wavelength of Sodium light with Newton's Rings</a></li>
+                                <li><a href="coil.html">6. Helmholtz coil</a></li>
+                                <li><a href="induction.html">7. Electromagnetic Induction</a></li>
+                                <li><a href="waves.html">8. Mechanical waves</a></li>
+                                <li><a href="diffraction.html">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="grating.html">10. Diffraction grating</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">PEOPLE</a></li>
+                        <li><a href="#">FACILITIES</a></li>
+                        <li id="videos" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">VIDEOS<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html" >1. Acc. due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Band gap of semiconductor</a></li>
+                                <li><a href="">4. Refractive index of glass with prism</a></li>
+                                <li><a href="">5. λ of Sodium light with Newton's Rings</a></li>
+                                <li><a href="">6. Helmholtz coil</a></li>
+                                <li><a href="">7. Electromagnetic Induction</a></li>
+                                <li><a href="">8. Mechanical waves</a></li>
+                                <li><a href="">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="">10. Diffraction grating</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--end of nav bar-->
+
+        <div class="container-fluid">
+            <div class="col-md-12 row">
+                <div class="container">
+                    <h3><b>Refractive index of glass with the
+                        help of a prism</b></h3>
+                    
+                    <!----NAV TABS ---->
+                    </br>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">
+                            <img src="resources/images/book.png">
+                            <b>Theory</b></a></li>
+                        <li><a data-toggle="tab" href="#menu1">
+                            <img src="resources/images/refresh.png">
+                            <b>Procedure</b></a></li>
+                        <li><a data-toggle="tab" href="#menu2">
+                            <img src="resources/images/videocam.png">
+                            <b>Video</b></a></li>
+                        <li><a data-toggle="tab" href="#menu3">
+                            <img src="resources/images/resources.png">
+                            <b>Resources</b></a></li>
+                        <li><a data-toggle="tab" href="#menu4">
+                            <img src="resources/images/viva.png">
+                            <b>Viva Voce</b></a></li>
+                    </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <br><h4><b>Aim :</b></h4>
+                                <p>1. To understand the accurate leveling and focusing of a spectrometer.</p>
+                                <p>2.  Investigation of the variation in the refractive index, μ of a prism with wavelength λ.</p>
+                                <br>
+
+                                
+                                <h4><b>Theory :</b></h4>
+                                <p>The fact that a prism is capable of dispersing light is due to the variation of its refractive
+                                    index with wavelength. In this experiment the refractive index is obtained for a variety of
+                                    wavelengths by measuring the minimum deviation angle of the prism for each wavelength.</p>
+                                
+                                <p>To understand what is meant by the term angle of minimum deviation, consider Fig.
+                                    5.1. The incident parallel light beam is refracted by the prism in such a way that it is
+                                    deviated by the angle θd from the undeviated direction. The angle is known as the angle
+                                    of deviation and varies with both the wavelength and the angle at which the incident light
+                                    intersects the prism.</p>
+                                <p>If the prism is rotated about the axis it is found that the angle of deviation changes but
+                                    never becomes less than a certain minimum value, δmin known as the angle of minimum
+                                    deviation i.e. no matter what the orientation of the prism, as long as it is in the path of the
+                                    incident light beam, the light beam will be deviated through at least this angle. When the
+                                    prism is oriented in such a way that the exit beam is deviated through the least possible
+                                    angle δmin, then further rotation of the prism in either direction will cause the exit beam
+                                    to move further away from the least deviated direction. Thus for each wavelength in a
+                                    spectral light source, there is a variation of the angle of deviation, θd with the angle of
+                                    incidence, θi and at some value of the angle of incidence, the angle of deviation reaches a
+                                    minimum as seen in Fig. (5.3).</p>
+
+
+
+                                 <h4><b>Relation between μ and λ</b></h4>
+                                    <p align="center"><img src="resources/images/e4/4.1.jpg"></p>
+                                        <p align="center"><img src="resources/images/e4/4.2.jpg"> </p>
+                                       <p align="center">Figure 5.3: Variation of the angle of deviation (θd) with the angle of incidence (θi) for a particular wavelength.</p>
+                                <p>by measuring δmin for a variety of wavelengths, the variation of μ with wavelength may
+                                    be determined.</p>
+                                <p>To derive the exact relationship, consider the prism as seen in Fig. (5.4). It can be
+                                    shown that the minimum value of the angle of deviation, δmin occurs when the ray passes
+                                    through the prism symmetrically i.e. when the angle at which the light emerges is equal
+                                    to the angle of incidence such that the ray passes parallel to the base of the prism as in
+                                    Fig. (5.4). At each face the ray changes direction by θi − θr and so the total minimum
+                                    deviation is</p>(5.1)
+                                <p align="center"><img src="resources/images/e4/4.3.jpg"></p>
+                                <p> From Fig. 5.4, it is shown that the angle 6 MNO is the same as that of the refracting
+                                    angle of the prism. Referring to the triangle LMN it is obvious, using trigonometry, that
+                                    A = 2θr. Snell’s Law is of course μ = sin θi/ sin θr but θi = θmin/2 + θr, where θr = A/2
+                                    and hence we have</p>(5.2)
+                                <p align="center"><img src="resources/images/e4/4.4.jpg"></p>
+                                <p>An empirical equation of the form</p>(5.3)
+                                <p align="center"><img src="resources/images/e4/4.5.jpg"></p>
+                                <p align="center"><img src="resources/images/e4/4.6.jpg"></p>
+                                <p align="center">Figure 5.4: Condition for minimum deviation</p>
+                                <p> was developed by Cauchy to describe the variation of μ with wavelength. Where a, b and
+                                    c are constants and it is the purpose of this experiment to verify this equation (neglecting
+                                    terms of higher order than the second) and to derive the constants a and b for the prism
+                                    material.</p>
+                                <p> <b>Note:</b> As the variation in refractive index over the whole of the visible is only of
+                                        the order of 3% this means that δmin varies only very slowly with wavelength. Both a
+                                        fair degree of experimental skill and great care in making the various measurements are
+                                        necessary if reasonable results are to be attained.</p>
+                            </div>
+                            
+
+                            <div id="menu1" class="tab-pane fade">
+                              <br><h4><b>Apparatus Required :</b></h4>
+                              <p>Spectrometer, prism, mercury light source, high voltage power supply, magnifying lens,
+                                    spirit level, torch light etc.</p>
+                              
+                              <h4><b>Experimental procedure</b></h4>
+                              <p>Initially make sure you understand what each component of the spectrometer as detailed in
+                                    Fig. (5.5) does. The experimental setup consists of following parts. To obtain satisfactory</p>
+                              <p align="center"><img src="resources/images/e4/4.7.jpg"></p>
+                              <p align="center">Figure 4: Schematic diagram of the prism spectromete</p>
+                              <p>results the spectroscope requires some initial adjustments before the desired measurements
+                                    can be performed. For this experiment great care must be taken in adjusting the spectrometer so that the telescope is focused at infinity and the collimator set to give an
+                                    accurately parallel beam. It is particularly important to ensure that the cross-hairs of the
+                                    telescope are sharply visible and that no parallax exists between them and the spectral
+                                    line images. The following steps should ensure this:</p>
+                                <p>1. Focusing the telescope: Focus the telescope for the parallel rays from the distance
+                                        object by sliding the eyepiece looking through telescope in and out, until a sharp
+                                        image of object is seen. Due to the location of the laboratory this may not be possible
+                                        so the building opposite may be used for this purpose.</p>  
+                                <p>2. Levelling the collimator: Place the spirit level on the collimator tube with its axis
+                                        parallel to the axis of the tube. If the the bubble in the collimator is found to
+                                        be displaced from its central position, turn the levelling screws provided with the
+                                        collimator tube, in the same direction to bring the bubble back to its central position.
+                                        This make the axis of the collimator tube horizontal.</p>
+                                <p>3. Levelling of the prism table: There are three levelling screws A, B, C just below
+                                        the prism table for levelling the table. There are parallel lines drawn on the prism
+                                        table parallel to the line joining the screws B and C. Place the spirit level parallel
+                                        to these lines and bring the bubble to the central position by turning the screws B
+                                        and C equally in opposite directions. Now place the spirit level perpendicular to the
+                                        line BC. If the bubble is not in the central position, then turn the A screw alone to
+                                        bring the bubble in the center. Continue this for a couple of times until the bubble
+                                        is in the center in both the positions. This makes the table vertical to the axis of
+                                        rotation.</p>    
+                                <p>4. Focusing the collimator: Place a discharge lamp (Mercury lamp as a visible light
+                                        source) in front of the spectroscope and turn the telescope until it is in line with and
+                                        pointing directly at the collimator. Looking through the telescope and adjusting the
+                                        position of the focusing screw on the collimeter until a sharp image of the slit is
+                                        observed in the telescope. The collimeter now gives parallel rays which will fall on
+                                        the prism.</p>
+
+                                <h5><b>Finding the least count for the spectrometer</b></h5>     
+                                <p>It should be noted by the student that 30 vernier scale divisions (VSD) coincides with 29
+                                        circular scale divisions (CSD). So,</p>(5.4),(5.5)
+                                <p align="center"><img src="resources/images/e4/4.8.jpg"></p>
+                                <p>Therefore, the least count</p>(5.6),(5.7)
+                                 <p align="center"><img src="resources/images/e4/4.9.jpg"></p>
+                                 <p>Since 1 CSD = (1/2)° = 30', we have</p>(5.8)
+                                 <p align="center"><img src="resources/images/e4/4.10.jpg"></p> 
+                                  <p align="center"><img src="resources/images/e4/4.11.jpg"></p>
+                                
+                                <p align="center">Figure 5.6: Measurement of the reflecting angle of prism.</p>
+
+
+                                <h5><b>Measurement of the angle of prism (A)</b></h5>
+                                <p>1. Set up the prism and spectrometer as in Fig. (5.6). Lock the prism table.</p>
+                                <p>2. Place the telescope cross-hairs in turn on the image of the slit reflected from surface
+                                        AB and then surface AC.</p>
+                                <p>3. At each position record the angular position of the telescope on the vernier scalethe
+                                    angle between the two positions of the telescope is 2A, twice the apex angle of
+                                    the prism and hence A can be found.</p>
+                                <p>4. Repeat above step 2 and 3 to get an average value for A(~60°).</p>
+
+                                <h5><b>Viewing the spectrum due to refraction</b></h5>
+                                <p>The telescope and prism are rotated until the spectrum formed by refraction is found.
+                                    The approximate prism position is shown in Fig. 5.7.</p>
+                                <p>Further rotation of the prism while viewing the spectrum through the telescope will
+                                    result in reaching the angle of minimum deviation. This is where the spectral lines “turn
+                                    back" on themselves i.e. move opposite to their initial direction of travel while the prism
+                                    is still being rotated in the same direction.</p>
+                                <p>Position the prism and telescope so that the spectral lines are at the angle of minimum
+                                    deviation i.e. at the point where the spectral lines “turn back" on themselves.</p>
+                                <p>Position the prism and telescope so that the spectral lines are at the angle of minimum
+                                    deviation i.e. at the point where the spectral lines “turn back" on themselves.</p>
+                                <p>Turning the prism towards the telescope, increases the angle of incidence, thus moving
+                                    to the right hand side of δmin in the curve of Fig. (5.3). Conversely turning the prism
+                                    towards the collimator, decreases the angle of incidence, hence moving through the angle
+                                    of minimum deviation to the left hand side of the curve of Fig. 5.3.</p>
+
+
+                                <h5><b>Measurement of the angle of minimum deviation, δmin for each wavelength</b></h5>
+                                <p>1. Using the Hg spectral lamp, observe the first order field of view of refracted spectrum.
+                                        Find the point of minimum deviation for the Hg spectrum. The approximate
+                                        prism position is as shown in Fig. 5.7.</p>
+                                <p align="center"><img src="resources/images/e4/4.12.jpg"></p>
+                                <p align="center">Figure 5.7: Prism position for viewing the spectrum due to refraction</p>
+                                 <p align="center"><img src="resources/images/e4/4.13.jpg"></p>
+                                <p align="center">Table 5.1: Discharge lamp wavelengths</p> 
+                                <p>(Remember minimum deviation corresponds to the point at which movement of the
+                                    lines of the Hg spectrum over the field of view of the telescope is reversed, although
+                                    direction of rotation of the telescope continues in the same sense.)</p>
+                                <p>2. Several spectral lines should be in the field of view of the telescope. Position the
+                                        telescope on the highest wavelength spectral line and lock the prism table and telescope.
+                                        It is essential that the prism and prism table remain in this position for the
+                                        remainder of the experiment</p>
+                                <p>3. Using the telescope fine adjustment screw, position the crosshairs of the telescope
+                                    accurately on the spectral line of interest and read the vernier to the nearest minute
+                                    of arc</p>
+                                <p>4. The above step can be repeated for the other lines in the field of view of the telescope
+                                    there should be enough movement in the telescope fine adjustment screw to allow positioning of the cross-hairs on all of the Hg spectral lines of Table 5.1 without unlocking the telescope again. If this is not the case, just unlock the telescope and reposition it such that the crosshairs of the eyepiece are on the spectral line of interest. It is imperative that the prism and prism table remain in their original fixed position.</p>
+                                <p>5. Rotate the telescope anticlockwise until the undeviated image of the slit through the
+                                        prism is in the field of view. Again position the crosshairs on the centre of the clit
+                                        image and record the angular reading of the telescope on the vernier scale.</p>
+                                <p>6. The actual value for δmin for each wavelength is the difference between the appropriate
+                                        angular reading of the telescope position for minimum deviation and for the
+                                        undeviated (straight through) position as seen in Fig. (5.1)</p>
+                              
+
+
+                              <p><h4><b>Observations :</b></h4></p>
+                              <h5><b></b>Measurement of angle of prism (A)</h5>
+                              <p >Least count of the spectrometer (l.c.) = .......</p>
+                              <p align="center"><img src="resources/images/e4/4.14.jpg"></p>
+                              <p align="center">Table 5.2: Table for measuring angle of prism (A). CSR - Circular scale reading, 
+                                        VSR -Vernier scale reading.</p>
+
+                                <h5><b></b>Measurement of angle of minimum deviation (δmin)</h5>
+                              
+                              <p>Angle by undeviated ray (θ') = ...... (CSR) + ...... (l.c) × ....... (VSR) = ..... (Total)</p>
+                             
+                             
+                              <p><h4><b>Calculations :</b></h4></p>
+                              <p>1. Calculate the refractive index μ, of the prism material for each wavelength using Eq.
+                                    5.2. Tabulate also a corresponding set of values for 1/λ^2.</p>
+                                <p>2.Draw a graph of μ vs 1/λ^2.</p>
+                                <p>3. Extract values for the Cauchy constants, a (intercept) and b (slope), of Eq. 5.3 from
+                                        your graph. The least squares fitting routine can be used to get a more accurate value for a and b.</p>
+                              
+
+                              <p><h4><b>Result :</b></h4></p>
+                              <p>1. Calculate the refractive index for different values of wavelengths.</p>
+                                <p><img src="resources/images/e4/4.15.jpg"></p>
+                                <p align="center">Table 5.3: Table for measuring angle of minimum deviation. CSR - Circular scale   
+                                        reading, VSR - Vernier scale reading.</p>
+
+                                <p><h4><b>Notes</b></h4></p>
+                                <h5><b>Subtraction of angles (Mathematical)</b></h5>
+                                <p>Try to substract 45°25' from 90°15' . (Hint: Remember that 1° = 60').</p>
+
+                                <h5><b>Note about calculators</b></h5>
+                                <p>1. Some calculators are not able to handle degree and minutes. Make sure the degree
+                                    minutes in these cases are converted to fractional degree via the conversion 1° = 60'.</p>
+                                <p>2. Make sure your calculator is set to degree and not to radian or gradient.</p>
+
+                                <p align="center"><img src="resources/images/e4/4.16.jpg"></p>
+                                <p align="center">Figure 5.8: Difference of angles in the two cases should be as follows: (a) δ = |θ2 − θ1| and (b) δ = (360 − θ1) + θ2 = 360 − (θ1 − θ2).</p>
+
+
+                              
+                            </div>
+
+                            <div id="menu2" class="tab-pane fade">
+                              <h3>VIDEO</h3>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                              <h3>RESOURCES</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                            <div id="menu4" class="tab-pane fade">
+                              <h3>VIVA VOCE</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                        </div><!--end of tab content-->
+                </div><!--end container-->
+            </div><!--end of row-->
+        </div><!--end of container-fluid-->
+
+        <!----FOOTER --->
+        <div class="footer container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <p>
+                    <a class="fa fa-facebook" href="https://www.facebook.com/lnmiit.ac.in/"></a>
+                    <a class="fa fa-twitter" href="https://twitter.com/lnmiit_jaipur?lang=en"></a>
+                    <a class="fa fa-linkedin" href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/"></a>
+                    <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
+                    <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
+                </p>
+                <p id="copyright">Copyright © 2018 Department of Physics,LNMIIT. All Rights Reserved.</p>
+                <p id="developer">Developed by LUSIP1-2018 Team
+            </div>
+        </div>
+
+    </body>
+</html>
+
+    </body>
+</html>
