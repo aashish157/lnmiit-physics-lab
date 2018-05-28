@@ -1,0 +1,278 @@
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/png" href="resources/images/lab_logo1.png">
+        <title>UG Physics Lab</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/scroll_to_top.js"></script>
+    </head>
+
+    <body>
+        <!--SCROLL TO TOP BUTTON--->
+        <button onclick="topFunction()" id="scroll_btn" title="Go to top"><b>^</b></button>
+
+        <!-------TOP-BAR--------->
+        <div id="top_bar" class="container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <div class="col-md-1 col-xs-4">
+                    <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo1.png" alt="Lab Logo"></a>
+                </div>
+                <div class="col-md-4 col-xs-8 lab_heading">
+                    <p id="site_title">UG Physics Laboratory</p>
+                    <p id="title_desc">Department of Physics , LNMIIT Jaipur</p>
+                </div>
+                <div class="col-md-5"></div>
+                <div class="col-md-2 col-xs-12">
+                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
+                </div>
+            </div>
+        </div> 
+
+        <!--------HEADER---------->
+
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row">                   
+                    <ul class="nav navbar-nav">
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="#">About</a></li>
+                       <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Experiments <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html" >1. Accelaration due to gravity by bar pendulum</a></li>
+                                <li><a href="electron.html">2. e/m of electron by Thomson method</a></li>
+                                <li><a href="semiconductor.html">3. Measurement of band gap of semiconductor</a></li>
+                                <li><a href="refractive.html">4. Refractive index of glass with prism</a></li>
+                                <li><a href="">5. Wavelength of Sodium light with Newton's Rings</a></li>
+                                <li><a href="coil.html">6. Helmholtz coil</a></li>
+                                <li><a href="induction.html">7. Electromagnetic Induction</a></li>
+                                <li><a href="">8. Mechanical waves</a></li>
+                                <li><a href="">9. Fraunhoffer Diffraction</a></li>
+                                <li><a href="">10. Diffraction grating</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Videos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="bar_pendulum.html">Accelaration due to gravity</a></li>
+                                <li><a href="#">Page 1-2</a></li>
+                                <li><a href="#">Page 1-3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Page 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav><!--end of nav bar-->
+
+
+        <div class="container-fluid">
+            <div class="col-md-12 row">
+                <div class="container">
+                    <h3><b>Electromagnetic induction</b></h3>
+                    
+                    <!----NAV TABS ---->
+                    </br>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#home">
+                            <img src="resources/images/book.png">
+                            <b>Theory</b></a></li>
+                        <li><a data-toggle="tab" href="#menu1">
+                            <img src="resources/images/refresh.png">
+                            <b>Procedure</b></a></li>
+                        <li><a data-toggle="tab" href="#menu2">
+                            <img src="resources/images/videocam.png">
+                            <b>Video</b></a></li>
+                        <li><a data-toggle="tab" href="#menu3">
+                            <img src="resources/images/resources.png">
+                            <b>Resources</b></a></li>
+                        <li><a data-toggle="tab" href="#menu4">
+                            <img src="resources/images/viva.png">
+                            <b>Viva Voce</b></a></li>
+                    </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <br><h4><b>Aim :</b></h4>
+                                <p>1. To study the flux and emf in the coil as a function of time</p>
+                                <p>2. To study the maximum emf and total flux as a function of the velocity of the magnet.</p>
+                                <p>3. To demonstrate damping due to induced current</p>
+                                <br>
+
+                                
+                                <h4><b>Theory :</b></h4>
+                                <p>Faraday’s law of electromagnetic induction tells us that a change in magnetic flux gives
+                                    rise to an induced emf " given by</p>(8.1)
+                                <p align="center"><img src="resources/images/e8/7.7.jpg"></p>
+                                <p>where φ is the magnetic flux. A simple apparatus has been designed, whose schematic</p>
+                                <p align="center"><img src="resources/images/e8/7.7.1png.jpg"></p>
+                                 <p align="center">Figure 8.1: Schematic of the coil moving in and out of the magnetic field.</p>
+                                <p>diagram is shown in Fig. (8.1), enables us to change θ at different rates through a coil of
+                                     suitable area of cross-section. A rigid semicircular frame of aluminium is pivoted at the
+                                    centre of the semicircle. The whole frame can oscillate freely in its own plane, about a
+                                    horizontal axis passing through its centre. A bar magnet can be mounted at the centre of
+                                    the arc and the arc passes through a coil C.</p>
+                               
+                                <p>It is very instructive to study the emf, induced in the coil as the magnet passes through
+                                    the coil while oscillating. In this experiment we will use a computer to monitor emf induced
+                                    as a function of time.</p>
+                                <p>The rate of change of flux through the coil is essentially proportional to the velocity
+                                    of the magnet, as it passes through the coil. Choosing different amplitudes of oscillations
+                                    can vary the velocity.</p>
+                                <p>If I is the moment of inertia of the oscillatory system and ω is the angular velocity of
+                                    the magnet, then the kinetic energy of the system is Iω^2/2 and potential energy can be
+                                    represented by MgL(1 − cosθ) at any instant of time, where L is the effective length of
+                                    the corresponding simple pendulum. If θo is the maximum angular amplitude and ωmax
+                                    is the maximum value of angular velocity, then</p>(8.2)
+                                <p align="center"><img src="resources/images/e8/7.12.jpg"></p>
+                                <p>The motion can be regarded approximately as simple harmonic and its time period is
+                                    given by</p>(8.3)
+                                <p align="center"><img src="resources/images/e8/7.13png.jpg"></p>
+                                <p>From Eq. (8.2) and (8.3), we get.</p>
+                                <p align="center"><img src="resources/images/e8/7.6.jpg"></p>
+                                <p>where vmax is the maximum linear velocity associated with ωmax. Angular amplitude θo
+                                    is directly measured from the instrument. Velocity is computed by measuring T and θo.</p>
+                
+                            </div>
+                            
+
+                            <div id="menu1" class="tab-pane fade">
+                              <br><h4><b>Apparatus Required :</b></h4>
+                              <p>Faraday setup, diode, capacitor, breadboard, connecting wire, CRO etc.</p>
+                              <h4><b>Procedure :</b></h4>
+                              <p>1. <b>Charging of capacitor to obtain</b> εmax
+                                    The induced emf can be measured by using a simple circuit as shown in Fig. 8.2.
+                                    The induced emf in the coil charges a capacitor C, through a resistance R and a
+                                    diode D and the voltage developed across C is measured by voltmeter V . The diode
+                                    current can flow only if the voltage at A is greater than B. Thus once a capacitor
+                                    attains a voltage ", current can flow through the capacitor only if the induced emf is
+                                    greater than ". If the time constant RC is not small compared to the time taken for
+                                    the magnet to cross the coil, the capacitor does not get fully charged in AC signal
+                                    oscillation. It may take several oscillations to do so.</p>
+                                <p>Connect a resistor, diode and a capacitor given to you in series with the coil. Observe
+                                    the signal across resistor, diode and the capacitor as a function of time</p>
+                              <p>Calculate vmax using Eq. (8.5) and plot a graph between "max vs vmax. "max is the
+                                    maximum potential obtained in the CRO.</p>
+                              <p> 2. <b>Induced emf as a function of velocity</b>You can use the computer interface provided to measure the voltage as a function of time. The instructor will explain you how to use the software.
+                              </p>
+                               <p align="center"><img src="resources/images/e8/7.5.jpg"></p>
+                               <p align="center">Figure 8.2: Circuit diagram for charging of a capacitor</p>
+                              <ul>
+                                  <li>Ensure that the support for the apparatus is vertical by adjusting levelling
+                                        screws. Adjust the weights W1 and W2 mounted on the horizontal bar to make
+                                        zero of the scale as the mean position. Centre of the magnet must be inside
+                                        the coil.</li>
+                                    <li>Ensure that the support for the apparatus is vertical by adjusting levelling
+                                            screws. Adjust the weights W1 and W2 mounted on the horizontal bar to make
+                                            zero of the scale as the mean position. Centre of the magnet must be inside
+                                            the coil.</li>
+                                    <li>Plot of t vs φ(t): Record one or two oscillations. Focus on only one of them
+                                        by using magnification button. Use the integration feature of the software to
+                                        obtain flux φ as a function of time. You can integrate only half of the pulse,
+                                        since the pulse is highly symmetric. Plot this on a graph paper for the complete
+                                        pulse.</li>
+                                    <li>vmax dependence of slope of "(t) at mean position and φ: The emf induced in the coil 
+                                        can be written as</li>(8.6)
+                                    <p align="center"><img src="resources/images/e8/7.14.jpg"></p>
+                                    <p>Note that when the magnet is at its mean position, then ω = ωmax or velocity
+                                        is at its maximum since Vmax = ωmax R. However, dφ/dθ = 0 at that point.
+                                        Hence emf will go through a zero corresponding to the mean position. Also
+                                        note that</p>(8.7)
+                                    <p align="center"><img src="resources/images/e8/7.4.jpg"></p>
+                                    <p>Hence a plot of the slope of ε(t) at the zero, corresponding to the mean position against v^2
+                                        max would be linear. The proportionality constant depends only on the geometry of the coil and the magnet. For calculating φ use “Show integral" mode as before.</p>
+
+                              </ul>
+                              <p><b>3. Electromagnetic damping in an oscillating system</b>
+                                    We observe that the successive oscillations are not of the same amplitude. This is
+                                    due to damping. Possible sources are: (i) air resistance, (ii) friction at the point of
+                                    suspension, and (iii) induced emf (Lenz’s law).</p>
+                                <p>The system (for small ) and for damping proportional to velocity would satisfy the
+                                    equation.</p>(8.8)
+
+                                <p align="center"><img src="resources/images/e8/7.3.jpg"></p>
+                                <p>where I is moment of inertia about origin, k is damping coefficient and λ0 is restoring
+                                        couple (Mgl0), if treated as a simple pendulum of length 1.</p>
+                                <p>The amplitude would exponentially decay only if k is a constant and damping term
+                                        depends linearly in velocity. Record a large number of oscillations starting from
+                                        initial amplitude of 300 to study the damping behaviour in the absence of induced
+                                        current in the coil. The plot seen on the screen may not be correct representation of
+                                        data since the number of points to be plotted is too large. Therefore divide the time
+                                        axis to approximately 8 to 10 zones and take data after magnifying 1 pulse from each
+                                        zone. Plot ωmax and (dω/dt)(vmax) as a function of time or number of oscillations.
+                                        From your data calculate Q of this oscillator using A = Aoert/2 and Q = ωo/r.</p>
+
+                                <p>Now, connect a resistor of about 220
+                                    (the coil resistance is around 900) in series with the coil and record voltage dropped across the resistor as a function of time (for large number of oscillations as in the previous case). Repeat analysis of data as above.</p>
+
+                                <p>4. <b>Useful features of the software measure:</b></p>
+                                <p>It is easy to use the software given to you. Take a few minutes to summarize yourself
+                                    with it before going to the detailed experiments. All you have to do is to click the
+                                    required icon given at the top. Some of the important ones are as follows:</p>
+                                <p>ARROW: In this mode simply point the cursor at the required point to obtain
+                                            values of the coordinates.</p>
+                                <p>MARK: Use this mark a portion of the curve. The x-coordinate of the mark portion
+                                        are shown on the bottom. The marked portion is highlighted in a different
+                                        colour.
+                                <p>SURVEY: You can adjust the left bottom and right top coordinates of the cursor
+                                    box to obtain coordinates and their differences in this mode. You can use this
+                                    to calculate slopes around a point.</p>
+                                <p>SHOW INTEGRAL: Mark the portion of the curve for which you need to calculate
+                                    the integral and then click this icon to obtain the value. If you need to start
+                                    from the origin, each time, take the cursor out of the plotting area and drag it
+                                    across the origin to ensure that starting point is the same.</p>
+                                <p>SLOPE: Mark the required portion of the curve for which you need the slope and
+                                    then click this icon to get slope. However, we recommend use of survey mode
+                                    to get slope more accurate.</p>
+                                                                                                                              
+
+                              <p><h4><b>Observations :</b></h4></p>
+                              <p align="center"><img src="resources/images/e8/7.2.jpg"></p>
+                              <p align="center"><img src="resources/images/e8/e7.1.jpg"></p>
+                              <p><h4><b>Result :</b></h4></p>
+                              <p>1. </p>
+                              <p>2. </p>
+                            </div>
+
+                            <div id="menu2" class="tab-pane fade">
+                              <h3>VIDEO</h3>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                            <div id="menu3" class="tab-pane fade">
+                              <h3>RESOURCES</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                            <div id="menu4" class="tab-pane fade">
+                              <h3>VIVA VOCE</h3>
+                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                            </div>
+                        </div><!--end of tab content-->
+                </div><!--end container-->
+            </div><!--end of row-->
+        </div><!--end of container-fluid-->
+
+        <!----FOOTER --->
+        <div class="footer container-fluid">
+            <div class="col-md-12 col-xs-12 row">
+                <p>
+                    <a class="fa fa-facebook" href="https://www.facebook.com/lnmiit.ac.in/"></a>
+                    <a class="fa fa-twitter" href="https://twitter.com/lnmiit_jaipur?lang=en"></a>
+                    <a class="fa fa-linkedin" href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/"></a>
+                    <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
+                    <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
+                </p>
+                <p id="copyright">Copyright © 2018 Department of Physics,LNMIIT. All Rights Reserved.</p>
+                <p id="developer">Developed by LUSIP1-2018 Team
+            </div>
+        </div>
+
+    </body>
+</html>
+
+    </body>
+</html>
