@@ -133,6 +133,7 @@ hr{
 
 /*---FACULTY PAGE----*/
 .card{border:.1px solid grey;padding-top: 2px;height: 21vh;font-size: 12px;}
+.card img{max-width: 20vh;max-height: 20vh;}
 
 /*----FOOTER----*/
 .footer{
