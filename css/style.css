@@ -88,7 +88,7 @@ h4{font-family: courier;}/*--exp sub-heading--*/
   font-family: courier;
   font-size: 24px;
   color: #005AB3;
-  transform: scale(.6,.9);
+  transform: scale(.65,.9);
   transform-origin: 0 50%;
 }
 #sub_title_text{
@@ -96,7 +96,7 @@ h4{font-family: courier;}/*--exp sub-heading--*/
   color: #5c5c5c;
   font-size: 13.7px;
 }
-
+/*----horizontal line---*/
 hr{
     display: block;
     height: 1px;
@@ -105,6 +105,17 @@ hr{
     margin: 1em 0;
     color: blue; 
 }
+/*----vertical line---*/
+.vr {
+    width:1px;
+    background-color:#ccc;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0px;
+}
+/*---GOOGLE MAP---*/
+#map{border: 1px solid grey;}
 .vertical-menu {
     width: 200px; /* Set a width if you like */
 }
