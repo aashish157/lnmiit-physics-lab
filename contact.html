@@ -61,14 +61,14 @@
                                 <li><a href="#.html">Link 2</a></li>
                             </ul>
                         </li>
-                        <li id="facilities" class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">FACILITIES <span class="caret"></span></a>
+                        <li id="facilities" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">FACILITIES <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="comp_facilities.html" >Research Computational Facilities</a></li>
                                 <li><a href="exp_facilities.html">Experimental Facilities</a></li>
                             </ul>
                         </li>
                         <li><a href="videos.html">VIDEOS</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
+                        <li class="active"><a href="contact.html">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -77,26 +77,28 @@
         
         <div class="container-fluid">
             <div class="col-md-1"></div>
-            <div class="col-md-2 col-xs-12">
-                <p id="sub_title">QUICK LINKS</p>
-                <div class="vertical-menu">
-                    <a href="comp_facilities.html" class="active">Research Computational Facilities</a>
-                    <a href="exp_facilities.html">Experimental Facilities</a>
-                    <a href="faculty.html">Faculty / Staff</a>
-                    <a href="https://www.lnmiit.ac.in/uploaded_files/LNMIIT-INSTITUTE-BRCOHURE-2018-19.pdf">Institute Brochure 2018-19</a>
-                </div>
+            
+            <div class="col-md-6">
+                <h3>CONTACT US</h3><br>
+                <h4><b>Postal Address :</b></h4>
+                <div>The LNM Institute of Information Technology</div><div>Rupa ki Nangal, Post-Sumel, Via-Jamdoli </div><div>Jaipur-302031, (Rajasthan) INDIA</div>
+                <br>
+                <h4><b>Post Box Address :</b></h4>
+                <div><b>Ordinary/Book-Post-</b> Post Box No. 618 Jawahar Nagar, Head Post Office, Jaipur, Pin-302 004(Rajasthan)</div><div><b>Registered/Speed Post-</b> Gram: Rupa ki Nangal, Post-Sumel, Via Jamdoli, Jaipur-302 031(Rajasthan)</div><br>
+                <h4><b>Contact Information :</b></h4>
+                <div>Toll Free No. : 1800-180-6566</div><div>B.Tech admission related query: 0141-2688074, 0141-5191-791/792  </div><div>Email: ugadmissions@lnmiit.ac.in </div>
+                <br>
+                <div>M.Tech/Ph.D. related query: 1800-180-6566 </div><div>Email: pgadmissions@lnmiit.ac.in  </div>
+                <br>
+                <div>Administrative query: 0141-2688093, 0141-5191713/720 </div><div>Tel: 0141-2688090, 0141-5191851/852</div><div>any other query drop a mail to: info.lnmiit@lnmiit.ac.in</div>
+                <br><br>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-7 col-xs-12">
-                <h3>COMPUTATIONAL RESEARCH FACILITY</h3>
-                <p id="facilities_text">High Perfomance Computing (HPC) at LNMIIT HPC is a very useful tool in many areas of Science and Engineering Research. There are a large number of researchers across disciplines involved in HPC at LNMIIT Jaipur. The LNMIIT recently acquired High Performance Computing (HPC) machine from HP, to be called henceforth as HPC2014.</p>
-                <p><h3>BRIEF DESCRIPTION :</h3></p>
 
-                <p><h4><b>Hardware :</b></h4></p>
-                <p id="facilities_text">HPC2014 is a machine of 7 nodes - from which 6 nodes are serving as compute nodes and 1 node as master node.The HPC2014 is powered by HP (Hewlett-Packard) having 2 CPU in each node. Each of these CPUs belongs to the latest Intel Xenon (Ivy Bridge) family of CPUs having 10 cores on each processor (total 140 computing cores on 7 Nodes) with a total memory of 672 GB. The HPC2014 is based on Intel Xeon E5-2680V2 2.8 GHz 2 CPU-10-core-IvyBridge on HP-Proliant-SL-230s-Gen8 servers with 96 GB of RAM per node E5-2680vx10 core2.8 GHz.</p></br>
-                <p><h4><b>Software :</b></h4></p>
-                <p id="facilities_text">The HPC2014 operates on RHEL. It has Intel Cluster Studio XE 2013 installed to meet the sophisticated HPC challenges by providing, a comprehensive suite of tools that enables users to boost HPC application performance and reliability. It has the latest Intel FORTRAN, C, C++, MPI compilers and libraries, industry leading MPI library and integrated tool suite for HPC development. It comes with high speed QDR infiniband network switches for ultra fast data transfer among processors.</p></br>
+            <div class="col-md-4">
+                <h3>VISIT US</h3>
+                <div id="map" style="width:100%;height:300px"></div><br>
             </div>
+            
             <div class="col-md-1"></div>
         </div>
 
@@ -119,4 +121,16 @@
         </div>
     
     </body>
+    <script>
+        function myMap() {
+          var mapCanvas = document.getElementById("map");
+          var mapOptions = {
+            center: new google.maps.LatLng(26.93641, 75.92381), zoom: 16
+          };
+          var map = new google.maps.Map(mapCanvas, mapOptions);
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFMGXb5pIHmuPucKQOyU_aIYTi40bCKwE&callback=myMap">
+    </script>
 </html>
