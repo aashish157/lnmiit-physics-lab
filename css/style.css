@@ -61,7 +61,7 @@ body {
 }
 ul.dropdown-menu{font-size: 12px;}
 #facilities ul.dropdown-menu{width:200%;}
-#experiments ul.dropdown-menu{width:250%;}
+#experiments ul.dropdown-menu{width:262%;}
 
 /*---NAV TABS ---*/
 .nav-tabs{padding-top: 10px;}
@@ -132,7 +132,7 @@ hr{
 #facilities_text{text-align: justify;}
 
 /*---FACULTY PAGE----*/
-.card{border:1px solid grey;padding: 2px;}
+.card{border:.1px solid grey;padding-top: 2px;height: 21vh;font-size: 12px;}
 
 /*----FOOTER----*/
 .footer{
