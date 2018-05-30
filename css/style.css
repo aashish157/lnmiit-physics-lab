@@ -227,3 +227,34 @@ hr{
 #scroll_btn:hover {
   background-color: #555;
 }
+#menu4{
+  margin-left: 40px;
+}
+#menu4 p{
+  margin-top: 2em;
+  font-size: 17px;
+
+}
+#button{
+  margin-left: 40px;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 9px;
+  background-color: #A4A4A4;
+  font-family: Courier New;
+  color:#ffffff;
+}
+#button:hover{
+  font-family:Courier;
+  background-color: #424242;
+  color: #ffffff;
+  transition: 0.9s;
+}
+#menu4 #quiz_heading{
+
+  font-size: 40px;
+  font-family: Comic Sans MS;
+  margin-top: 10px;
+  text-align: center;
+}
+

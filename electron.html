@@ -11,6 +11,9 @@
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/scroll_to_top.js"></script>
+        <script type="text/javascript" src="js/check/check3.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="path/to/sweet-alert.css" />
     </head>
 
     <body>
@@ -269,9 +272,53 @@
                             </div>
                             <div id="menu4" class="tab-pane fade">
                               <h3>VIVA VOCE</h3>
-                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                            </div>
-                        </div><!--end of tab content-->
+                              <p id="quiz_heading">-Check Yourself-</p>
+                              <div class="para">
+                                <form id="quiz" name="quiz">
+                                  <p><b>1. After passing through a small hole in the anode, the electrons are in a region with</b></p>
+                                  <input type="radio" id="ab" name="question1" value="a"> Uniform electric field and uniform magnetic field<br>
+                                  <input type="radio" id="ab" name="question1" value="b"> Uniform electric field but with no magnetic field<br>
+                                  <input type="radio" id="ab" name="question1" value="c"> No electric field but with a uniform magnetic field<br>
+                                  <input type="radio" id="ab" name="question1" value="d"> No electric field no magnetic field<br>
+                                  <p><b>2. By magnetic field cathode rays are deflected in</b></p>
+                                  <input type="radio" id="ab" name="question2" value="a"> circular path<br>
+                                  <input type="radio" id="ab" name="question2" value="b"> straight path<br>
+                                  <input type="radio" id="ab" name="question2" value="c"> curved path<br>
+                                  <input type="radio" id="ab" name="question2" value="d"> round path<br>
+                                  <p><b>3. By magnetic field speed of electrons </b></p>
+                                  <input type="radio" id="ab" name="question3" value="a">  Increases <br>
+                                  <input type="radio" id="ab" name="question3" value="b">  Remains the same<br>
+                                  <input type="radio" id="ab" name="question3" value="c">  Decreases<br>
+                                  <input type="radio" id="ab" name="question3" value="d"> Depends on the velocity of electrons<br>
+                                  <p><b>4. If an electric field E is applied to deflect the beam</b></p>
+                                  <input type="radio" id="ab" name="question4" value="a"> An equal electric field is applied in opposite direction <br>
+                                  <input type="radio" id="ab" name="question4" value="b"> An equal electric field is applied in same direction<br>
+                                  <input type="radio" id="ab" name="question4" value="c"> An equal magnetic field is applied in opposite direction <br>
+                                  <input type="radio" id="ab" name="question4" value="d"> An equal magnetic field is applied in same direction <br>
+                                  <p><b>5. The beam leaves the magnetic field and follows</b></p>
+                                  <input type="radio" id="ab" name="question5" value="a"> A curved path<br>
+                                  <input type="radio" id="ab" name="question5" value="b"> A circular path<br>
+                                  <input type="radio" id="ab" name="question5" value="c"> A straight path<br>
+                                  <input type="radio" id="ab" name="question5" value="d">  A parabolic path<br>
+                                  <p><b>6. If a potential difference of V volts is applied between the plates , and d is the gapbetween both plates,where, d = distance between plates <br>l = length of plates<br>L = distance between screen and plates <br>V = deflection voltage<br>y = deflection in cm </b></p>
+                                  <input type="radio" id="ab" name="question6" value="a"><b> <sup>vy</sup>&frasl;<sub>B<sup>2</sup>l<sup>2</sup>d</sub></b> <br>
+                                  <input type="radio" id="ab" name="question6" value="b"><b> <sup>vy</sup>&frasl;<sub>B<sup>2</sup>L<sup>2</sup>2d</sub></b><br>
+                                  <input type="radio" id="ab" name="question6" value="c"><b> <sup>vy</sup>&frasl;<sub>B<sup>2</sup>Il2d</sub></b><br>
+                                  <input type="radio" id="ab" name="question6" value="d"><b> <sup>vy</sup>&frasl;<sub>B<sup>2</sup>I<sup>2</sup>Ld</sub></b><br>
+                                  <p><b>7. B is magnetic field strength determined by</b></p>
+                                  <input type="radio" id="ab" name="question7" value="a"> B = Hcotθ<br>
+                                  <input type="radio" id="ab" name="question7" value="b"> B = Htanθ <br>
+                                  <input type="radio" id="ab" name="question7" value="c"> B = H/tanθ <br>
+                                  <input type="radio" id="ab" name="question7" value="d"> B = H/cotθ <br>
+                                  <p><b>8. I is the length of the region of magnetic field which is</b></p>
+                                  <input type="radio" id="ab" name="question8" value="a"> Less than the length of electric field <br>
+                                  <input type="radio" id="ab" name="question8" value="b"> Greater than the length of electric field <br>
+                                  <input type="radio" id="ab" name="question8" value="c">  Equal to the length of electric field <br>
+                                  <input type="radio" id="ab" name="question8" value="d"> Depends on the value of θ <br><br><br>            
+                                  <input id="button" type="button" value="Check" onclick="check();">
+                                </form>
+                            
+                         </div><!--end of tab content-->
                 </div><!--end container-->
             </div><!--end of row-->
         </div><!--end of container-fluid-->
