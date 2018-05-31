@@ -1,5 +1,5 @@
 body {
-    background-color: #f3f1ee;/*#FBFCFC;*/ 
+    background-color: #E7E7E7;/*#FBFCFC;*/ 
     margin: 0;
 }
 
@@ -256,5 +256,25 @@ hr{
   font-family: Comic Sans MS;
   margin-top: 10px;
   text-align: center;
+}
+
+
+
+/*----home video----*/
+#home_video{width: 100%;}
+/*----More Videos button ---*/
+#btn2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    
 }
 
