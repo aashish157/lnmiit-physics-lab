@@ -1,5 +1,5 @@
 body {
-    background-color: #f3f1ee;/*#FBFCFC;*/ 
+    background-color: #E7E7E7;/*#FBFCFC;*/ 
     margin: 0;
 }
 
@@ -227,6 +227,8 @@ hr{
 #scroll_btn:hover {
   background-color: #555;
 }
+
+/*--viva voce---*/
 #menu4{
   margin-left: 40px;
 }

@@ -38,4 +38,6 @@
       .card{border:1px solid grey;padding: 2px;height: 44vh;}
       .vr{display: none;}
 
+      #menu2 iframe{width: 100%;height: auto;}
+
 }
