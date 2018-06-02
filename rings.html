@@ -11,6 +11,9 @@
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/scroll_to_top.js"></script>
+        <script type="text/javascript" src="js/check/check6.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="path/to/sweet-alert.css" />
     </head>
 
     <body>
@@ -275,7 +278,51 @@
                             </div>
                             <div id="menu4" class="tab-pane fade">
                               <h3>VIVA VOCE</h3>
-                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                             <p id="quiz_heading">-Check Yourself-</p>
+                              
+                                <form id="quiz" name="quiz">
+                                  <p><b>1. The formation of maximum intensities at some points and minimum intensities at the other due to the superposition of _________two coherent light waves.</b></p>
+                                  <input type="radio" id="ab" name="question1" value="a"> Two coherent light waves<br>
+                                  <input type="radio" id="ab" name="question1" value="b"> Two independent light waves<br>
+                                  <input type="radio" id="ab" name="question1" value="c"> Two light waves with same wavelength<br>
+                                  <input type="radio" id="ab" name="question1" value="d"> Any two light waves <br>
+                                  <p><b>2. For interference two waves must be of the </b></p>
+                                  <input type="radio" id="ab" name="question2" value="a"> Different frequencies<br>
+                                  <input type="radio" id="ab" name="question2" value="b"> Same frequencies<br>
+                                  <input type="radio" id="ab" name="question2" value="c"> Same frequencies and constant phase difference<br>
+                                  <input type="radio" id="ab" name="question2" value="d">  Different frequencies and constant phase difference<br>
+                                  <p><b>3.  For constructive interference Φ =</b></p>
+                                  <input type="radio" id="ab" name="question3" value="a"> nπ <br>
+                                  <input type="radio" id="ab" name="question3" value="b"> 2nπ<br>
+                                  <input type="radio" id="ab" name="question3" value="c"> (2n + 1)π<br>
+                                  <input type="radio" id="ab" name="question3" value="d">  None of the above<br>
+                                  <p><b>4.  When light is incident on a thin film (thickness of the order of wave length of the incident light), it suffers partial reflection and partial transmission at</b></p>
+                                  <input type="radio" id="ab" name="question4" value="a"> Upper surface <br>
+                                  <input type="radio" id="ab" name="question4" value="b"> Lower surface<br>
+                                  <input type="radio" id="ab" name="question4" value="c">  Both upper and lower<br>
+                                  <input type="radio" id="ab" name="question4" value="d"> None of the above<br>
+                                  <p><b>5.  The transmitted light ray again suffers _________ at lower surface.</b></p>
+                                  <input type="radio" id="ab" name="question5" value="a">  Reflection<br>
+                                  <input type="radio" id="ab" name="question5" value="b"> Transmission<br>
+                                  <input type="radio" id="ab" name="question5" value="c"> Partial reflection and transmission<br>
+                                  <input type="radio" id="ab" name="question5" value="d"> Partial transmission<br>
+                                  <p><b>6.  Interference occurs between the rays in the</b></p>
+                                  <input type="radio" id="ab" name="question6" value="a"> Reflected and reflected parts<br>
+                                  <input type="radio" id="ab" name="question6" value="b"> Reflected and transmitted parts <br>
+                                  <input type="radio" id="ab" name="question6" value="c"> Transmitted and transmitted parts<br>
+                                  <input type="radio" id="ab" name="question6" value="d"> None of the above<br>
+                                  <p><b>7.  The path difference between the rays responsible for the interference is given by the formula </b></p>
+                                  <input type="radio" id="ab" name="question7" value="a"> Δ= 2μtcosθ<br>
+                                  <input type="radio" id="ab" name="question7" value="b"> Δ= μtcosθ <br>
+                                  <input type="radio" id="ab" name="question7" value="c"> Δ= 2μtcotθ<br>
+                                  <input type="radio" id="ab" name="question7" value="d"> Δ= 2μtsinθ <br>
+                                  <p><b>8. The diameters of the nth dark fringe is given by </b></p>
+                                  <input type="radio" id="ab" name="question8" value="a"> Dn<sup>2</sup>=4nR<sup>&lambda;</sup>&frasl;<sub>&mu;</sub><br>
+                                  <input type="radio" id="ab" name="question8" value="b"> Dn=4nR<sup>&mu;</sup>&frasl;<sub>&lambda;</sub><br>
+                                  <input type="radio" id="ab" name="question8" value="c"> Dn<sup>2</sup>=4nR<sup>&mu;</sup>&frasl;<sub>&lambda;</sub><br>
+                                  <input type="radio" id="ab" name="question8" value="d"> None<br><br><br>
+                                  <input id="button" " type="button" value="Check" onclick="check();">
+                                </form>
                             </div>
                         </div><!--end of tab content-->
                 </div><!--end container-->

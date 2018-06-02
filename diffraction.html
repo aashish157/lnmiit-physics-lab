@@ -11,6 +11,9 @@
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/scroll_to_top.js"></script>
+        <script type="text/javascript" src="js/check/check9.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="path/to/sweet-alert.css" />
     </head>
 
     <body>
@@ -208,7 +211,51 @@
                             </div>
                             <div id="menu4" class="tab-pane fade">
                               <h3>VIVA VOCE</h3>
-                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                              <p id="quiz_heading">-Check Yourself-</p>
+                              
+                                <form id="quiz" name="quiz">
+                                  <p><b>1. Diffraction is the _______ phenomenon which describes the deviation from straight line propagation of a wave when it encounters an obstruction</b></p>
+                                  <input type="radio" id="ab" name="question1" value="a"> Particle<br>
+                                  <input type="radio" id="ab" name="question1" value="b"> Wave<br>
+                                  <input type="radio" id="ab" name="question1" value="c"> Both<br>
+                                  <input type="radio" id="ab" name="question1" value="d"> None<br>
+                                  <p><b>2. In the case of light waves both opaque and transparent obstacles cause this effect/b></p>
+                                  <input type="radio" id="ab" name="question2" value="a">  opaque <br>
+                                  <input type="radio" id="ab" name="question2" value="b"> Transparent<br>
+                                  <input type="radio" id="ab" name="question2" value="c"> Parrtial transparent<br>
+                                  <input type="radio" id="ab" name="question2" value="d"> a & b both<br>
+                                  <p><b>3. Fraunhoffer diffraction , which occurs when the waves incident on the slit and the screen (detector) are plane waves. This diffraction is produced when both the light source and screen are effectively at ______ from the given obstacle.</b></p>
+                                  <input type="radio" id="ab" name="question3" value="a"> Small distance<br>
+                                  <input type="radio" id="ab" name="question3" value="b"> Large distance<br>
+                                  <input type="radio" id="ab" name="question3" value="c"> Infinite distance<br>
+                                  <input type="radio" id="ab" name="question3" value="d"> Very small distance<br>
+                                  <p><b>4. In frensel diffraction, diffraction is produed when</b></p>
+                                  <input type="radio" id="ab" name="question4" value="a">  Source is at a finite distance from the obstacle <br>
+                                  <input type="radio" id="ab" name="question4" value="b"> Screen is at a finite distance from the obstacle<br>
+                                  <input type="radio" id="ab" name="question4" value="c"> Either of them is at a finite distance from the obstacle<br>
+                                  <input type="radio" id="ab" name="question4" value="d"> Both are at a finite distance from the obstacle <br>
+                                  <p><b>5. We can observe Fraunhoffer diffraction experimentally by using a collimated light source and</b></p>
+                                  <input type="radio" id="ab" name="question5" value="a"> Placing the viewing screen at the focal plane of a convex lens <br>
+                                  <input type="radio" id="ab" name="question5" value="b"> Convex lens is located behind the obstacle located behind the obstacle<br>
+                                  <input type="radio" id="ab" name="question5" value="c"> By placing the screen at a large distance from the obstacle. <br>
+                                  <input type="radio" id="ab" name="question5" value="d"> All of them <br>
+                                  <p><b>6. Wave theory predicts that the Fraunhoffer diffraction pattern intensity due to a rectangular slit will be of the form</b></p>
+                                  <input type="radio" id="ab" name="question6" value="a">  I = I<sub>o</sub>Sinβ/β<sup>2</sup> <br>
+                                  <input type="radio" id="ab" name="question6" value="b"> I = I<sub>o</sub>Sin<sup>2</sup>β/β<sup>2</sup><br>
+                                  <input type="radio" id="ab" name="question6" value="c"> I = I<sub>o</sub>Sin<sup>2</sup>β/2β<br>
+                                  <input type="radio" id="ab" name="question6" value="d"> I = I<sub>o</sub>Sinβ/2β <br>
+                                  <p><b>7. The minima in the diffraction pattern occurs when I(θ) =</b></p>
+                                  <input type="radio" id="ab" name="question7" value="a"> 1 <br>
+                                  <input type="radio" id="ab" name="question7" value="b"> 0<br>
+                                  <input type="radio" id="ab" name="question7" value="c"> Infinite <br>
+                                  <input type="radio" id="ab" name="question7" value="d"> None <br>
+                                  <p><b>8. The slit width a can be calculated as a = ______? where y = the distance between central maxima to the mth order minima point and D = distance between slit and photo diode (observed form instrument)</b></p>
+                                  <input type="radio" id="ab" name="question8" value="a">  mD/y <br>
+                                  <input type="radio" id="ab" name="question8" value="b">  my/D <br>
+                                  <input type="radio" id="ab" name="question8" value="c"> mλD/y<br>
+                                  <input type="radio" id="ab" name="question8" value="d"> mλy/D<br><br><br>
+                                  <input id="button" " type="button" value="Check" onclick="check();">
+                                </form>
                             </div>
                         </div><!--end of tab content-->
                 </div><!--end container-->
