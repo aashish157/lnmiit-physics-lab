@@ -11,6 +11,9 @@
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/scroll_to_top.js"></script>
+        <script type="text/javascript" src="js/check/check4.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="path/to/sweet-alert.css" />
     </head>
 
     <body>
@@ -344,12 +347,58 @@
                             </div>
                             <div id="menu4" class="tab-pane fade">
                               <h3>VIVA VOCE</h3>
-                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                              <p id="quiz_heading">-Check Yourself-</p>
+                              
+                                <form id="quiz" name="quiz">
+                                  <p><b>1. Conductivity of semiconductor is roughly in the range of (in siemens per centimeter).</b></p>
+                                  <input type="radio" id="ab" name="question1" value="a"> 10<sup>6</sup> to 10<sup>-8</sup><br>
+                                  <input type="radio" id="ab" name="question1" value="b"> 10<sup>4</sup> to 10<sup>-6</sup><br>
+                                  <input type="radio" id="ab" name="question1" value="c"> 10<sup>3</sup> to 10<sup>-6</sup><br>
+                                  <input type="radio" id="ab" name="question1" value="d"> 10<sup>3</sup> to 10<sup>-8</sup><br>
+                                  <p><b>2. The electrical conductivity of a semiconductor varies with</b></p>
+                                  <input type="radio" id="ab" name="question2" value="a"> Doping concentration<br>
+                                  <input type="radio" id="ab" name="question2" value="b"> Temperature<br>
+                                  <input type="radio" id="ab" name="question2" value="c"> gCarrier injection<br>
+                                  <input type="radio" id="ab" name="question2" value="d"> all of the above.<br>
+                                  <p><b>3. In case of semiconductor, increase of temperature,conductivity</b></p>
+                                  <input type="radio" id="ab" name="question3" value="a">  Increases <br>
+                                  <input type="radio" id="ab" name="question3" value="b"> Decreases<br>
+                                  <input type="radio" id="ab" name="question3" value="c"> No effect <br>
+                                  <input type="radio" id="ab" name="question3" value="d"> None of the the above<br>
+                                  <p><b>4. In case of semiconductor and insulator, at temperature 0K all the energy levels up to a certain energy band are called </b></p>
+                                  <input type="radio" id="ab" name="question4" value="a"> Conduction band <br>
+                                  <input type="radio" id="ab" name="question4" value="b"> Valence band<br>
+                                  <input type="radio" id="ab" name="question4" value="c"> Fundamental energy band gap<br>
+                                  <input type="radio" id="ab" name="question4" value="d"> None of the above<br>
+                                  <p><b>5. In case of semiconductor, the band gap is</b></p>
+                                  <input type="radio" id="ab" name="question5" value="a"> 0 - 4 eV<br>
+                                  <input type="radio" id="ab" name="question5" value="b"> 0 eV<br>
+                                  <input type="radio" id="ab" name="question5" value="c"> 4 - 8 eV<br>
+                                  <input type="radio" id="ab" name="question5" value="d"> 4 eV<br>
+                                  <p><b>6. Which important characteristic property of semiconductor dictates it’s electrical, optical and optoelectrical properties</b></p>
+                                  <input type="radio" id="ab" name="question6" value="a"> Valence band <br>
+                                  <input type="radio" id="ab" name="question6" value="b"> Conduction band<br>
+                                  <input type="radio" id="ab" name="question6" value="c"> Fundamental energy band gap <br>
+                                  <input type="radio" id="ab" name="question6" value="d"> None of the above<br>
+                                  <p><b>7. The conductivity of a semiconductor is given by where &mu;<sub>p</sub> and &mu;<sub>n</sub> are the mobilities of holes and electrons</b></p>
+                                  <input type="radio" id="ab" name="question7" value="a"> (&mu;<sub>n</sub>n+&mu;<sub>p</sub>p) <br>
+                                  <input type="radio" id="ab" name="question7" value="b"> e(&mu;<sub>n</sub>n+&mu;<sub>p</sub>p) <br>
+                                  <input type="radio" id="ab" name="question7" value="c"> e(&mu;<sub>n</sub>p+&mu;<sub>p</sub>n) <br>
+                                  <input type="radio" id="ab" name="question7" value="d"> (&mu;<sub>n</sub>p+&mu;<sub>p</sub>n)<br>
+                                  <p><b>8. Which of the following statements is not true? </b></p>
+                                  <input type="radio" id="ab" name="question8" value="a"> The resistance of intrinsic semiconductor decreases with increase of temperature <br>
+                                  <input type="radio" id="ab" name="question8" value="b"> Doping pure Si with trivalent impurities gives p-type semiconductors <br>
+                                  <input type="radio" id="ab" name="question8" value="c"> The majority carriers in ntype semiconductors are hole <br>
+                                  <input type="radio" id="ab" name="question8" value="d"> A p-n junction can act as asemiconductor diode <br><br><br>
+                                  <input id="button" " type="button" value="Check" onclick="check();">
+                                </form>
                             </div>
                         </div><!--end of tab content-->
                 </div><!--end container-->
             </div><!--end of row-->
         </div><!--end of container-fluid-->
+
+        <br><br>
 
         <!----FOOTER --->
         <div class="footer container-fluid">
@@ -361,10 +410,39 @@
                     <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
                     <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
                 </p>
+                <p id="imp_links">
+                    <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="videos.html">VIDEOS</a> | <a href="contact.html">CONTACT</a>
+                </p>
                 <p id="copyright">Copyright © 2018 Department of Physics,LNMIIT. All Rights Reserved.</p>
-                <p id="developer">Developed by LUSIP1-2018 Team
-            </div>
-        </div>
+                <p id="developer">Developed by 
+
+                <!-- Trigger the modal with a button -->
+                <a href="#" style="color: grey" data-toggle="modal" data-target="#myModal">LUSIP1-2018 Team</a></p>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">LUSIP 01 - 2018-19 Team</h4>
+                      </div>
+                      <div class="modal-body">
+                        
+                        
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+            </div><!--end of row-->
+        </div><!--end of footer-->
 
     </body>
 </html>

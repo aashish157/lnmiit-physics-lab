@@ -17,6 +17,7 @@
           transform: translate(15%, 25%);
           max-width: 85px;
       }
+      .navbar ul{padding-left: 0;}
       #site_title{
           padding-top: 20px;
           color: white;

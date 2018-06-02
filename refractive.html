@@ -11,6 +11,9 @@
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/scroll_to_top.js"></script>
+        <script type="text/javascript" src="js/check/check5.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="path/to/sweet-alert.css" />
     </head>
 
     <body>
@@ -330,12 +333,58 @@
                             </div>
                             <div id="menu4" class="tab-pane fade">
                               <h3>VIVA VOCE</h3>
-                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                              <p id="quiz_heading">-Check Yourself-</p>
+                              
+                                <form id="quiz" name="quiz">
+                                  <p><b>1. If the prism is rotated about the axis it is found that the angle of deviation changes but never becomes less than a certain minimum value,  δmin known as the </b></p>
+                                  <input type="radio" id="ab" name="question1" value="a"> Angle of minimum deviation<br>
+                                  <input type="radio" id="ab" name="question1" value="b"> Angle of maximum deviation<br>
+                                  <input type="radio" id="ab" name="question1" value="c"> Angle of prism<br>
+                                  <input type="radio" id="ab" name="question1" value="d"> Angle og Deviation<br>
+                                  <p><b>2. The minimum value of the angle of min deviation, occurs when the angle at which the light emerges is ________ to the angle of incidence such that the ray passes parallel to the base of the prism</b></p>
+                                  <input type="radio" id="ab" name="question2" value="a"> Equal<br>
+                                  <input type="radio" id="ab" name="question2" value="b"> Greater than<br>
+                                  <input type="radio" id="ab" name="question2" value="c"> Less than<br>
+                                  <input type="radio" id="ab" name="question2" value="d"> None of the above<br>
+                                  <p><b>3. At each face the ray changes direction by i − r and so the total minimum deviation is δmin =</b></p>
+                                  <input type="radio" id="ab" name="question3" value="a"> 2(θ<sub>i</sub>-θ<sub>r</sub>) <br>
+                                  <input type="radio" id="ab" name="question3" value="b"> (θ<sub>i</sub>-θ<sub>r</sub>)<br>
+                                  <input type="radio" id="ab" name="question3" value="c"> 2θ<sub>i</sub>-θ<sub>r</sub><br>
+                                  <input type="radio" id="ab" name="question3" value="d"> θ<sub>i</sub>-2θ<sub>r</sub><br>
+                                  <p><b>4. δmin varies _______with the wavelength</b></p>
+                                  <input type="radio" id="ab" name="question4" value="a"> Rapidly<br>
+                                  <input type="radio" id="ab" name="question4" value="b"> Slowly<br>
+                                  <input type="radio" id="ab" name="question4" value="c"> Very rapidly <br>
+                                  <input type="radio" id="ab" name="question4" value="d"> Does not depend <br>
+                                  <p><b>Variation of the angle of deviation (θd) with the angle of incidence (θi) for a particular wavelength is a ________ path.</b></p>
+                                  <input type="radio" id="ab" name="question5" value="a"> Straight path<br>
+                                  <input type="radio" id="ab" name="question5" value="b"> Curved path<br>
+                                  <input type="radio" id="ab" name="question5" value="c"> Round path <br>
+                                  <input type="radio" id="ab" name="question5" value="d"> Parabolic path  <br>
+                                  <p><b>6. The refractive index of the prism material, μ is a function of the angle of minimum deviation (min), the incident wavelength () and the prism refracting angle (A).</b></p>
+                                  <input type="radio" id="ab" name="question6" value="a"> Angle of minimum deviation <br>
+                                  <input type="radio" id="ab" name="question6" value="b"> Incident wavelength <br>
+                                  <input type="radio" id="ab" name="question6" value="c"> Prism refracting angle <br>
+                                  <input type="radio" id="ab" name="question6" value="d"> All of the above<br>
+                                  <p><b> 7. Least Count LC =</b></p>
+                                  <input type="radio" id="ab" name="question7" value="a"> 1 CSD − 1 VSD <br>
+                                  <input type="radio" id="ab" name="question7" value="b"> 1 VSD − 1 CSD <br>
+                                  <input type="radio" id="ab" name="question7" value="c"> 30 VSD − 29 CSD <br>
+                                  <input type="radio" id="ab" name="question7" value="d"> None of the above <br>
+                                  <p><b>8. 30 vernier scale divisions (VSD) coincides with ----------- circular scale divisions (CSD).</b></p>
+                                  <input type="radio" id="ab" name="question8" value="a"> 1<br>
+                                  <input type="radio" id="ab" name="question8" value="b"> 30<br>
+                                  <input type="radio" id="ab" name="question8" value="c"> 29<br>
+                                  <input type="radio" id="ab" name="question8" value="d"> 100<br><br><br>
+                                  <input id="button" " type="button" value="Check" onclick="check();">
+                                </form>
                             </div>
                         </div><!--end of tab content-->
                 </div><!--end container-->
             </div><!--end of row-->
         </div><!--end of container-fluid-->
+
+        <br><br>
 
         <!----FOOTER --->
         <div class="footer container-fluid">
@@ -347,10 +396,39 @@
                     <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
                     <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
                 </p>
+                <p id="imp_links">
+                    <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="videos.html">VIDEOS</a> | <a href="contact.html">CONTACT</a>
+                </p>
                 <p id="copyright">Copyright © 2018 Department of Physics,LNMIIT. All Rights Reserved.</p>
-                <p id="developer">Developed by LUSIP1-2018 Team
-            </div>
-        </div>
+                <p id="developer">Developed by 
+
+                <!-- Trigger the modal with a button -->
+                <a href="#" style="color: grey" data-toggle="modal" data-target="#myModal">LUSIP1-2018 Team</a></p>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">LUSIP 01 - 2018-19 Team</h4>
+                      </div>
+                      <div class="modal-body">
+                        
+                        
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+            </div><!--end of row-->
+        </div><!--end of footer-->
 
     </body>
 </html>

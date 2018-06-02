@@ -11,6 +11,9 @@
         <link rel="stylesheet" type="text/css" href="css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/scroll_to_top.js"></script>
+        <script type="text/javascript" src="js/check/check7.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="stylesheet" href="path/to/sweet-alert.css" />
     </head>
 
     <body>
@@ -193,12 +196,58 @@
                             </div>
                             <div id="menu4" class="tab-pane fade">
                               <h3>VIVA VOCE</h3>
-                              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                             <p id="quiz_heading">-Check Yourself-</p>
+                              
+                                <form id="quiz" name="quiz">
+                                  <p><b>1. For a given harmonic, the wavelength λ is where  L is the length of the stretch string and n is the number of segments in the string</b></p>
+                                  <input type="radio" id="ab" name="question1" value="a"> λ =2n/L<br>
+                                  <input type="radio" id="ab" name="question1" value="b"> λ =2L/n<br>
+                                  <input type="radio" id="ab" name="question1" value="c"> λ =2nL<br>
+                                  <input type="radio" id="ab" name="question1" value="d"> λ =L/2n<br>
+                                  <p><b>2. The velocity of a wave traveling in a string is also dependent on   </b></p>
+                                  <input type="radio" id="ab" name="question2" value="a"> Tension<br>
+                                  <input type="radio" id="ab" name="question2" value="b"> linear mass density<br>
+                                  <input type="radio" id="ab" name="question2" value="c"> length<br>
+                                  <input type="radio" id="ab" name="question2" value="d"> a & b both<br>
+                                  <p><b>3.  If the frequency is varied while the tension and length are held constant, a plot of frequency , f , vs. number of segments, n , will give a </b></p>
+                                  <input type="radio" id="ab" name="question3" value="a"> Straight line<br>
+                                  <input type="radio" id="ab" name="question3" value="b"> Parabola<br>
+                                  <input type="radio" id="ab" name="question3" value="c"> circle<br>
+                                  <input type="radio" id="ab" name="question3" value="d"> increasing curve<br>
+                                  <p><b>4. The velocity of any wave is given by</b></p>
+                                  <input type="radio" id="ab" name="question4" value="a"> λf<br>
+                                  <input type="radio" id="ab" name="question4" value="b"> 2Lf/n<br>
+                                  <input type="radio" id="ab" name="question4" value="c"> λ/f<br>
+                                  <input type="radio" id="ab" name="question4" value="d"> a & b both <br>
+                                  <p><b>5. The speed of a wave on a string which is under tension T and having a mass per unit length μ is given by</b></p>
+                                  <input type="radio" id="ab" name="question5" value="a"> &radic;𝞵T<br>
+                                  <input type="radio" id="ab" name="question5" value="b"> &radic;<sup>𝞵</sup>&frasl;<sub>T</sub><br>
+                                  <input type="radio" id="ab" name="question5" value="c"> &radic;<sup>T</sup>&frasl;<sub>&mu;</sub> <br>
+                                  <input type="radio" id="ab" name="question5" value="d">  <sup>𝞵</sup>&frasl;<sub>T</sub><br>
+                                  <p><b>6. The velocity of mechanical wave depends on</b></p>
+                                  <input type="radio" id="ab" name="question6" value="a"> inertia of the medium <br>
+                                  <input type="radio" id="ab" name="question6" value="b"> elasticity of the medium<br>
+                                  <input type="radio" id="ab" name="question6" value="c"> elasticity and inertia of the medium<br>
+                                  <input type="radio" id="ab" name="question6" value="d"> none<br>
+                                  <p><b>7. y1 represents a wave traveling in the  one direction and y2 represents a wave traveling in opposite direction. Adding these two functions gives the resultant wave function y which have</b></p>
+                                  <input type="radio" id="ab" name="question7" value="a"> Only sin function <br>
+                                  <input type="radio" id="ab" name="question7" value="b"> Only cos function <br>
+                                  <input type="radio" id="ab" name="question7" value="c"> Both sin and cos function <br>
+                                  <input type="radio" id="ab" name="question7" value="d"> Is a constant function<br>
+                                  <p><b>8. k which is wave number, is given by</b></p>
+                                  <input type="radio" id="ab" name="question8" value="a"> 2πf <br>
+                                  <input type="radio" id="ab" name="question8" value="b"> 2πλ <br>
+                                  <input type="radio" id="ab" name="question8" value="c"> 2πL <br>
+                                  <input type="radio" id="ab" name="question8" value="d"> None <br><br><br>
+                                  <input id="button" " type="button" value="Check" onclick="check();">
+                                </form>
                             </div>
                         </div><!--end of tab content-->
                 </div><!--end container-->
             </div><!--end of row-->
         </div><!--end of container-fluid-->
+
+        <br><br>
 
         <!----FOOTER --->
         <div class="footer container-fluid">
@@ -210,10 +259,39 @@
                     <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
                     <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
                 </p>
+                <p id="imp_links">
+                    <a href="index.html">HOME</a> | <a href="about.html">ABOUT</a> | <a href="videos.html">VIDEOS</a> | <a href="contact.html">CONTACT</a>
+                </p>
                 <p id="copyright">Copyright © 2018 Department of Physics,LNMIIT. All Rights Reserved.</p>
-                <p id="developer">Developed by LUSIP1-2018 Team
-            </div>
-        </div>
+                <p id="developer">Developed by 
+
+                <!-- Trigger the modal with a button -->
+                <a href="#" style="color: grey" data-toggle="modal" data-target="#myModal">LUSIP1-2018 Team</a></p>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">LUSIP 01 - 2018-19 Team</h4>
+                      </div>
+                      <div class="modal-body">
+                        
+                        
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+            </div><!--end of row-->
+        </div><!--end of footer-->
 
     </body>
 </html>
