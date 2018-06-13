@@ -1,8 +1,13 @@
+
 function clearRadioGroup(GroupName)
 {
   var ele = document.getElementsByName(GroupName);
-	for(var i=0;i<ele.length;i++)
-    ele[i].checked = false;
+	for(var i=0;i<ele.length;i++){
+		if(ele[i].checked==true){
+    		ele[i].checked = false;
+    		}
+	}
+
 }
 
 function check(){
@@ -55,6 +60,28 @@ function check(){
    clearRadioGroup("question6");
    clearRadioGroup("question7");
    clearRadioGroup("question8");
+   
 
+
+}
+
+
+function hideshow(name){
+	  var x = document.getElementById(name);
+    if (x.style.display == "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function compare(){
+	 hideshow("answer1");
+	 hideshow("answer2");
+	 hideshow("answer3");
+	 hideshow("answer4");
+	 hideshow("answer5");
+	 hideshow("answer6");
+	 hideshow("answer7");
+	 hideshow("answer8");
 
 }
