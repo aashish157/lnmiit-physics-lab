@@ -46,13 +46,14 @@ body {
 .navbar li a {
     display: block;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 22px;
     text-decoration: none;
 }
 .navbar li.active {
     background-color: #E56F1B;/*--orange--*/
     color: white;
     text-decoration: none;
+    font-size: 14px;
 }
 .navbar li a:hover:not(.active) {
     background-color: #D6DBDF;/*light grey*/
@@ -132,6 +133,8 @@ hr{
 .vertical-menu a:hover {
     background-color: #ccc; /* Dark grey background on mouse-over */
     color: #01478C;
+    font-size: 16px;
+    width: 110%;
 }
 
 .vertical-menu a.active {
