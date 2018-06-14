@@ -75,6 +75,7 @@ function hideshow(name,option){
         x.style.visibility = "visible";
         if(q[y]==answers[y]){
          	x.style.background="#1cff58";
+         	x.innerHTML="Your answer is Correct";
         }
         
     } 
