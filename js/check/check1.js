@@ -77,6 +77,10 @@ function hideshow(name,option){
          	x.style.background="#1cff58";
          	x.innerHTML="Your answer is Correct";
         }
+        else{
+        	x.style.background="#e81e24";
+         	x.innerHTML="Correct Answer is "+" " + answers[y].toUpperCase();
+        }
         
     } 
     else {
