@@ -90,7 +90,7 @@ h4{font-family: courier;}/*--exp sub-heading--*/
   font-size: 24px;
   color: #005AB3;
   transform: scale(.65,.9);
-  transform-origin: 0 50%;
+  transform-origin: 0 0;
 }
 #sub_title_text{
   text-align: justify;
@@ -240,7 +240,7 @@ hr{
 
 }
 #button{
-  margin-left: 40px;
+  margin-left: 140px;
   font-size: 20px;
   padding: 10px 15px 10px 15px;
   border-radius: 9px;
@@ -248,7 +248,24 @@ hr{
   font-family: Courier New;
   color:#ffffff;
 }
+
+#button1{
+   margin-left: 40px;
+  font-size: 20px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 9px;
+  background-color: #A4A4A4;
+  font-family: Courier New;
+  color:#ffffff;
+}
+
 #button:hover{
+  font-family:Courier;
+  background-color: #424242;
+  color: #ffffff;
+  transition: 0.9s;
+}
+ #button1:hover{
   font-family:Courier;
   background-color: #424242;
   color: #ffffff;
@@ -286,3 +303,17 @@ hr{
     color: #01478C;
 }
 
+
+input[type='radio']:checked + label{
+  color: #f70c47;
+}
+
+#answer1, #answer2, #answer3, #answer4, #answer5, #answer6, #answer7, #answer8{
+  font-family: Impact;
+  background: #e81e24;
+  font-size: 16px;
+  padding-left: 15px;
+  width: 200px;
+  color:#0c0c0c;
+  font-weight: 5;
+} 
