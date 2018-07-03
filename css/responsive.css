@@ -1,4 +1,6 @@
 @media screen and (max-width: 768px) {
+
+      /*---lnmiit logo----*/
       .lnmiit_logo {
           -webkit-transform: translate(105%, 20%);
           -moz-transform: translate(105%, 20%);
@@ -9,6 +11,8 @@
           padding-bottom: 10px;
           max-width: 90px; 
       }
+
+      /*---lab bulb logo----*/
       .lab_logo{
           -webkit-transform: translate(15%, 25%);
           -moz-transform: translate(15%, 25%);
@@ -17,25 +21,29 @@
           transform: translate(15%, 25%);
           max-width: 85px;
       }
+      /*---navbar----*/
       .navbar ul{padding-left: 0;}
+      /*---website title----*/
       #site_title{
           padding-top: 20px;
           color: white;
           font-size: 20px;
           }
-        #title_desc{
+      /*---website title desc----*/
+      #title_desc{
             font-size: 10px;
             font-family: courier;
             margin-top: -7px;
             color: white;
           }
-      .tab-content{border:none;
+      .tab-content{
+          border:none;
           padding-left: 0px;
           padding-right: 0px;
         }
       #top_bar{background-color : #01478C;height: 200px;}
       ul.dropdown-menu li a{margin: 10px;}
-
+      /*---faculty card----*/
       .card{border:1px solid grey;padding: 2px;height: 44vh;}
       .vr{display: none;}
 
@@ -43,5 +51,12 @@
 
       /*---home video----*/
       #home_video{width: 100%;height: 30vh;}
+
+      /*---footer lusip team sec----*/
+      .thumbnail img{
+        width: 100%;
+        height: 25vh; 
+      }
+      .thumbnail{margin-right: 10vw;margin-left: 10vw;}
 
 }
