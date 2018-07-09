@@ -90,7 +90,7 @@ h4{font-family: courier;}/*--exp sub-heading--*/
   font-size: 24px;
   color: #005AB3;
   transform: scale(.65,.9);
-  transform-origin: 0 50%;
+  transform-origin: 0 0;
 }
 #sub_title_text{
   text-align: justify;
@@ -208,6 +208,47 @@ hr{
   color: #5D5D5D; 
 }
 
+/****** Footer LUSIP Team ******/
+.thumbnail img{
+  width: 100%;
+  height: 23vh;
+}
+.caption{
+  color: black;
+  font-size: 13px;
+}
+.caption .fa{
+  background-color: blue;
+  font-size: 17px;
+  padding: 3px;
+  margin: 0px;
+}
+
+.caption .fa-github {
+  background: black;
+  color: white;
+}
+
+.caption .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.caption .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.caption .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.caption .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 /*---SCROLL TO TOP-----*/
 #scroll_btn {
   display: none;
@@ -287,6 +328,7 @@ hr{
 #btn2 {
     background-color: #01478C;
     border: none;
+    border-radius: 7px;
     color: white;
     padding: 10px 22px;
     text-align: center;
