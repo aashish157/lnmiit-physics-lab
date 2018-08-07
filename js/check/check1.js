@@ -50,10 +50,8 @@ function check(){
 	}
 	
 
+	swal("Correct Answers  : " +count);
 	
-	swal("Correct Answers   " +count);
-
-
 
 }
 

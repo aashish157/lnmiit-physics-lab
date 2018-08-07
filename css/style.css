@@ -281,21 +281,21 @@ hr{
 
 }
 #button{
-  margin-left: 140px;
+  margin-left: 80px;
   font-size: 20px;
   padding: 10px 15px 10px 15px;
   border-radius: 9px;
-  background-color: #A4A4A4;
+  background-color: #01478C;
   font-family: Courier New;
   color:#ffffff;
 }
 
 #button1{
-   margin-left: 40px;
+   
   font-size: 20px;
   padding: 10px 15px 10px 15px;
   border-radius: 9px;
-  background-color: #A4A4A4;
+  background-color: #01478C;
   font-family: Courier New;
   color:#ffffff;
 }
@@ -345,6 +345,12 @@ hr{
     color: #01478C;
 }
 
+input[type=radio] {
+  -ms-transform: scale(1.7); /* IE 9 */
+  -webkit-transform: scale(1.7); /* Chrome, Safari, Opera */
+  transform: scale(1.7);
+  margin-right: 8px;
+}
 
 input[type='radio']:checked + label{
   color: #f70c47;
