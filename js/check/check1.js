@@ -53,16 +53,6 @@ function check(){
 	
 	swal("Correct Answers   " +count);
 
-    
-   clearRadioGroup("question1");
-   clearRadioGroup("question2");
-   clearRadioGroup("question3");
-   clearRadioGroup("question4");
-   clearRadioGroup("question5");
-   clearRadioGroup("question6");
-   clearRadioGroup("question7");
-   clearRadioGroup("question8");
-   
 
 
 }
