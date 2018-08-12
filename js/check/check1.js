@@ -1,4 +1,4 @@
- var answers=["b","d","a","b","c","c","b","d"];
+ var answers=["a","c","c","d","b","a","c","b"];
  var q=["z","z","z","z","z","z","z","z"];
 function clearRadioGroup(GroupName)
 {
