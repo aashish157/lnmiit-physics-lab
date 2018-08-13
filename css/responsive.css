@@ -42,7 +42,8 @@
           padding-right: 0px;
         }
       #top_bar{background-color : #01478C;height: 200px;}
-      ul.dropdown-menu li a{margin: 10px;}
+      /*experiments dropdown menu */
+      ul.dropdown-menu li a{margin-top: 10px;}
       /*---faculty card----*/
       .card{border:1px solid grey;padding: 2px;height: 44vh;}
       .vr{display: none;}
