@@ -59,5 +59,6 @@
         height: 30vh; 
       }
       .thumbnail{margin-right: 10vw;margin-left: 10vw;}
-
+      /*--hide hoverable sidenav--*/
+      #mySidenav{display: none;}
 }
