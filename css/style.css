@@ -28,9 +28,9 @@ body {
   }
 #title_desc{
     font-size: 13px;
-    font-family: courier;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: -7px;
-    color: white;
+    color: #E7E7E7;
   }
 
 /*---HEADER--*/
@@ -40,8 +40,8 @@ body {
     padding-left: 10.4%;    
     width: 100%;
     background-color: #272727;
-    font-size: 13px;
-    font-family: courier;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar li a {
     display: block;
@@ -53,14 +53,14 @@ body {
     background-color: #E56F1B;/*--orange--*/
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 13px;
 }
 .navbar li a:hover:not(.active) {
     background-color: #D6DBDF;/*light grey*/
     color: #2D2E40;
     text-decoration: none;
 }
-ul.dropdown-menu{font-size: 12px;padding-left: 0;}
+ul.dropdown-menu{font-size: 13px;padding-left: 0;}
 #facilities ul.dropdown-menu{width:200%;}
 #experiments ul.dropdown-menu{width:262%;}
 
@@ -76,9 +76,55 @@ ul.dropdown-menu{font-size: 12px;padding-left: 0;}
     border: 1px solid lightgrey ;
     border-radius: 12px;
   }
-h3{font-family: courier;color: #1E79B6;}/*--exp heading--*/
-h4{font-family: courier;}/*--exp sub-heading--*/
+h3{font-family: Arial, Helvetica, sans-serif;color: #1E79B6;}/*--exp heading--*/
+h4{font-family: Arial, Helvetica, sans-serif;}/*--exp sub-heading--*/
 
+/*---HOVERABLE SIDENAV---*/
+#mySidenav a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 9px;
+  margin-top: 35vh;
+  width: 130px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid black;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#face {
+  top: 20px;
+  /*background-color: #3b5998;*/
+}
+
+#twit {
+  top: 70px;
+  /*background-color: #1da1f2;*/
+}
+
+#yout{
+  top: 120px;
+  /*background-color: #ff0000;*/
+}
+
+#inst {
+  top: 170px;
+  /*background-color: #fb3958;*/
+}
+
+#link {
+  top: 220px;
+  /*background-color: #007bb5;*/
+}
+
+
+        
 
 /*---MID SECTION--*/
 /* Make the image fully responsive */
@@ -86,8 +132,8 @@ h4{font-family: courier;}/*--exp sub-heading--*/
 #myCarousel{width: 100%;max-width: 382px;}
 /*---home sub titles---*/
 #sub_title{
-  font-family: courier;
-  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
   color: #005AB3;
   transform: scale(.65,.9);
   transform-origin: 0 0;
@@ -95,7 +141,7 @@ h4{font-family: courier;}/*--exp sub-heading--*/
 #sub_title_text{
   text-align: justify;
   color: #5c5c5c;
-  font-size: 13.7px;
+  font-size: 14px;
 }
 /*----horizontal line---*/
 hr{
@@ -156,7 +202,7 @@ hr{
    padding-top: 15px;
    background-color: #191919;
    text-align: center;
-   font-family: courier;
+   font-family: Arial, Helvetica, sans-serif;
 }
 .footer a{text-decoration: none;}
 .fa {
@@ -287,7 +333,7 @@ hr{
   padding: 10px 15px 10px 15px;
   border-radius: 9px;
   background-color: #01478C;
-  font-family: Courier New;
+  font-family: Arial, Helvetica, sans-serif New;
   color:#ffffff;
 }
 
@@ -297,18 +343,18 @@ hr{
   padding: 10px 15px 10px 15px;
   border-radius: 9px;
   background-color: #01478C;
-  font-family: Courier New;
+  font-family: Arial, Helvetica, sans-serif New;
   color:#ffffff;
 }
 
 #button:hover{
-  font-family:Courier;
+  font-family:Arial, Helvetica, sans-serif;
   background-color: #424242;
   color: #ffffff;
   transition: 0.9s;
 }
  #button1:hover{
-  font-family:Courier;
+  font-family:Arial, Helvetica, sans-serif;
   background-color: #424242;
   color: #ffffff;
   transition: 0.9s;
