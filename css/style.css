@@ -453,3 +453,10 @@ input[type='radio']:checked + label{
   margin-left: 85px;
   margin-right: 65px;
 }
+
+
+/*---Time Table Font BG Color---*/
+#first_yr{color: darkblue;font-weight: 550;font-size: 13px;}
+#sec_yr{color: green;font-weight: 550;font-size: 13px;}
+#msc1{color: red;font-weight: 550;font-size: 13px;}
+#msc2{color: brown;font-weight: 550;font-size: 13px;}
