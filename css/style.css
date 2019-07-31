@@ -129,7 +129,11 @@ h4{font-family: Arial, Helvetica, sans-serif;}/*--exp sub-heading--*/
 /*---MID SECTION--*/
 /* Make the image fully responsive */
 
-#myCarousel{width: 100%;max-width: 382px;}
+#myCarousel{
+  width: 100%;
+  max-width: 382px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
 /*---home sub titles---*/
 #sub_title{
   font-family: Arial, Helvetica, sans-serif;
@@ -162,7 +166,10 @@ hr{
     right:0px;
 }
 /*---GOOGLE MAP---*/
-#map{border: 1px solid grey;}
+#map{
+  border: 1px solid grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
 .vertical-menu {
     width: 100%; /* Set a width */
 }
@@ -177,10 +184,11 @@ hr{
 }
 
 .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
-    color: #01478C;
-    font-size: 16px;
-    width: 110%;
+    background-color: #01478C; /* top-bar blue background color */
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .vertical-menu a.active {
@@ -193,7 +201,11 @@ hr{
 
 /*---FACULTY PAGE----*/
 .card{border:.1px solid grey;padding-top: 2px;height: 21vh;font-size: 12px;}
-.card img{max-width: 20vh;max-height: 20vh;}
+.card img{
+  max-width: 20vh;
+  max-height: 20vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
 
 /*----FOOTER----*/
 .footer{
@@ -370,7 +382,10 @@ hr{
 
 
 /*----home video----*/
-#home_video{width: 100%;}
+#home_video{
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
 /*----More Videos button ---*/
 #btn2 {
     background-color: #01478C;
@@ -382,14 +397,15 @@ hr{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
     width: 100%;
     
 }
 #btn2:hover{
-    background-color: #ccc; /* Dark grey background on mouse-over */
-    color: #01478C;
+    background-color: #01478C; /* Dark grey background on mouse-over */
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 
 input[type=radio] {
@@ -456,7 +472,7 @@ input[type='radio']:checked + label{
 
 
 /*---Time Table Font BG Color---*/
-#first_yr{color: darkblue;font-weight: 550;font-size: 13px;}
-#sec_yr{color: green;font-weight: 550;font-size: 13px;}
-#msc1{color: red;font-weight: 550;font-size: 13px;}
-#msc2{color: brown;font-weight: 550;font-size: 13px;}
+#first_yr{color: darkblue;font-weight: 550;font-size: 2vh;}
+#sec_yr{color: green;font-weight: 550;font-size: 2vh;}
+#msc1{color: red;font-weight: 550;font-size: 2vh;}
+#msc2{color: brown;font-weight: 550;font-size: 2vh;}
