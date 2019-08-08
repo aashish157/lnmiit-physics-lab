@@ -472,13 +472,6 @@ input[type='radio']:checked + label{
 
 /*-----TIME TABLE-------*/
 
-/*---Time Table Font color---*/
-/*#first_yr{color: darkblue;font-weight: 550;font-size: 2vh;}
-#sec_yr{color: green;font-weight: 550;font-size: 2vh;}
-#msc1{color: red;font-weight: 550;font-size: 2vh;}
-#msc2{color: brown;font-weight: 550;font-size: 2vh;}*/
-
-
 /*---Time Table on Home----*/
 table {
   border-collapse: collapse;
