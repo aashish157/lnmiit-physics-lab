@@ -470,9 +470,30 @@ input[type='radio']:checked + label{
   margin-right: 65px;
 }
 
+/*-----TIME TABLE-------*/
 
-/*---Time Table Font BG Color---*/
-#first_yr{color: darkblue;font-weight: 550;font-size: 2vh;}
+/*---Time Table Font color---*/
+/*#first_yr{color: darkblue;font-weight: 550;font-size: 2vh;}
 #sec_yr{color: green;font-weight: 550;font-size: 2vh;}
 #msc1{color: red;font-weight: 550;font-size: 2vh;}
-#msc2{color: brown;font-weight: 550;font-size: 2vh;}
+#msc2{color: brown;font-weight: 550;font-size: 2vh;}*/
+
+
+/*---Time Table on Home----*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-weight: 200;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #01478C;
+  color: white;
+}
