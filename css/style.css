@@ -211,12 +211,36 @@ hr{
 .footer{
    left: 0;
    bottom: 0;
-   padding-top: 15px;
+   margin: 0px;
+   padding-top: 30px;
+   padding-bottom: 25px;
    background-color: #191919;
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
 }
 .footer a{text-decoration: none;}
+.footer2{
+   left: 0;
+   bottom: 0;
+   margin: 0px;
+   padding-top: 12px;
+   background-color: #212121;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+/*for footer social meida icons*/
+#footer_social_media .fa{
+  padding: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #2874A6;
+  background-color: #212121;
+  border-radius: 0%;
+
+}
 .fa {
   padding: 2px;
   font-size: 40px;
@@ -228,37 +252,38 @@ hr{
   color: #191919;
   border-radius: 12%;
 }
-.fa-facebook:hover{
+#footer_social_media .fa-facebook:hover{
   background: #3B5998;
   color: white;
 }
 
-.fa-twitter:hover{
+#footer_social_media .fa-twitter:hover{
   background: #55ACEE;
   color: white;
 }
-.fa-linkedin:hover{
+#footer_social_media .fa-linkedin:hover{
   background: #007bb5;
   color: white;
 }
-.fa-youtube:hover{
+#footer_social_media .fa-youtube:hover{
   background: #bb0000;
   color: white;
 }
-.fa-instagram:hover{
+#footer_social_media .fa-instagram:hover{
   background: #125688;
   color: white;
 }
+
 #imp_links a{
   text-decoration: none;
-  color: grey;
+  color: #808080;
   font-size: 13px;
-  margin: 0 10px;
+  margin: 0px;
 }
-#imp_links a:hover{color:lightgrey;}
-#imp_links{color: darkgrey;}/*--separation bar---*/
+#imp_links a:hover{color: #A0A0A0;}
+
 #copyright{
-  font-size: 12px;
+  font-size: 11px;
   color: #5D5D5D;
 }
 #developer{
