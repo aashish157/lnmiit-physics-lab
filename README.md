@@ -23,15 +23,6 @@ git clone https://github.com/aashish157/Physics-Lab-Website.git
 1. After cloning the repository, open any .html file in browser to test the project
 
 
-### Screenshots
-
-<div class="col-md-12 row">
-	<img src="screenshots/s4.png" alt="s4" width="400px"/>
-	<img src="screenshots/s6.png" alt="s6" width="400px"/>
-</div>
-	<img src="screenshots/s5.png" alt="s5" width="800px"/>
-
-
 ## Built With
 
 - `HTML 5`
