@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repository
 ```
 git clone https://github.com/aashish157/Physics-Lab-Website.git
 ```
@@ -32,21 +32,15 @@ git clone https://github.com/aashish157/Physics-Lab-Website.git
 
 ## Built With
 
-```
-* HTML 5
-```
-```
-* CSS 3 
-```
-```
-* Bootstrap 4
-```
-```
-* JavaScript
-```
-```
-* JQuery
-```
+- 'HTML 5'
+
+- 'CSS 3 '
+
+- 'Bootstrap 4'
+
+- 'JavaScript'
+
+- 'JQuery'
 
 
 ## Contributing
