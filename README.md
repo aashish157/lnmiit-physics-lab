@@ -32,15 +32,15 @@ git clone https://github.com/aashish157/Physics-Lab-Website.git
 
 ## Built With
 
-- 'HTML 5'
+- `HTML 5`
 
-- 'CSS 3 '
+- `CSS 3`
 
-- 'Bootstrap 4'
+- `Bootstrap 4`
 
-- 'JavaScript'
+- `JavaScript`
 
-- 'JQuery'
+- `JQuery`
 
 
 ## Contributing
