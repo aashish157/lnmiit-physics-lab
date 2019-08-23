@@ -1,6 +1,6 @@
 # UG Physics Lab Website
 
-A fully responsive website for the UG Physics Laboratory of LNMIIT. The aim is to provide a responsive web platform to the undergraduate students where they can access physics lab experiment videos, theory, Q & A, time table and other details with ease.
+A `fully responsive` website for the UG Physics Laboratory of LNMIIT. The aim is to provide a responsive web platform to the undergraduate students where they can access physics lab experiment videos, theory, Q & A, time table and other details with ease.
 
 <p align="center">
 	<img width="800px" src="screenshots/s1.png" alt="s1"/>
