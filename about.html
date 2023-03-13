@@ -1,283 +1,264 @@
 <html>
-    <head>
-        <link rel="shortcut icon" type="image/png" href="resources/images/lab_logo1.png">
-        <title>UG Physics Lab</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/responsive.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script type="text/javascript" src="js/scroll_to_top.js"></script>
-    </head>
+<head>
+    <link rel="shortcut icon" type="image/png" href="resources/images/lab_logo1.png">
+    <title>UG Physics Lab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/scroll_to_top.js"></script>
+</head>
 
-    <body>
-         <!--HOVERABLE SIDENAV-->
-        <div id="mySidenav" class="sidenav">
-          <a href="https://www.facebook.com/lnmiit.ac.in/" id="face">Facebook
-            <img align="right" src="resources/images/social_icons/facebook.svg" style="width: 4vh;height: 4vh;">
-          </a>
-          <a href="https://twitter.com/lnmiit_jaipur?lang=en" id="twit">Twitter
-            <img align="right" src="resources/images/social_icons/twitter.svg" style="width: 4vh;height: 4vh;">
-          </a>
-          <a href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w" id="yout">Youtube
-            <img align="right" src="resources/images/social_icons/youtube.svg" style="width: 4vh;height: 4vh;">
-          </a>
-          <a href="https://www.instagram.com/lnmiit/" id="inst">Instagram
-            <img align="right" src="resources/images/social_icons/instagram.svg" style="width: 4vh;height: 4vh;">
-          </a>
-          <a href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/" id="link">Linkedin
-            <img align="right" src="resources/images/social_icons/linkedin.svg" style="width: 4vh;height: 4vh;">
-          </a>
-          
-        </div>
-        <!--SCROLL TO TOP BUTTON--->
-        <button onclick="topFunction()" id="scroll_btn" title="Go to top"><b>^</b></button>
-
-        <!-------TOP-BAR--------->
-        <div id="top_bar" class="container-fluid">
-            <div class="col-md-12 col-xs-12 row">
-                <div class="col-md-1 col-xs-4">
-                    <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo1.png" alt="Lab Logo"></a>
-                </div>
-                <div class="col-md-4 col-xs-8">
-                    <p id="site_title">UG Physics Laboratory</p>
-                    <p id="title_desc">Department of Physics , LNMIIT Jaipur</p>
-                </div>
-                <div class="col-md-5"></div>
-                <div class="col-md-2 col-xs-12">
-                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
-                </div>
+<body>
+    <!--SCROLL TO TOP BUTTON--->
+    <button onclick="topFunction()" id="scroll_btn" title="Go to top"><b>^</b></button>
+    
+    <!-------TOP-BAR--------->
+    <div id="top_bar" class="container-fluid">
+        <div class="col-md-12 col-xs-12 row">
+            <div class="col-md-1 col-xs-4">
+                <a href="index.html"><img class="lab_logo" align="right" src="resources/images/lab_logo1.png" alt="Lab Logo"></a>
             </div>
-        </div>
-
-        <!--------HEADER---------->
-        <nav class="navbar">
-            <div class="container-fluid">
-                <div class="row">                   
-                    <ul class="nav navbar-nav">
-                       <li><a href="index.html">HOME</a></li>
-                       <li class="active"><a href="about.html">ABOUT</a></li>
-                       <li id="experiments" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EXPERIMENTS <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="bar_pendulum.html" >2. Acc. due to gravity by bar pendulum</a></li>
-                                <li><a href="coil.html">3. Helmholtz coil</a></li>
-                                <li><a href="semiconductor.html">4. Measurement of band gap of semiconductor</a></li>
-                                <li><a href="refractive.html">5. Refractive index of glass with prism</a></li>
-                                <li><a href="rings.html">6. Wavelength of Sodium light with Newton's Rings</a></li>
-                                <li><a href="gyroscope.html">7. Gyroscope</a></li>
-                                <li><a href="induction.html">8. Electromagnetic Induction</a></li>
-                                <li><a href="waves.html">9. Mechanical waves</a></li>
-                                <li><a href="diffraction.html">10. Fraunhoffer Diffraction</a></li>
-                                <li><a href="grating.html">11. Diffraction grating</a></li>
-                            </ul>
-                        </li>
-                        <li id="people" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PEOPLE <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="faculty.html">Faculty / Staff</a></li>
-                            </ul>
-                        </li>
-                        <li id="facilities" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">FACILITIES <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="comp_facilities.html" >Research Computational Facilities</a></li>
-                                <li><a href="exp_facilities.html">Experimental Facilities</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="videos.html">VIDEOS</a></li>
-                        <li><a href="contact.html">CONTACT</a></li>
-                    </ul>
-                </div>
+            <div class="col-md-4 col-xs-8">
+                <p id="site_title">UG Physics Laboratory</p>
+                <p id="title_desc">Department of Physics , LNMIIT Jaipur</p>
             </div>
-        </nav>
-
-        
-        <div class="container-fluid">
-            <div class="col-md-1"></div>
+            <div class="col-md-5"></div>
             <div class="col-md-2 col-xs-12">
-                <p id="sub_title">QUICK LINKS</p>
-                <div class="vertical-menu">
-                    <a href="resources/docs/lab_manual.pdf">UG Physics Lab Manual</a>
-                    <a href="comp_facilities.html">Research Computational Facilities</a>
-                    <a href="exp_facilities.html">Experimental Facilities</a>
-                    <a href="faculty.html">Faculty / Staff</a>
-                    <a href="https://www.lnmiit.ac.in/uploaded_files/LNMIIT-INSTITUTE-BRCOHURE-2018-19.pdf">Institute Brochure '18-19</a>
-                </div>
+                <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-7 col-xs-12">
-                <br>
-                <p id="facilities_text">"Established in 2003 the undergraduate laboratory for 1st year B.Tech students is equipped with several experiments in different branches in Physics.The lab is divided into Two Sections one is UG Physics lab and the other is optics UG physics Lab. Laboratory work is a very important part of a course in General Physics. It reinforces the student’s understanding of fundamental concepts and principles while, at the same time, helping the student to develop skill in carrying out scientific measurements. It is designed in such a way that the students can understand the basics of Physics through hands on experiments."
-                </p><br>
-                
-                <p align="center">
-                    <figure>
-                        <img class="img-responsive" src="resources/images/lab1.jpg" alt="UG Physics Lab">
-                        <figcaption>Fig.1 - UG Physics Lab</figcaption>
-                    </figure>
-                </p><br>
-                <p align="center">
-                    <figure>
-                        <img class="img-responsive" src="resources/images/lab2.jpg" alt="UG Optics Lab">
-                        <figcaption>Fig.2 - UG Optics Lab</figcaption>
-                    </figure>
-                </p>
-                </br>
-            </div>
-            <div class="col-md-1"></div>
         </div>
+    </div>
+    
+    <!--------HEADER---------->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="row">                   
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="active"><a href="about.html">ABOUT</a></li>
+                    <li id="experiments" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">EXPERIMENTS <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="bar_pendulum.html" >2. Acc. due to gravity by bar pendulum</a></li>
+                            <li><a href="coil.html">3. Helmholtz coil</a></li>
+                            <li><a href="semiconductor.html">4. Measurement of band gap of semiconductor</a></li>
+                            <li><a href="refractive.html">5. Refractive index of glass with prism</a></li>
+                            <li><a href="rings.html">6. Wavelength of Sodium light with Newton's Rings</a></li>
+                            <li><a href="gyroscope.html">7. Gyroscope</a></li>
+                            <li><a href="induction.html">8. Electromagnetic Induction</a></li>
+                            <li><a href="waves.html">9. Mechanical waves</a></li>
+                            <li><a href="diffraction.html">10. Fraunhoffer Diffraction</a></li>
+                            <li><a href="grating.html">11. Diffraction grating</a></li>
+                        </ul>
+                    </li>
+                    <li id="people" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PEOPLE <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="faculty.html">Faculty / Staff</a></li>
+                        </ul>
+                    </li>
+                    <li id="facilities" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">FACILITIES <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="comp_facilities.html" >Research Computational Facilities</a></li>
+                            <li><a href="exp_facilities.html">Experimental Facilities</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="videos.html">VIDEOS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <div class="container-fluid">
+        <div class="col-md-1"></div>
+        <div class="col-md-2 col-xs-12">
+            <p id="sub_title">QUICK LINKS</p>
+            <div class="vertical-menu">
+                <a href="resources/docs/lab_manual.pdf">UG Physics Lab Manual</a>
+                <a href="comp_facilities.html">Research Computational Facilities</a>
+                <a href="exp_facilities.html">Experimental Facilities</a>
+                <a href="faculty.html">Faculty / Staff</a>
+                <a href="https://www.lnmiit.ac.in/uploaded_files/LNMIIT-INSTITUTE-BRCOHURE-2018-19.pdf">Institute Brochure '18-19</a>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-7 col-xs-12">
+            <br>
+            <p id="facilities_text">"Established in 2003 the undergraduate laboratory for 1st year B.Tech students is equipped with several experiments in different branches in Physics.The lab is divided into Two Sections one is UG Physics lab and the other is optics UG physics Lab. Laboratory work is a very important part of a course in General Physics. It reinforces the student’s understanding of fundamental concepts and principles while, at the same time, helping the student to develop skill in carrying out scientific measurements. It is designed in such a way that the students can understand the basics of Physics through hands on experiments."
+            </p><br>
+            
+            <p align="center">
+                <figure>
+                    <img class="img-responsive" src="resources/images/lab1.jpg" alt="UG Physics Lab">
+                    <figcaption>Fig.1 - UG Physics Lab</figcaption>
+                </figure>
+            </p><br>
+            <p align="center">
+                <figure>
+                    <img class="img-responsive" src="resources/images/lab2.jpg" alt="UG Optics Lab">
+                    <figcaption>Fig.2 - UG Optics Lab</figcaption>
+                </figure>
+            </p>
+        </br>
+    </div>
+    <div class="col-md-1"></div>
+</div>
 
-        <!----FOOTER --->
-        <div class="footer container-fluid">
-            <div class="col-md-1"></div>
-            <div class="col-md-10 col-xs-12 row">
-                <div class="col-md-4 col-xs-12">
-                    <!-- logo column -->
-                    <div align="left">
-                        <a href="https://www.lnmiit.ac.in/"><img style="padding-bottom: 5vh" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-xs-12">
-                    <!-- useful links column -->
-                    <div id="imp_links" align="left">
-                        <p style="color: #B7B7B7; font-weight: bold">USEFUL LINKS</p>
-                        <p>
-                          <a href="index.html">Home</a>
-                        </p>
-                        <p>
-                          <a href="videos.html">Experiment Videos</a>
-                        </p>
-                        <p>
-                          <a href="resources/docs/lab_manual.pdf">UG Physics Lab Manual</a>
-                        </p>
-                        <p>
-                          <a href="contact.html">Contact Us</a>
-                        </p>
-                    </div>
-                </div>
+<!----FOOTER --->
+<div class="footer container-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10 col-xs-12 row">
+        <div class="col-md-4 col-xs-12">
+            <!-- logo column -->
+            <div align="left">
+                <a href="https://www.lnmiit.ac.in/"><img style="padding-bottom: 5vh" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
+            </div>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <!-- useful links column -->
+            <div id="imp_links" align="left">
+                <p style="color: #B7B7B7; font-weight: bold">USEFUL LINKS</p>
+                <p>
+                    <a href="index.html">Home</a>
+                </p>
+                <p>
+                    <a href="videos.html">Experiment Videos</a>
+                </p>
+                <p>
+                    <a href="resources/docs/lab_manual.pdf">UG Physics Lab Manual</a>
+                </p>
+                <p>
+                    <a href="contact.html">Contact Us</a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="col-md-4 col-xs-12">
+            <!-- follow us column -->
+            <div id="footer_social_media" align="left">
+                <p style="color: #B7B7B7; font-weight: bold">FOLLOW US</p>
+                <p>
+                    <a class="fa fa-facebook" href="https://www.facebook.com/lnmiit.ac.in/"></a>
+                    <a class="fa fa-twitter" href="https://twitter.com/lnmiit_jaipur?lang=en"></a>
+                    <a class="fa fa-linkedin" href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/"></a>
+                    <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
+                    <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
+                </p>
+            </div>
+        </div>
+    </div><!--end of row-->
+    <div class="col-md-1"></div>
+</div><!--end of footer-->
 
-                <div class="col-md-4 col-xs-12">
-                    <!-- follow us column -->
-                    <div id="footer_social_media" align="left">
-                        <p style="color: #B7B7B7; font-weight: bold">FOLLOW US</p>
-                        <p>
-                            <a class="fa fa-facebook" href="https://www.facebook.com/lnmiit.ac.in/"></a>
-                            <a class="fa fa-twitter" href="https://twitter.com/lnmiit_jaipur?lang=en"></a>
-                            <a class="fa fa-linkedin" href="https://www.linkedin.com/school/the-lnm-institute-of-information-technology/"></a>
-                            <a class="fa fa-youtube" href="https://www.youtube.com/channel/UCpC73hmoYHg55uyCz2Lti_w"></a>
-                            <a class="fa fa-instagram" href="https://www.instagram.com/lnmiit/"></a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--end of row-->
-            <div class="col-md-1"></div>
-        </div><!--end of footer-->
 
-
-        <!-- COPYRIGHTS FOOTER  -->
-        <div class="footer2 container-fluid">
-            <div class="col-md-12 col-xs-12 row">
-                <p id="copyright">Copyright © 2018-<script>document.write(new Date().getFullYear())</script> Department of Physics, LNMIIT. All Rights Reserved.</p>
-                <p id="developer">Handcrafted with <span class="glyphicon glyphicon-heart"></span> by 
-
-                <!-- Trigger the modal with a button -->
-                <a href="#" style="color: grey" data-toggle="modal" data-target="#myModal"> LUSIP 2018 Team1</a></p>
-
-                <!-- Modal -->
-                <div id="myModal" class="modal fade" role="dialog">
-                  <div class="modal-dialog">
-
+<!-- COPYRIGHTS FOOTER  -->
+<div class="footer2 container-fluid">
+    <div class="col-md-12 col-xs-12 row">
+        <p id="copyright">Copyright © 2018-<script>document.write(new Date().getFullYear())</script> Department of Physics, LNMIIT. All Rights Reserved.</p>
+        <p id="developer">Handcrafted with <span class="glyphicon glyphicon-heart"></span> by 
+            
+            <!-- Trigger the modal with a button -->
+            <a href="#" style="color: grey" data-toggle="modal" data-target="#myModal"> LUSIP 2018 Team1</a></p>
+            
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    
                     <!-- Modal content-->
                     <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">LUSIP 01 : 2018-19 Team</h4><br>
-                        
-                        <div class="row"  align="center">
-                              <div class="col-md-4">
-                                <div class="thumbnail">
-                                  
-                                    <img src="resources/images/dev team/aashish.jpg" alt="Aashish">
-                                    <div class="caption">                        
-                                          <p><b>Aashish Raj Gupta</b><br/>(Y16)</p>
-                                          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BqC7eQWhYQAeNlFzCUA75QA%3D%3D"><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://www.github.com/aashish157"><i class="fa fa-github"></i></a>
-                                          <a href="https://www.facebook.com/ashish.raj.56232938"><i class="fa fa-facebook"></i></a> 
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">LUSIP 01 : 2018-19 Team</h4><br>
+                            
+                            <div class="row"  align="center">
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        
+                                        <img src="resources/images/dev team/aashish.jpg" alt="Aashish">
+                                        <div class="caption">                        
+                                            <p><b>Aashish Raj Gupta</b><br/>(Y16)</p>
+                                            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BqC7eQWhYQAeNlFzCUA75QA%3D%3D"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://www.github.com/aashish157"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.facebook.com/ashish.raj.56232938"><i class="fa fa-facebook"></i></a> 
+                                        </div>
+                                        
                                     </div>
-                                  
                                 </div>
-                              </div>
-                              <div class="col-md-4">
-                                <div class="thumbnail">
-                                  
-                                    <img src="resources/images/dev team/verma.jpg" alt="Abhishek" >
-                                    <div class="caption">                        
-                                          <p><b>Abhishek Verma</b><br/>(Y16)</p>
-                                          
-                                          <a href="https://github.com/Abhishek4798"><i class="fa fa-github"></i></a>
-                                          <a href="https://www.facebook.com/profile.php?id=100007181074572"><i class="fa fa-facebook"></i></a> 
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        
+                                        <img src="resources/images/dev team/verma.jpg" alt="Abhishek" >
+                                        <div class="caption">                        
+                                            <p><b>Abhishek Verma</b><br/>(Y16)</p>
+                                            
+                                            <a href="https://github.com/Abhishek4798"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.facebook.com/profile.php?id=100007181074572"><i class="fa fa-facebook"></i></a> 
+                                        </div>
+                                        
                                     </div>
-                                  
                                 </div>
-                              </div>
-                              <div class="col-md-4">
-                                <div class="thumbnail">
-                                  
-                                    <img src="resources/images/dev team/anoop.jpeg" alt="Anoop" >
-                                    <div class="caption">                        
-                                          <p><b>Anoop Singh</b><br/>(Y16)</p>
-                                          
-                                          <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FAnoop0204&h=AT2362spT8JK6MZz3Oqp6PVGkyl084pI1bt6fi_Ryy8IbBeu5S-s6Uf0gnN413zR_tQwOeJ1vAJf_KUFlv3kGBgMxvQ_iPUHaJHmtWJy5etSdtM5boSFnvc8TDY1-Q"><i class="fa fa-github"></i></a>
-                                          <a href="https://www.facebook.com/profile.php?id=100013989409214"></i></a> 
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        
+                                        <img src="resources/images/dev team/anoop.jpeg" alt="Anoop" >
+                                        <div class="caption">                        
+                                            <p><b>Anoop Singh</b><br/>(Y16)</p>
+                                            
+                                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fgithub.com%2FAnoop0204&h=AT2362spT8JK6MZz3Oqp6PVGkyl084pI1bt6fi_Ryy8IbBeu5S-s6Uf0gnN413zR_tQwOeJ1vAJf_KUFlv3kGBgMxvQ_iPUHaJHmtWJy5etSdtM5boSFnvc8TDY1-Q"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.facebook.com/profile.php?id=100013989409214"></i></a> 
+                                        </div>
+                                        
                                     </div>
-                                  
                                 </div>
-                              </div>
-                        </div>
-
-                        <div class="row">
+                            </div>
+                            
+                            <div class="row">
                                 <div class="col-md-2"></div>
                                 <div class="col-md-4">
                                     <div class="thumbnail">
-                                  
+                                        
                                         <img src="resources/images/dev team/ateet.jpg" alt="Ateet">
-                                    <div class="caption">                        
-                                          <p><b>Ateet Tiwari</b><br/>(Y16)</p>
-                                          <a href="https://www.linkedin.com/in/ateettiwari97/"><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://github.com/ateett12ue"><i class="fa fa-github"></i></a>
-                                          <a href="https://www.facebook.com/ateet.tiwari.7"><i class="fa fa-facebook"></i></a> 
-                                    </div>
-                                  
+                                        <div class="caption">                        
+                                            <p><b>Ateet Tiwari</b><br/>(Y16)</p>
+                                            <a href="https://www.linkedin.com/in/ateettiwari97/"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/ateett12ue"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.facebook.com/ateet.tiwari.7"><i class="fa fa-facebook"></i></a> 
+                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <div class="col-md-0"></div>
                                 <div class="col-md-4">
                                     <div class="thumbnail">
-                                  
+                                        
                                         <img src="resources/images/dev team/hritik.jpg" alt="Hritik">
-                                    <div class="caption">                        
-                                          <p><b>Hritik Dusad</b><br/>(Y16)</p>
-                                          <a href="http://www.linkedin.com/in/hritik-dusad-565530133"><i class="fa fa-linkedin"></i></a>
-                                          <a href="https://github.com/hritikdusad"><i class="fa fa-github"></i></a>
-                                          <a href="https://www.facebook.com/hritik.dusad.3"><i class="fa fa-facebook"></i></a> 
-                                    </div>
-                                  
+                                        <div class="caption">                        
+                                            <p><b>Hritik Dusad</b><br/>(Y16)</p>
+                                            <a href="http://www.linkedin.com/in/hritik-dusad-565530133"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://github.com/hritikdusad"><i class="fa fa-github"></i></a>
+                                            <a href="https://www.facebook.com/hritik.dusad.3"><i class="fa fa-facebook"></i></a> 
+                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <div class="col-md-2"></div>
+                            </div>
                         </div>
-                      </div>
-                      
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div>
+                        
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
-
-                  </div>
-                </div>   
-            </div><!--end of row-->
-        </div><!--end of copyrights footer-->
+                    
+                </div>
+            </div>   
+        </div><!--end of row-->
+    </div><!--end of copyrights footer-->
     
-    </body>
+</body>
 </html>

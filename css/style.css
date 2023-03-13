@@ -1,6 +1,6 @@
 body {
-    background-color: #E7E7E7;/*#FBFCFC;*/ 
     margin: 0;
+    padding: 0;
 }
 
 /*----LAB LOGO---*/
@@ -34,31 +34,83 @@ body {
   }
 
 /*---HEADER--*/
+.navbar {
+  border: none;
+}
 .navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding-left: 10.4%;    
-    width: 100%;
-    background-color: #272727;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10.4%;
+  width: 100%;
+  background-color: #272727;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .navbar li a {
-    display: block;
-    color: white;
-    padding: 12px 22px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  padding: 12px 22px;
+  text-decoration: none;
+  background-color: #272727;
 }
-.navbar li.active {
-    background-color: #E56F1B;/*--orange--*/
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
+.navbar li.active > a {
+  background-color: #E56F1B;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
 }
-.navbar li a:hover:not(.active) {
-    background-color: #D6DBDF;/*light grey*/
-    color: #2D2E40;
-    text-decoration: none;
+.navbar li:hover > a:not(.active) {
+  background-color: #272727;
+  color: #D6DBDF;
+}
+.nav .open > a, .nav .open > a:focus {
+  background-color: #272727;
+  color: white;
+}
+.nav .open > a:hover {
+  background-color: #E56F1B;
+  color: white;
+}
+.nav .open .dropdown-menu > li > a:hover {
+  background-color: white;
+  color: #272727;
+}
+.nav .open .dropdown-menu > li > a:focus {
+  background-color: #272727;
+  color: white;
+}
+.nav .open .dropdown-menu > li > a:active {
+  background-color: #272727;
+  color: white;
+}
+.navbar li.dropdown:hover > a {
+  background-color: #272727;
+}
+.navbar li.dropdown:hover > .dropdown-menu {
+  background-color: #272727;
+}
+.navbar li.dropdown > .dropdown-menu {
+  background-color: #272727;
+}
+.dropdown-menu > li > a {
+  background-color: #272727;
+  color: white;
+}
+.dropdown-menu > li > a:hover {
+  background-color: white;
+  color: #272727;
+}
+.dropdown-menu > li > a:focus {
+  background-color: #272727;
+  color: white;
+}
+.dropdown-menu > li > a:active {
+  background-color: #272727;
+  color: white;
+}
+.dropdown-menu > li > a:not(.active):hover {
+  background-color: #272727;
+  color: #D6DBDF;
 }
 ul.dropdown-menu{font-size: 13px;padding-left: 0;}
 #facilities ul.dropdown-menu{width:200%;}
@@ -78,53 +130,6 @@ ul.dropdown-menu{font-size: 13px;padding-left: 0;}
   }
 h3{font-family: Arial, Helvetica, sans-serif;color: #1E79B6;}/*--exp heading--*/
 h4{font-family: Arial, Helvetica, sans-serif;}/*--exp sub-heading--*/
-
-/*---HOVERABLE SIDENAV---*/
-#mySidenav a {
-  position: fixed;
-  left: -90px;
-  transition: 0.3s;
-  padding: 9px;
-  margin-top: 35vh;
-  width: 130px;
-  text-decoration: none;
-  font-size: 16px;
-  color: black;
-  border-radius: 0 5px 5px 0;
-  border: 1px solid black;
-}
-
-#mySidenav a:hover {
-  left: 0;
-}
-
-#face {
-  top: 20px;
-  /*background-color: #3b5998;*/
-}
-
-#twit {
-  top: 70px;
-  /*background-color: #1da1f2;*/
-}
-
-#yout{
-  top: 120px;
-  /*background-color: #ff0000;*/
-}
-
-#inst {
-  top: 170px;
-  /*background-color: #fb3958;*/
-}
-
-#link {
-  top: 220px;
-  /*background-color: #007bb5;*/
-}
-
-
-        
 
 /*---MID SECTION--*/
 /* Make the image fully responsive */
