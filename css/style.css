@@ -3,35 +3,29 @@ body {
     padding: 0;
 }
 
-/*----LAB LOGO---*/
-.lab_logo{
-    max-width: 80px;
-    max-height: 80px;
-    margin-top:35%;
-    margin-right: -20px;
-  }
+/*----LOGO---*/
 .lnmiit_logo{
-    margin-top: 22%;
+    padding-top: 28px;
+    width: 140px;
+    height: auto;
 }
 
 /*---TOP BAR---*/
-#top_bar{
-    background-color : #01478C;
-    height: 130px;
-    border-bottom : 1px solid #E56F1B;
-    margin-bottom: -1px;
-  }
+#top_bar {
+  background-color : #01478C;
+  height: 130px;
+}
 #site_title{
-    padding-top: 28px;
-    color: white;
-    font-size: 29px;
-  }
+  padding-top: 28px;
+  color: white;
+  font-size: 29px;
+}
 #title_desc{
-    font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -7px;
-    color: #E7E7E7;
-  }
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: -7px;
+  color: #FFF;
+}
 
 /*---HEADER--*/
 .navbar {
@@ -43,8 +37,8 @@ body {
   padding-left: 10.4%;
   width: 100%;
   background-color: #272727;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
 }
 .navbar li a {
   display: block;
@@ -54,7 +48,7 @@ body {
   background-color: #272727;
 }
 .navbar li.active > a {
-  background-color: #E56F1B;
+  background-color: #363636;
   color: white;
   text-decoration: none;
   font-size: 13px;
@@ -68,7 +62,7 @@ body {
   color: white;
 }
 .nav .open > a:hover {
-  background-color: #E56F1B;
+  background-color: #363636;
   color: white;
 }
 .nav .open .dropdown-menu > li > a:hover {
@@ -128,39 +122,32 @@ ul.dropdown-menu{font-size: 13px;padding-left: 0;}
     border: 1px solid lightgrey ;
     border-radius: 12px;
   }
-h3{font-family: Arial, Helvetica, sans-serif;color: #1E79B6;}/*--exp heading--*/
-h4{font-family: Arial, Helvetica, sans-serif;}/*--exp sub-heading--*/
+h3{font-family: "Open Sans", sans-serif;color: #1E79B6;}/*--exp heading--*/
+h4{font-family: "Open Sans", sans-serif;}/*--exp sub-heading--*/
 
 /*---MID SECTION--*/
 /* Make the image fully responsive */
 
 #myCarousel{
   width: 100%;
-  max-width: 382px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
+
 /*---home sub titles---*/
-#sub_title{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 21px;
+#sub_title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   color: #005AB3;
-  transform: scale(.65,.9);
-  transform-origin: 0 0;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 #sub_title_text{
   text-align: justify;
   color: #5c5c5c;
-  font-size: 14px;
+  font-size: 15px;
 }
-/*----horizontal line---*/
-hr{
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    color: blue; 
-}
+
 /*----vertical line---*/
 .vr {
     width:1px;
@@ -170,6 +157,7 @@ hr{
     bottom:0;
     right:0px;
 }
+
 /*---GOOGLE MAP---*/
 #map{
   border: 1px solid grey;
@@ -221,7 +209,7 @@ hr{
    padding-bottom: 25px;
    background-color: #191919;
    text-align: center;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: "Open Sans", sans-serif;
 }
 .footer a{text-decoration: none;}
 .footer2{
@@ -231,7 +219,7 @@ hr{
    padding-top: 12px;
    background-color: #212121;
    text-align: center;
-   font-family: Arial, Helvetica, sans-serif; 
+   font-family: "Open Sans", sans-serif;
 }
 
 /*for footer social meida icons*/
@@ -375,7 +363,7 @@ hr{
   padding: 10px 15px 10px 15px;
   border-radius: 9px;
   background-color: #01478C;
-  font-family: Arial, Helvetica, sans-serif New;
+  font-family: "Open Sans", sans-serif;
   color:#ffffff;
 }
 
@@ -385,18 +373,18 @@ hr{
   padding: 10px 15px 10px 15px;
   border-radius: 9px;
   background-color: #01478C;
-  font-family: Arial, Helvetica, sans-serif New;
+  font-family: "Open Sans", sans-serif;
   color:#ffffff;
 }
 
 #button:hover{
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #424242;
   color: #ffffff;
   transition: 0.9s;
 }
  #button1:hover{
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #424242;
   color: #ffffff;
   transition: 0.9s;
@@ -508,15 +496,25 @@ table {
   width: 100%;
 }
 
-th, td {
-  text-align: left;
+th,
+td {
   padding: 8px;
-  font-weight: 200;
+  text-align: left;
+  font-size: 15px;
+  color: #5c5c5c;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
-
 th {
-  background-color: #01478C;
-  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 767px) {
+  .col-xs-12 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

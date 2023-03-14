@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>UG Physics Lab</title>
+        <title>LNMIIT UG Physics Lab</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,10 +17,6 @@
 
     </head>
 
-    <script>
-        //window.alert("New Update Notification\n\nExperiments in dropdown,Home and Videos page have been numbered according to Lab Manual index page\nClick OK to open the HOME page");
-    </script>
-
     <body>
         <!--SCROLL TO TOP BUTTON--->
         <button onclick="topFunction()" id="scroll_btn" title="Go to top"><b>^</b></button>
@@ -36,7 +32,7 @@
                 </div>
                 <div class="col-md-5"></div>
                 <div class="col-md-2 col-xs-12">
-                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
+                    <a href="https://www.lnmiit.ac.in/"><img class="lnmiit_logo" src="resources/images/lnmiit-logo.png" alt="LNMIIT Logo"></a>
                 </div>
             </div>
         </div>
@@ -82,14 +78,12 @@
 
 
         <!---MID-SECTION (LAYER 2)--->
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin-bottom: 5rem">
             <div class="col-md-1">
             </div>
             <div class="col-md-4 col-xs-12">
-                <hr>
-                <p id="sub_title">ABOUT US</p>
-                <p id="sub_title_text">"Established in 2003 the undergraduate laboratory for 1st year B.Tech students is equipped with several experiments in different branches in Physics.The lab is divided into Two Sections one is UG Physics lab and the other is optics UG physics Lab. Laboratory work is a very important part of a course in General Physics. It reinforces the student’s understanding of fundamental concepts and principles while, at the same time, helping the student to develop skill in carrying out scientific measurements.<span id="dots">.. </span><span id="more"> It is designed in such a way that the students can understand the basics of Physics through hands on experiments."</span><a href="#" onclick="myFunction()" id="myBtn">Read more</a></p>
-                
+                <br><br>
+                <p id="sub_title_text">Established in 2003 the undergraduate laboratory for 1st year B.Tech students is equipped with several experiments in different branches in Physics. The lab is divided into two sections, one is UG Physics Lab and the other is UG Physics Optics Lab. Laboratory work is a very important part of a course in General Physics. It reinforces the student's understanding of fundamental concepts and principles while, at the same time, helping the student to develop skill in carrying out scientific measurements. It is designed in such a way that the students can understand the basics of Physics through hands on experiments.</p>
 
                 <script>
                 function myFunction() {
@@ -107,28 +101,25 @@
                     moreText.style.display = "inline";
                   }
                 }
-                </script>
-                <hr>                                   
+                </script>                     
             </div>
             <div class="col-md-4 col-xs-12">
-                <hr>
                 <p id="sub_title">LABS</p>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                          <img src="resources/images/lab1.jpg" alt="UG Physics Lab" class="img-responsive">
+                          <img src="resources/images/lab1.png" alt="UG Physics Lab" class="img-responsive">
                         </div>
 
                         <div class="item">
-                          <img src="resources/images/lab2.jpg" alt="UG Optics Lab" class="img-responsive">
+                          <img src="resources/images/lab2.png" alt="UG Optics Lab" class="img-responsive">
                         </div>
 
                     </div>
                 </div>
             </div>
             <div class="col-md-2 col-xs-12">
-                <hr>
                 <p id="sub_title">QUICK LINKS</p>
                 <div class="vertical-menu">
                     <a href="resources/docs/lab_manual.pdf">UG Physics Lab Manual</a>
@@ -154,7 +145,7 @@
 
             <div class="col-md-2 col-xs-12">
                 <br>
-                <p id="sub_title">EXP. VIDEOS</p>
+                <p id="sub_title">EXPERIMENT VIDEOS</p>
                 <iframe id="home_video" height="80vh" src="https://www.youtube-nocookie.com/embed/34VvJvlhvq0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 <p>Exp:2- g by Bar Pendulum</p>
                 <iframe id="home_video" height="80vh" src="https://www.youtube-nocookie.com/embed/w90jgVHoI8g?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -164,10 +155,9 @@
             </div>
             
             <div class="col-md-4 col-xs-12">
-                <hr>
-                <p id="sub_title">LAB TIME TABLE 2019-20</p>
-                <p id="sub_title_text">
-                   <table class="table table-bordered">
+                <div id="table-container">
+                  <h2 id="sub_title">LAB TIME TABLE 2019-20</h2>
+                  <table class="table table-striped table-bordered">
                     <thead>
                       <tr>
                         <th></th>
@@ -175,48 +165,48 @@
                         <th>2 pm - 5 pm</th>
                       </tr>
                     </thead>
-                    <tbody id="sub_title_text">
-                        <tr></tr>
-                        <tr>
-                            <td><b/>MON</td>
-                            <td id="msc2">PG-Lab-3 (M.Sc. 2nd yr)</td>
-                            <td id="msc1">PG-Lab-1 (Electronics)(M.Sc. 1st yr)</td>
-                        </tr>
-                        <tr>
-                            <td><b/>TUE</td>
-                            <td><p id="first_yr">Physics UG Lab</p>
-                                <p id="msc1">PG-Lab-1 (Electronics)
-                                (M.Sc. 1st year)</p></td>
-                            <td id="first_yr">Physics UG Lab</td>
-                        </tr>
-                        <tr>
-                            <td><b/>WED</td>
-                            <td id="first_yr">Physics UG Lab</td>
-                            <td id="first_yr">Physics UG Lab</td>
-                        </tr>
-                        <tr>
-                            <td><b/>THU</td>
-                            <td id="first_yr">Physics UG Lab</td>
-                            <td id="first_yr">Physics UG Lab</td>
-                        </tr>
-                        <tr>
-                            <td><b/>FRI</td>
-                            <td></td>
-                            <td><p id="msc2">PG-Lab-3 (M.Sc. 2 nd year)</p>
-                                <p id="msc1">PG-Lab-1 (Electronics)
-                                (M.Sc. 1st year)</p></td>
-                        </tr>
-                        <tr>
-                            <td><b/>SAT</td>
-                            <td id="msc2">PG-Lab-3 (M.Sc. 2nd year)</td>
-                            <td id="msc2">PG-Lab-3 (M.Sc. 2nd year)</td>
-                        </tr>
+                    <tbody>
+                      <tr>
+                        <td class="day"><strong>MON</strong></td>
+                        <td class="lab" id="msc2">PG-Lab-3 (M.Sc. 2nd yr)</td>
+                        <td class="lab" id="msc1">PG-Lab-1 (Electronics) (M.Sc. 1st yr)</td>
+                      </tr>
+                      <tr>
+                        <td class="day"><strong>TUE</strong></td>
+                        <td class="lab" id="first_yr">
+                          <p>Physics UG Lab</p>
+                          <p>PG-Lab-1 (Electronics) (M.Sc. 1st year)</p>
+                        </td>
+                        <td class="lab" id="first_yr">Physics UG Lab</td>
+                      </tr>
+                      <tr>
+                        <td class="day"><strong>WED</strong></td>
+                        <td class="lab" id="first_yr">Physics UG Lab</td>
+                        <td class="lab" id="first_yr">Physics UG Lab</td>
+                      </tr>
+                      <tr>
+                        <td class="day"><strong>THU</strong></td>
+                        <td class="lab" id="first_yr">Physics UG Lab</td>
+                        <td class="lab" id="first_yr">Physics UG Lab</td>
+                      </tr>
+                      <tr>
+                        <td class="day"><strong>FRI</strong></td>
+                        <td class="lab"></td>
+                        <td class="lab" id="msc2">
+                          <p>PG-Lab-3 (M.Sc. 2nd year)</p>
+                          <p>PG-Lab-1 (Electronics) (M.Sc. 1st year)</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="day"><strong>SAT</strong></td>
+                        <td class="lab" id="msc2">PG-Lab-3 (M.Sc. 2nd year)</td>
+                        <td class="lab" id="msc2">PG-Lab-3 (M.Sc. 2nd year)</td>
+                      </tr>
                     </tbody>
                   </table>
-                </p>
-
-                <hr>      
-            </div>
+                </div>
+              </div>
+              
             <div class="col-md-1"></div>
         </div>
 
@@ -230,7 +220,7 @@
                 <div class="col-md-4 col-xs-12">
                     <!-- logo column -->
                     <div align="left">
-                        <a href="https://www.lnmiit.ac.in/"><img style="padding-bottom: 5vh" src="resources/images/lnmiit_logo1_reduced.png" alt="LNMIIT Logo"></a>
+                        <a href="https://www.lnmiit.ac.in/"><img style="width: 140px;" src="resources/images/lnmiit-logo.png" alt="LNMIIT Logo"></a>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12">

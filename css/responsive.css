@@ -11,16 +11,7 @@
           padding-bottom: 10px;
           max-width: 90px; 
       }
-
-      /*---lab bulb logo----*/
-      .lab_logo{
-          -webkit-transform: translate(15%, 25%);
-          -moz-transform: translate(15%, 25%);
-          -ms-transform: translate(15%, 25%);
-          -o-transform: translate(15%, 25%);
-          transform: translate(15%, 25%);
-          max-width: 85px;
-      }
+      
       /*---navbar----*/
       .navbar ul{padding-left: 0;}
       /*---website title----*/
